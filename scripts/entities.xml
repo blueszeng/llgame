@@ -6,6 +6,7 @@
 	-->
 	
 	<Player hasClient="true"></Player>
+	<DdzAvatar hasClient="true"></DdzAvatar>
 	<Ranks/>								<!--排行榜管理-->
 	<DdzRoom/>								<!--斗地主房间-->
 	<ZjhRoom/>								<!--诈金花房间-->

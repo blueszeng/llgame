@@ -27,7 +27,7 @@ class Player(KBEngine.Proxy):
 		# 玩家当前所在房间
 		self.roomID = 0
 
-		self.bContinue = False
+		self.activeAvatar = None
 
 	def createCell(self, space,cid):
 		"""
@@ -46,23 +46,23 @@ class Player(KBEngine.Proxy):
 			self.cellData["addrC"] = self.addr
 			self.cellData["cards"] = []
 			self.cellData["cardCount"] 	= 0
-			self.cellData["curScore"] 		= -1
+			self.cellData["curScore"] 	= -1
 			self.cellData["showCards"] 	= []
-			self.cellData["multiple"] 		= 1
-			self.cellData["type"] 			= 0  # 0无身份 1地主 2农民
-			self.cellData["tuoguan"] 		= 0  # 0正常 1托管
-			self.cellData["cid"] 			= cid
+			self.cellData["multiple"] 	= 1
+			self.cellData["type"] 		= 0  # 0无身份 1地主 2农民
+			self.cellData["tuoguan"] 	= 0  # 0正常 1托管
+			self.cellData["cid"] 		= cid
 
 			#zjh
 			self.cellData["cost"]		= 0.0
 			self.cellData["chip"] 		= 0.0
 			self.cellData["lookcard"] 	= 0
-			self.cellData["stateC"]	= 0
+			self.cellData["stateC"]		= 0
 			self.cellData["first"]		= 0
 
 
 			self.createCellEntity(space)
-			self.bContinue = False
+
 		
 	def onEntitiesEnabled(self):
 		"""
@@ -263,6 +263,7 @@ class Player(KBEngine.Proxy):
 		"""
 		INFO_MSG("Player[%r]::reqEnterRoom" % (self.id))
 
+		#切换权限
 		self.addr = addr
 		KBEngine.globalData["Halls"+str(self.gameID)].reqEnterRoom(self, self.hallID)
 
@@ -352,7 +353,6 @@ class Player(KBEngine.Proxy):
 		exposed
 		"""
 		KBEngine.globalData["Halls"+str(self.gameID)].reqMessage(self,action,string)
-
 
 	def set_gold(self,settleGold):
 
