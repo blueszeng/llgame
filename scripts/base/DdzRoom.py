@@ -57,7 +57,7 @@ class DdzRoom(KBEngine.Base):
 
         if self.state == 1:
             #断线重连，重新进入游戏
-            player.cell.set_AoiRadius(80.0)
+            # player.cell.set_AoiRadius(80.0)
 
             player.roomID = self.roomID
             self.players[player.id] = player
@@ -94,8 +94,8 @@ class DdzRoom(KBEngine.Base):
 
         if self.state == ROOM_STATE_INGAME:
             #游戏进行中断线，离开游戏
-            player.cell.set_AoiRadius(0.0)
-
+            # player.cell.set_AoiRadius(0.0)
+            pass
         elif player.cell:
             player.destroyCellEntity()
 

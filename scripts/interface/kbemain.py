@@ -43,8 +43,8 @@ def onInterfaceAppReady():
 	INFO_MSG("======================= interface .onInterfaceAppReady =======================")
 
 	# g_poller.start("219.135.224.80",30040)
-	g_poller.start("183.2.242.64", 30040)
-	# g_poller.start("localhost",30040)
+	# g_poller.start("183.2.242.64", 30040)
+	g_poller.start("localhost",30040)
 
 def onTick(timerID):
 	"""

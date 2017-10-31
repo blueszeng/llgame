@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 
 import KBEngine
+from interfaces.GameObject import *
 from KBEDebug import *
 import Helper
 
-class DdzAvatar(KBEngine.Proxy):
+class DdzAvatar(KBEngine.Proxy,GameObject):
     """
-    斗地主房间内玩家实体
+    斗地主游戏实体
     """
     def __init__(self):
         KBEngine.Proxy.__init__(self)
+        GameObject.__init__(self)
 
         self.activePlayer = None
         self.bContinue = False
@@ -47,13 +49,6 @@ class DdzAvatar(KBEngine.Proxy):
 
             self.bContinue = False
 
-    def onGetCell(self):
-        """
-        KBEngine method.
-        entity的cell部分实体被创建成功
-        """
-        DEBUG_MSG('Avatar::onGetCell: %s' % self.cell)
-
     def onLoseCell(self):
         """
         KBEngine method.
@@ -65,9 +60,6 @@ class DdzAvatar(KBEngine.Proxy):
 
         elif not self.client:
             self.destroy()
-
-    def destroySelf(self):
-        pass
 
     def onClientDeath(self):
 
@@ -82,6 +74,32 @@ class DdzAvatar(KBEngine.Proxy):
         exposed
         """
         KBEngine.globalData["Halls" + str(self.gameID)].reqMessage(self, action, string)
+
+    def reqEnterRoom(self, addr):
+        """
+        exposed.
+        客户端调用该接口请求进入房间开局
+        """
+        INFO_MSG("Player[%r]::reqEnterRoom" % (self.id))
+
+        self.addr = addr
+        KBEngine.globalData["Halls" + str(self.gameID)].reqEnterRoom(self, self.hallID)
+
+    def reqLeaveRoom(self):
+        """
+        exposed.
+        """
+        INFO_MSG("Player[%r]::reqLeaveRoom" % (self.id))
+        KBEngine.globalData["Halls" + str(self.gameID)].reqLeaveRoom(self, self.hallID, self.roomID)
+
+    def reqContinue(self):
+        """
+        exposed
+        继续游戏
+        """
+        INFO_MSG("Player[%r]::reqContinue" % (self.id))
+
+        KBEngine.globalData["Halls" + str(self.gameID)].reqContinue(self, self.hallID, self.roomID)
 
     def set_gold(self, settleGold):
 

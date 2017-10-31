@@ -63,7 +63,7 @@ class Halls(KBEngine.Base):
 		"""
 		self.halls[id] = mailbox
 
-		
+
 	def removeHall(self, id):
 		"""
 		defined.

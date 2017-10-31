@@ -8,6 +8,7 @@ class Player(KBEngine.Entity):
 
 	def __init__(self):
 		KBEngine.Entity.__init__(self)
+
 		self.gameID = 0
 		self.hallID = 0
 		self.roomID = 0
@@ -15,7 +16,12 @@ class Player(KBEngine.Entity):
 
 		self.base.reqEnterGame(1)
 
-		DEBUG_MSG("Bots Player __init__")
+	def onBecomePlayer( self ):
+		"""
+		KBEngine method.
+		当这个entity被引擎定义为角色时被调用
+		"""
+		DEBUG_MSG("%s::onBecomePlayer: %i" % (self.__class__.__name__, self.id))
 
 	def onGameInfo(self,data):
 		pass
@@ -78,3 +84,17 @@ class Player(KBEngine.Entity):
 		pass
 	def onUpdateHalls(self,data):
 		pass
+
+class PlayerPlayer(Player):
+
+	def __init__(self):
+		pass
+
+	def onBecomePlayer( self ):
+		"""
+		KBEngine method.
+		当这个entity被引擎定义为角色时被调用
+		"""
+		DEBUG_MSG("%s::onBecomePlayer: %i" % (self.__class__.__name__, self.id))
+		self.__init__()
+
