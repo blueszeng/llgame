@@ -1,35 +1,30 @@
 # -*- coding: utf-8 -*-
 import KBEngine
-import random
-import time
 import d_games
 import d_config
 import Helper
-from GlobalConst import *
 import json
-from KBEDebug import *
+from Functor import *
+from interfaces.BaseObject import *
 
 
-class Games(KBEngine.Base):
+
+class Games(KBEngine.Base,BaseObject):
 	"""
 	游戏管理器实体
 	该实体管理该服务组上所有的游戏类型
 	"""
 	def __init__(self):
 		KBEngine.Base.__init__(self)
+		BaseObject.__init__(self)
 
 		KBEngine.globalData["Games"] = self
 
-		self.games = {}
-
-		self.players = {}
-
+		# 订单管理
 		self.orders = {}
 
-		# 通过添加一个定时器延时执行游戏大厅的创建，确保一些状态在此期间能够初始化完毕
+		# 通过添加一个定时器延时执行创建，确保一些状态在此期间能够初始化完毕
 		self.addTimer(1,0,1)
-
-		DEBUG_MSG("Games::__init__ Games[%r]" % (self.id))
 
 	def onTimer(self, id, userArg):
 		"""
@@ -38,26 +33,18 @@ class Games(KBEngine.Base):
 		@param id		: addTimer 的返回值ID
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
-		if userArg == 1:
-			self._createGames()
 
-	def _createGames(self):
-		"""
-		callback
-		根据配置创建出所有游戏
-		"""
-		for infos in d_games.datas.values():
-			KBEngine.createBaseAnywhere("Halls",{"hallsID":infos["id"],"hallsName":infos["gameName"],"open":infos["open"]})
+		for data in d_games.datas:
+			KBEngine.createBaseAnywhere("DdzGame",
+										{"cid": data["id"],
+										 "open": data["open"]},
+										Functor(self.onCreateBaseCallback,data["id"]))
 
-	def reqGamesConfig(self,player):
-		"""
-		获取游戏配置
-		"""
-		string_json = json.dumps(d_config.d_users)
-		player.client.onGamesConfig(string_json)
+	def onCreateBaseCallback(self,id,game):
+		self.childs[id] = game
 
-	def reqEnterGames(self,player):
-		self.players[player.id] = player
+	def reqEnter(self,player):
+		super().reqEnter(player)
 
 		delList = []
 		for name in self.orders.keys():
@@ -71,34 +58,12 @@ class Games(KBEngine.Base):
 		for name in delList:
 			del self.orders[name]
 
-	def reqLeaveGames(self,player):
-
-		if player in self.players.values():
-			del self.players[player.id]
-
-		INFO_MSG("Games::reqLeaveGames player[%r]" % player.id)
-
-	def reqEnterGame(self,player,gameID):
+	def reqGamesConfig(self,player):
 		"""
-		defined.
-		进入指定游戏
+		获取游戏配置
 		"""
-		self.games[gameID].reqEnterHalls(player)
-
-	def reqLeaveGame(self,player,gameID):
-		"""
-		defined.
-		离开指定游戏
-		"""
-		if gameID in self.games:
-			self.games[gameID].reqLeaveHalls(player)
-
-	def addHalls(self,id,mailbox):
-		"""
-		defined.
-		注册指定游戏大厅管理器
-		"""
-		self.games[id] = mailbox
+		string_json = json.dumps(d_config.d_users)
+		player.client.onGamesConfig(string_json)
 
 	def reqGameInfo(self,player):
 		"""
@@ -106,14 +71,14 @@ class Games(KBEngine.Base):
 		请求游戏信息
 		"""
 		results = []
-		for halls in self.games.values():
-			count = halls.reqPlayerCount()
+		for game in self.childs.values():
+
 			result = {}
-			result["id"] = halls.hallsID
-			result["name"] = halls.hallsName
-			result["status"] = getServerStatus(count)
-			result["players_count"] = count
-			result["open"] = halls.open
+			result["id"] = game.hallsID
+			result["name"] = game.hallsName
+			result["players_count"] = game.reqPlayerCount()
+			result["open"] = game.open
+
 			results.append(result)
 
 		json_results = json.dumps(results)

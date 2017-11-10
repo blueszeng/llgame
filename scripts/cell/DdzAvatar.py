@@ -30,12 +30,6 @@ class DdzAvatar(KBEngine.Entity,EntityCommon):
 
         self.base.set_gold(gold)
 
-    def set_AoiRadius(self,radius):
-
-        self.setAoiRadius(radius,5.0)
-
-        DEBUG_MSG("DdzAvatar::set_AoiRadius aoi[%r] " % (self.getAoiRadius()))
-
     def reqMessageC(self,exposed,action,buf):
         if exposed != self.id:
             return

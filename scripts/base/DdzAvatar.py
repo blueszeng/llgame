@@ -13,7 +13,6 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         KBEngine.Proxy.__init__(self)
         GameObject.__init__(self)
 
-        self.activePlayer = None
         self.bContinue = False
 
     def onEntitiesEnabled(self):
@@ -22,8 +21,8 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         该entity被正式激活为可使用， 此时entity已经建立了client对应实体， 可以在此创建它的
         cell部分。
         """
-        INFO_MSG("DdzAvatar[%i-%s] entities enable. spaceUTypeB=%s, mailbox:%s" % (
-        self.id, self.nameB, self.spaceUTypeB, self.client))
+        INFO_MSG("DdzAvatar[%i]::onEntitiesEnabled:entities enable. mailbox:%s, clientType(%i), clientDatas=(%s)" % \
+            (self.id, self.client, self.getClientType(), self.getClientDatas()))
 
     def createCell(self, space, cid):
         """
@@ -31,18 +30,13 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         """
         if not self.cell:
 
-            self.cellData["nameC"] = self.name
-            self.cellData["goldC"] = self.gold
-            self.cellData["sexC"]  = self.sex
-            self.cellData["headC"] = self.head
-            self.cellData["addrC"] = self.addr
             self.cellData["cards"] = []
             self.cellData["cardCount"] = 0
             self.cellData["curScore"]  = -1
             self.cellData["showCards"] = []
             self.cellData["multiple"] = 1
-            self.cellData["type"] = 0  # 0无身份 1地主 2农民
-            self.cellData["tuoguan"] = 0  # 0正常 1托管
+            self.cellData["type"] = 0       # 0无身份 1地主 2农民
+            self.cellData["tuoguan"] = 0    # 0正常 1托管
             self.cellData["cid"] = cid
 
             self.createCellEntity(space)
@@ -53,13 +47,16 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         """
         KBEngine method.
         """
-        DEBUG_MSG("%s::onLoseCell: %r" % (self.className, self.id))
+        DEBUG_MSG("%r[%r]::onLoseCell()" % (self.className, self.id))
 
         if self.bContinue:
-            self.reqEnterRoom(self.addr)
+            self.reqEnterRoom()
 
         elif not self.client:
             self.destroy()
+
+        else:
+            self.reqLeaveRoom()
 
     def onClientDeath(self):
 
@@ -69,41 +66,40 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
             else:
                 self.destroy()
 
-    def reqMessage(self, action, string):
-        """
-        exposed
-        """
-        KBEngine.globalData["Halls" + str(self.gameID)].reqMessage(self, action, string)
+    def onDestroy(self):
 
-    def reqEnterRoom(self, addr):
-        """
-        exposed.
-        客户端调用该接口请求进入房间开局
-        """
-        INFO_MSG("Player[%r]::reqEnterRoom" % (self.id))
+        DEBUG_MSG("%r[%r]::onDestroy() " %(self.className,self.id))
 
-        self.addr = addr
-        KBEngine.globalData["Halls" + str(self.gameID)].reqEnterRoom(self, self.hallID)
+        # 先退出大厅，退出大厅功能中应该能确保后续所有的事情
+        if self.state == 0:
+            self.ExitGame()
 
-    def reqLeaveRoom(self):
-        """
-        exposed.
-        """
-        INFO_MSG("Player[%r]::reqLeaveRoom" % (self.id))
-        KBEngine.globalData["Halls" + str(self.gameID)].reqLeaveRoom(self, self.hallID, self.roomID)
+            if not self.client and self.activeProxy:
+                self.activeProxy.destroy()
+
+    def reqLeaveGame(self):
+
+        super().reqLeaveGame()
+
+        if self.client and self.activeProxy:
+
+            self.giveClientTo(self.activeProxy)
+            self.activeProxy.reqLeaveGame()
+            self.destroy()
 
     def reqContinue(self):
         """
         exposed
         继续游戏
         """
-        INFO_MSG("Player[%r]::reqContinue" % (self.id))
+        INFO_MSG("%r[%r]::reqContinue()" % (self.className,self.id))
 
         KBEngine.globalData["Halls" + str(self.gameID)].reqContinue(self, self.hallID, self.roomID)
 
     def set_gold(self, settleGold):
 
         gold = Helper.Round(settleGold)
-        self.gold += gold
+        self.activeProxy.gold += gold
+        self.gold = self.activeProxy.gold
 
         DEBUG_MSG("DdzAvatar::set_gold avatar[%r] self.gold[%r] settleGold[%r]" % (self.id, self.gold, gold))

@@ -16,12 +16,7 @@ class Halls(KBEngine.Base):
 	"""
 	def __init__(self):
 		KBEngine.Base.__init__(self)
-		# 将自己注册到共享数据中， 在当前进程KBEngine.globalData["Halls"]返回的是Halls实体，其他进程中
-		# 由于实体不在那个进程所以KBEngine.globalData["Halls"]返回的是mailbox
-		# 因此调用KBEngine.globalData["Halls"].xxx方法必须在def定义，允许远程访问
-		
-		# 将大厅管理器注册到游戏当中
-		KBEngine.globalData["Games"].addHalls(self.hallsID,self)
+
 		# 将大厅管理器设置为全局
 		KBEngine.globalData["Halls" + str(self.hallsID)] = self
 
@@ -43,34 +38,17 @@ class Halls(KBEngine.Base):
 		@param id		: addTimer 的返回值ID
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
-		self._createHalls()
-		
-	def _createHalls(self):
-		"""
-		根据配置创建出所有的大厅
-		"""
 		for i in range(d_games.datas[self.hallsID]["hallCount"]):
 			hallID = i + 1
 			if self.hallsID == GAME_TYPE_DDZ:
 				KBEngine.createBaseAnywhere("DdzHall", { "hallID": hallID},Functor(self.onCreateBaseCallback,hallID))
 			elif self.hallsID == GAME_TYPE_ZJH:
 				KBEngine.createBaseAnywhere("Hall", {"hallID" : hallID},Functor(self.onCreateBaseCallback,hallID))
-
+		
 	def onCreateBaseCallback(self,id,mailbox):
-		"""
-		defined.
-		向大厅管理器添加大厅
-		"""
+
 		self.halls[id] = mailbox
 
-
-	def removeHall(self, id):
-		"""
-		defined.
-		向大厅管理器移除大厅
-		"""
-		del self.halls[id]
-		
 	def reqEnterHall(self, player, hallID):
 		"""
 		defined.
@@ -126,9 +104,7 @@ class Halls(KBEngine.Base):
 		return len(self.players.values())
 
 	def reqEnterHalls(self,player):
-		"""
-		define
-		"""
+
 		player.gameID = self.hallsID
 		self.players[player.id] = player
 
@@ -143,6 +119,7 @@ class Halls(KBEngine.Base):
 				result["limit"] = d_ZJH[hall.hallID]["limit"]
 				result["base"] = d_ZJH[hall.hallID]["base"]
 				results.append(result)
+
 		elif self.hallsID == GAME_TYPE_DDZ:
 			for hall in self.halls.values():
 				count = hall.reqPlayerCount()
@@ -157,6 +134,7 @@ class Halls(KBEngine.Base):
 
 		if player.client:
 			player.client.onEnterGame(self.hallsID, json_results)
+
 
 	def reqLeaveHalls(self,player):
 

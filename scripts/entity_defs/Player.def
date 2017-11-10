@@ -406,10 +406,9 @@
 	        <Utype> 10021 </Utype>
 		</reqContinue>
 
-
-        <set_gold>
-            <Arg> FLOAT</Arg>
-        </set_gold>
+		<reqRestoreRoom>
+            <Exposed/>
+		</reqRestoreRoom>
 
 	</BaseMethods>
 

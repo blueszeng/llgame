@@ -1,0 +1,546 @@
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 08:46:55 907] - ServerApp::lookApp: 172.16.4.154:55754/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 08:46:55 907] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 08:47:41 467] - ServerApp::lookApp: 172.16.4.154:55766/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 08:47:41 467] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 967] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 967] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 967] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 967] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 970] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:55875 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 970] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:55875, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 970] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 970] - 	internalAddr : 172.16.4.154:55875
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:12 970] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:14 487] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 100464 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:14 488] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:14 489] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:14 490] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:14 808] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:11:14 808] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:21 969] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 029] - Components::findComponents: found logger, addr:172.16.4.154:55873
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 029] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 029] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 030] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 135] - Components::findComponents: found dbmgr, addr:172.16.4.154:55874
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 136] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 136] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:22 136] - Components::findComponents: found dbmgr, addr:172.16.4.154:55874
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:24 151] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:24 175] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55876
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:24 175] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:24 176] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55876
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:25 191] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55876, extaddr:nonsupport, extport:0,  from 172.16.4.154:55895/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:26 231] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:26 251] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:26 270] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:27 172] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55879, extaddr:nonsupport, extport:0,  from 172.16.4.154:55901/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:27 172] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:27 192] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:11:31 472] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:11:31 472] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:11:39 511] - ServerApp::lookApp: 172.16.4.154:55903/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:11:39 511] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 018] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 018] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 019] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 019] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 020] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:55917 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 020] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:55917, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 020] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 020] - 	internalAddr : 172.16.4.154:55917
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 021] - 	componentID : 6000
+ WARNING cellappmgr-1 1001 6000  [2017-11-07 09:12:20 362] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20052, errorno=10048
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 365] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 103936 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 366] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 366] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 366] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:20 667] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:12:20 667] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:27 821] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:27 909] - Components::findComponents: found logger, addr:172.16.4.154:55914
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:27 909] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:27 909] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:27 912] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:28 026] - Components::findComponents: found dbmgr, addr:172.16.4.154:55915
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:28 026] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:28 027] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:28 027] - Components::findComponents: found dbmgr, addr:172.16.4.154:55915
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:30 048] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:30 133] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55916
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:30 133] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:30 134] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55916
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:32 187] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:32 207] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:32 219] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:33 348] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55916, extaddr:nonsupport, extport:0,  from 172.16.4.154:55946/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:34 367] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55919, extaddr:nonsupport, extport:0,  from 172.16.4.154:55948/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:34 367] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:34 367] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:38 607] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:12:38 607] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 542] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 543] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 543] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 543] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 545] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:55955 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 545] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:55955, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 545] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 545] - 	internalAddr : 172.16.4.154:55955
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:12:58 545] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:00 052] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 102528 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:00 053] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:00 053] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:00 053] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:00 354] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:13:00 354] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 534] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 635] - Components::findComponents: found logger, addr:172.16.4.154:55953
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 635] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 635] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 639] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 752] - Components::findComponents: found dbmgr, addr:172.16.4.154:55954
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 752] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 753] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:07 753] - Components::findComponents: found dbmgr, addr:172.16.4.154:55954
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:09 754] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:09 835] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55956
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:09 836] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:09 837] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55956
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:11 074] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55956, extaddr:nonsupport, extport:0,  from 172.16.4.154:55975/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:11 854] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:11 874] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:11 894] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:14 275] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55958, extaddr:nonsupport, extport:0,  from 172.16.4.154:55981/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:14 275] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:14 275] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:18 554] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:13:18 554] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 675] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 676] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 676] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 676] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 681] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:55988 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 681] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:55988, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 681] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 681] - 	internalAddr : 172.16.4.154:55988
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:53 681] - 	componentID : 6000
+ WARNING cellappmgr-1 1001 6000  [2017-11-07 09:13:54 064] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20981, errorno=10048
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:54 075] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 100672 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:54 076] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:54 076] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:54 076] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:13:54 377] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:13:54 377] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 538] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 610] - Components::findComponents: found logger, addr:172.16.4.154:55986
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 610] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 611] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 615] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 727] - Components::findComponents: found dbmgr, addr:172.16.4.154:55989
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 727] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 728] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:01 728] - Components::findComponents: found dbmgr, addr:172.16.4.154:55989
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:03 737] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:03 803] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55987
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:03 803] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:03 804] - Components::findComponents: found baseappmgr, addr:172.16.4.154:55987
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:05 857] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:05 876] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:05 879] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:06 896] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55987, extaddr:nonsupport, extport:0,  from 172.16.4.154:56021/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:08 257] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55990, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:56024/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:08 257] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:10 057] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:55991, extaddr:nonsupport, extport:0,  from 172.16.4.154:56027/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:10 057] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:10 057] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:14:15 037] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:15 037] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:30 156] - ServerApp::lookApp: 172.16.4.154:56038/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:30 156] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:37 457] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=16, componentID=7001, cellapp(cid=8001, load=0.0166083, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:41 297] - ServerApp::lookApp: 172.16.4.154:56041/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 09:14:41 297] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 09:15:05 878] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55987/0/0/0 timed out.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 227] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 228] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 228] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 228] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 234] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:56332 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 235] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:56332, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 235] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 235] - 	internalAddr : 172.16.4.154:56332
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 235] - 	componentID : 6000
+ WARNING cellappmgr-1 1001 6000  [2017-11-07 10:38:02 636] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20159, errorno=10048
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 644] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 104880 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 644] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 645] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 645] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:02 967] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 10:38:02 994] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 226] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 268] - Components::findComponents: found logger, addr:172.16.4.154:56329
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 268] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 269] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 270] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 383] - Components::findComponents: found dbmgr, addr:172.16.4.154:56331
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 383] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 383] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:10 384] - Components::findComponents: found dbmgr, addr:172.16.4.154:56331
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:12 387] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:12 449] - Components::findComponents: found baseappmgr, addr:172.16.4.154:56330
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:12 449] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:12 450] - Components::findComponents: found baseappmgr, addr:172.16.4.154:56330
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:14 507] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:14 526] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:14 534] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:15 567] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56330, extaddr:nonsupport, extport:0,  from 172.16.4.154:56353/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:16 707] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56335, extaddr:nonsupport, extport:0,  from 172.16.4.154:56357/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:16 707] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:16 707] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:16 887] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56333, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:56362/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:16 887] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:38:21 107] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 10:38:21 107] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 10:38:26 527] - ServerApp::lookApp: 172.16.4.154:56371/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 10:38:26 527] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 10:38:32 886] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10015, componentID=7001, cellapp(cid=8001, load=0.033034, numEntities=0).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 10:39:14 527] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:56330/0/0/0 timed out.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 567] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 568] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 568] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 568] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 570] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:56658 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 570] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:56658, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 570] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 570] - 	internalAddr : 172.16.4.154:56658
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:20 570] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:22 084] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 10172 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:22 084] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:22 085] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:22 085] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:22 388] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 11:52:22 388] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 547] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 626] - Components::findComponents: found logger, addr:172.16.4.154:56654
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 626] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 626] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 627] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 733] - Components::findComponents: found dbmgr, addr:172.16.4.154:56655
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 733] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 734] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:29 734] - Components::findComponents: found dbmgr, addr:172.16.4.154:56655
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:31 747] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:31 800] - Components::findComponents: found baseappmgr, addr:172.16.4.154:56656
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:31 800] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:31 801] - Components::findComponents: found baseappmgr, addr:172.16.4.154:56656
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:32 806] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56656, extaddr:nonsupport, extport:0,  from 172.16.4.154:56685/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:33 826] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:33 846] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:33 866] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:34 806] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56659, extaddr:nonsupport, extport:0,  from 172.16.4.154:56691/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:34 806] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:34 806] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:34 906] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:56657, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:56696/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:34 906] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 11:52:39 147] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 11:52:39 147] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:17:07 965] - ServerApp::lookApp: 172.16.4.154:57747/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:17:07 965] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:17:23 225] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10019, componentID=7001, cellapp(cid=8001, load=0.0238863, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:19:16 563] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10022, componentID=7001, cellapp(cid=8001, load=0.0419349, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:20:02 464] - ServerApp::lookApp: 172.16.4.154:57782/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:20:02 464] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:23:53 742] - ServerApp::lookApp: 172.16.4.154:57821/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:23:53 742] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:24:23 661] - ServerApp::lookApp: 172.16.4.154:57827/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:24:23 661] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 698] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 698] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 698] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 699] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 700] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:57857 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 700] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:57857, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 701] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 701] - 	internalAddr : 172.16.4.154:57857
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:57 701] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:59 204] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 104248 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:59 205] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:59 205] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:59 205] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:26:59 509] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:26:59 510] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 726] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 849] - Components::findComponents: found logger, addr:172.16.4.154:57855
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 849] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 849] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 851] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 960] - Components::findComponents: found dbmgr, addr:172.16.4.154:57858
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 961] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 961] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:06 962] - Components::findComponents: found dbmgr, addr:172.16.4.154:57858
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:08 967] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:09 036] - Components::findComponents: found baseappmgr, addr:172.16.4.154:57856
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:09 036] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:09 037] - Components::findComponents: found baseappmgr, addr:172.16.4.154:57856
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:10 987] - ServerApp::lookApp: 172.16.4.154:57881/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:10 987] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:11 007] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:57856, extaddr:nonsupport, extport:0,  from 172.16.4.154:57882/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:11 067] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:11 086] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:11 099] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:12 007] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:57860, extaddr:nonsupport, extport:0,  from 172.16.4.154:57887/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:12 007] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:12 027] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:13 567] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:57859, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:57897/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:13 567] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:17 007] - ServerApp::lookApp: 172.16.4.154:57900/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:17 007] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:27:18 147] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:18 147] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:27:34 847] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10017, componentID=7001, cellapp(cid=8001, load=0.0248644, numEntities=0).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 14:28:10 991] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:57882/0/0/0 timed out.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:29:29 306] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10020, componentID=7001, cellapp(cid=8001, load=0.036729, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:33:22 965] - ServerApp::lookApp: 172.16.4.154:57966/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 14:33:22 965] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 719] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 719] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 720] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 720] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 721] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:58348 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 721] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:58348, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 721] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 721] - 	internalAddr : 172.16.4.154:58348
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:46 722] - 	componentID : 6000
+ WARNING cellappmgr-1 1001 6000  [2017-11-07 15:16:47 182] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20031, errorno=10048
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:47 186] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 107640 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:47 186] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:47 186] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:47 186] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:47 505] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:16:47 528] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 747] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 853] - Components::findComponents: found logger, addr:172.16.4.154:58346
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 853] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 853] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 854] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 968] - Components::findComponents: found dbmgr, addr:172.16.4.154:58344
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 968] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 969] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:54 969] - Components::findComponents: found dbmgr, addr:172.16.4.154:58344
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:56 987] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:57 049] - Components::findComponents: found baseappmgr, addr:172.16.4.154:58347
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:57 049] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:57 049] - Components::findComponents: found baseappmgr, addr:172.16.4.154:58347
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:59 108] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:59 120] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:16:59 127] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:00 048] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:58347, extaddr:nonsupport, extport:0,  from 172.16.4.154:58381/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:01 307] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:58351, extaddr:nonsupport, extport:0,  from 172.16.4.154:58383/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:01 307] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:01 307] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:01 807] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:58349, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:58388/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:01 807] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:06 787] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:17:06 787] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 15:17:59 121] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:58347/0/0/0 timed out.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:18:23 707] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10017, componentID=7001, cellapp(cid=8001, load=0.0220222, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:18:29 927] - ServerApp::lookApp: 172.16.4.154:58423/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:18:29 927] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:20:25 386] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10020, componentID=7001, cellapp(cid=8001, load=0.0385222, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:23:47 124] - ServerApp::lookApp: 172.16.4.154:58468/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:23:47 124] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:24:28 344] - ServerApp::lookApp: 172.16.4.154:58477/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:24:28 344] - ServerApp::lookApp: response! componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:24:34 024] - ServerApp::lookApp: 172.16.4.154:58484/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 15:24:34 024] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 420] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 421] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 421] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 421] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 422] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:60527 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 423] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:60527, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 423] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 423] - 	internalAddr : 172.16.4.154:60527
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 423] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 588] - Components::findLogger: found logger, addr:172.16.4.154:60524
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 589] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 589] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 593] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 104856 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 596] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 596] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 596] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:23 916] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:48:23 943] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:31 177] - Components::findComponents: find dbmgr(1)...
+ WARNING cellappmgr-1 1001 6000  [2017-11-07 19:48:31 519] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20514, errorno=10048
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:32 522] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:32 599] - Components::findComponents: found dbmgr, addr:172.16.4.154:60525
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:32 599] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:32 599] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:32 600] - Components::findComponents: found dbmgr, addr:172.16.4.154:60525
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:48:33 696] - ServerApp::lookApp: 172.16.4.154:60558/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:48:33 697] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:34 617] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:34 707] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60526
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:34 707] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:34 707] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60526
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:35 718] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60526, extaddr:nonsupport, extport:0,  from 172.16.4.154:60561/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:36 722] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:36 737] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:36 757] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:37 758] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60529, extaddr:nonsupport, extport:0,  from 172.16.4.154:60567/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:37 758] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:37 758] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:38 017] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60528, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:60572/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:38 017] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 19:48:42 238] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:48:42 238] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:52:17 336] - Cellappmgr::reqCreateInNewSpace: entityType=DdzRoom, entityID=10015, componentID=7001, cellapp(cid=8001, load=0.0275032, numEntities=0).
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:52:26 756] - ServerApp::lookApp: 172.16.4.154:60606/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 19:52:26 756] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 006] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 007] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 007] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 007] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 034] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:60789 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 034] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:60789, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 034] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 035] - 	internalAddr : 172.16.4.154:60789
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 035] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 280] - Components::findLogger: found logger, addr:172.16.4.154:60785
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 280] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 281] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 291] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 113364 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 291] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 291] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 292] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:28 633] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:24:28 692] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:35 913] - Components::findComponents: find dbmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:35 973] - Components::findComponents: found dbmgr, addr:172.16.4.154:60787
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:35 973] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:35 973] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:35 974] - Components::findComponents: found dbmgr, addr:172.16.4.154:60787
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:24:36 993] - ServerApp::lookApp: 172.16.4.154:60814/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:24:36 993] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:37 993] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:38 034] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60786
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:38 034] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:38 035] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60786
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:40 073] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:40 092] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:40 113] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:41 233] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60786, extaddr:nonsupport, extport:0,  from 172.16.4.154:60826/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:42 233] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60790, extaddr:nonsupport, extport:0,  from 172.16.4.154:60828/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:42 233] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:42 233] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:43 673] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60788, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:60833/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:43 673] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:24:48 633] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:24:48 633] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 861] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 861] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 862] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 862] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 863] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:60841 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 863] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:60841, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 864] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 864] - 	internalAddr : 172.16.4.154:60841
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:12 864] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:14 381] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 109300 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:14 382] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:14 383] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:14 384] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:14 684] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:25:14 685] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:21 865] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:21 979] - Components::findComponents: found logger, addr:172.16.4.154:60838
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:21 980] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:21 980] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:21 982] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:22 088] - Components::findComponents: found dbmgr, addr:172.16.4.154:60840
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:22 088] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:22 089] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:22 089] - Components::findComponents: found dbmgr, addr:172.16.4.154:60840
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:24 105] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:24 142] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60839
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:24 142] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:24 142] - Components::findComponents: found baseappmgr, addr:172.16.4.154:60839
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:26 105] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60839, extaddr:nonsupport, extport:0,  from 172.16.4.154:60869/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:26 165] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:26 184] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:26 205] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:27 125] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60843, extaddr:nonsupport, extport:0,  from 172.16.4.154:60873/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:27 125] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:27 125] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:27 245] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:60842, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:60878/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:27 245] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:25:31 526] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:25:31 526] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 010] - -----------------------------------------------------------------------------------------
+
+
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 011] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 011] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 011] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 012] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:61011 )
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 013] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:61011, SOMAXCONN=5.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 013] - server-configs:
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 013] - 	internalAddr : 172.16.4.154:61011
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:02 013] - 	componentID : 6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:03 520] - ---- cellappmgr Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 72C27F56DC1BD26638B25E51A8529CE1. Config: Debug X86. Built: 16:13:28 Jul  7 2017. AppID: 6000. UID: 1001. PID: 111820 ----
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:03 521] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:03 522] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:03 522] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:03 824] - ---- cellappmgr is running ----
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:30:03 839] - Components::process(): Request for the process of identity...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 024] - Components::findComponents: find logger(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 102] - Components::findComponents: found logger, addr:172.16.4.154:61008
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 102] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 102] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 103] - Components::findComponents: find dbmgr(2)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 212] - Components::findComponents: found dbmgr, addr:172.16.4.154:61010
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 213] - Components::addComponent: reset orderLog, uid=1001!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 213] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:11 213] - Components::findComponents: found dbmgr, addr:172.16.4.154:61010
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:30:12 224] - ServerApp::lookApp: 172.16.4.154:61034/0/0/0, componentID=6000
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:30:12 224] - ServerApp::lookApp: response! componentID=6000
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:13 224] - Components::findComponents: find baseappmgr(1)...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:13 277] - Components::findComponents: found baseappmgr, addr:172.16.4.154:61009
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:13 277] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:13 279] - Components::findComponents: found baseappmgr, addr:172.16.4.154:61009
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:15 224] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:61009, extaddr:nonsupport, extport:0,  from 172.16.4.154:61042/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:15 312] - Components::findComponents: register self to dbmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:15 324] - Components::findComponents: register self to baseappmgr...
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:15 343] - Components::process(): Found all the components!
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:16 584] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:61012, extaddr:172.16.4.154, extport:20015,  from 172.16.4.154:61047/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:16 584] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:17 724] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:61013, extaddr:nonsupport, extport:0,  from 172.16.4.154:61050/0/0/0.
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:17 724] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:17 744] - Cellappmgr::getCellapp: added new cellapp(8001).
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:30:22 324] - Cellappmgr::onCellappInitProgress: cid=8001, progress=1.
+   DEBUG cellappmgr-1 1001 6000  [2017-11-07 20:30:22 324] - Cellappmgr::addCellappComponentID: cellapp component id 8001, group order id 1
+    INFO cellappmgr-1 1001 6000  [2017-11-07 20:31:15 205] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:61042/0/0/0 timed out.

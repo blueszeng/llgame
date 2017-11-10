@@ -88,12 +88,6 @@
 			<Arg>	INT32	</Arg>
 		</reqLeaveRoom>
 
-		<!-- 大厅向大厅管理器删除大厅 -->
-		<removeHall>
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-		</removeHall>
-
 		<reqMessage>
 		    <Arg>	MAILBOX	</Arg>
             <Arg>	INT32	</Arg>

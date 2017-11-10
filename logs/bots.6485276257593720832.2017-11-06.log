@@ -1,0 +1,474 @@
+  INFO root [0x00017064] [2017-11-06 20:24:05,420] - 
+  INFO root [0x00017064] [2017-11-06 20:24:05,420] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00017064] [2017-11-06 20:24:05,422] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:53463 )
+  INFO root [0x00017064] [2017-11-06 20:24:05,422] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:53463, SOMAXCONN=5.
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,456] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,456] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,457] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,458] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,458] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,459] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,491] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00017064] [2017-11-06 20:24:05,522] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00017064] [2017-11-06 20:24:05,522] - Script::install(): KBExtra is successfully!
+  INFO root [0x00017064] [2017-11-06 20:24:05,526] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 124556E6025E0209A64D4D365F48CE09. Config: Debug. Built: 16:13:57 Jul  7 2017. AppID: 6485276257593720832. UID: 1001. PID: 93244 ----
+  INFO root [0x00017064] [2017-11-06 20:24:05,527] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00017064] [2017-11-06 20:24:05,527] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00017064] [2017-11-06 20:24:05,527] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+SCRIPT root [0x00017064] [2017-11-06 20:24:05,683] - 3
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,689] - loaded script:Player(1).
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,690] - loaded script:DdzAvatar(2).
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,692] - loaded script:DdzRoom(4).
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,693] - loaded script:ZjhRoom(5).
+  INFO root [0x00017064] [2017-11-06 20:24:05,698] - TelnetServer server is running on port 51000
+ S_DBG root [0x00017064] [2017-11-06 20:24:05,698] - onInit::isReload:0
+  INFO root [0x00017064] [2017-11-06 20:24:05,698] - ---- bots is running ----
+ DEBUG root [0x00017064] [2017-11-06 20:24:05,698] - Components::process(): Request for the process of identity...
+ DEBUG root [0x00017064] [2017-11-06 20:24:12,493] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 6B E1 95 B0 E1 7D F5 41 98 A3 A8 01 85 F1 F9 61
+ DEBUG root [0x00017064] [2017-11-06 20:24:12,494] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 47 57 B0 C2 A3 76 A5 DB E3 06 46 9E 72 33 12 74
+  WARN root [0x00017064] [2017-11-06 20:24:12,495] - bots.cpp:284: Profile updateBots took 0.63 seconds
+  INFO root [0x00017064] [2017-11-06 20:24:12,528] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=3AE2951E4080BAFE842768E10701770F, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00017064] [2017-11-06 20:24:12,528] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=3AE2951E4080BAFE842768E10701770F, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00017064] [2017-11-06 20:24:12,661] - ClientObject::onCreateAccountResult: bot_6485276257593720832_2 create is successfully!
+  INFO root [0x00017064] [2017-11-06 20:24:12,695] - ClientObject::onCreateAccountResult: bot_6485276257593720832_1 create is successfully!
+  INFO root [0x00017064] [2017-11-06 20:24:12,828] - ClientObject::onLoginSuccessfully: bot_6485276257593720832_2 addr=172.16.4.154:20015!
+ DEBUG root [0x00017064] [2017-11-06 20:24:12,830] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 56 BF 41 9E 9D 04 63 B5 01 00 04 60 FB 99 42 05
+  INFO root [0x00017064] [2017-11-06 20:24:12,861] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=3AE2951E4080BAFE842768E10701770F, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00017064] [2017-11-06 20:24:12,863] - ClientObject::onLoginSuccessfully: bot_6485276257593720832_1 addr=172.16.4.154:20015!
+ DEBUG root [0x00017064] [2017-11-06 20:24:12,865] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 73 C3 8B 9E 76 75 CC B9 22 19 5E 6F FF 78 76 C4
+  INFO root [0x00017064] [2017-11-06 20:24:12,896] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=3AE2951E4080BAFE842768E10701770F, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00017064] [2017-11-06 20:24:12,994] - ClientObject::onCreatedProxies(bot_6485276257593720832_2): rndUUID=6485276286247174144 eid=17 entityType=Player!
+  INFO root [0x00017064] [2017-11-06 20:24:12,994] - ClientObjectBase::createEntity: new Player (17)
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,062] - ClientObjectBase::onEntityDestroyed: Player(17).
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,062] - Player::~Player(): 17
+  INFO root [0x00017064] [2017-11-06 20:24:13,062] - ClientObject::onCreatedProxies(bot_6485276257593720832_2): rndUUID=6485276290542141440 eid=19 entityType=DdzAvatar!
+  INFO root [0x00017064] [2017-11-06 20:24:13,062] - ClientObjectBase::createEntity: new DdzAvatar (19)
+ S_DBG root [0x00017064] [2017-11-06 20:24:13,063] - Bots::DdzAvatar __init__
+  INFO root [0x00017064] [2017-11-06 20:24:13,097] - ClientObject::onCreatedProxies(bot_6485276257593720832_1): rndUUID=6485276290542141441 eid=18 entityType=Player!
+  INFO root [0x00017064] [2017-11-06 20:24:13,097] - ClientObjectBase::createEntity: new Player (18)
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,162] - ClientObjectBase::onEntityDestroyed: Player(18).
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,162] - Player::~Player(): 18
+  INFO root [0x00017064] [2017-11-06 20:24:13,162] - ClientObject::onCreatedProxies(bot_6485276257593720832_1): rndUUID=6485276290542141442 eid=20 entityType=DdzAvatar!
+  INFO root [0x00017064] [2017-11-06 20:24:13,162] - ClientObjectBase::createEntity: new DdzAvatar (20)
+ S_DBG root [0x00017064] [2017-11-06 20:24:13,163] - Bots::DdzAvatar __init__
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,195] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(19), isOnGround(0), appID(3).
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,195] - AttributeError: 'module' object has no attribute 'PlayerDdzAvatar'
+ ERROR root [0x00017064] [2017-11-06 20:24:13,196] - DdzAvatar::onBecomePlayer(): please implement PlayerDdzAvatar.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,196] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=0.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,196] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.10.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,196] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=1.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,196] - ClientObjectBase::setSpaceData: spaceID(2), key=roomtime, value=15.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,196] - ClientObjectBase::initSpaceData: spaceID(2), datasize=4.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,197] - ClientObjectBase::onEntityEnterSpace: DdzAvatar(19).
+  INFO root [0x00017064] [2017-11-06 20:24:13,197] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,198] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,198] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,199] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(3).
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,295] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=1.
+  INFO root [0x00017064] [2017-11-06 20:24:13,296] - ClientObjectBase::createEntity: new DdzAvatar (20)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,296] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,297] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,297] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(20), isOnGround(0), appID(3).
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,297] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(20), isOnGround(0), appID(2).
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,298] - AttributeError: 'module' object has no attribute 'PlayerDdzAvatar'
+ ERROR root [0x00017064] [2017-11-06 20:24:13,298] - DdzAvatar::onBecomePlayer(): please implement PlayerDdzAvatar.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,299] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=0.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.10.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=1.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::setSpaceData: spaceID(2), key=roomtime, value=15.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::initSpaceData: spaceID(2), datasize=4.
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::onEntityEnterSpace: DdzAvatar(20).
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=1.
+  INFO root [0x00017064] [2017-11-06 20:24:13,300] - ClientObjectBase::createEntity: new DdzAvatar (19)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,301] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,302] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,302] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(19), isOnGround(0), appID(2).
+  INFO root [0x00017064] [2017-11-06 20:24:13,303] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,304] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:24:13,304] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:24:13,305] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(2).
+  INFO root [0x00017064] [2017-11-06 20:24:13,521] - Components::findComponents: find logger(1)...
+  INFO root [0x00017064] [2017-11-06 20:24:13,590] - Components::findComponents: found logger, addr:172.16.4.154:53417
+  INFO root [0x00017064] [2017-11-06 20:24:13,591] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00017064] [2017-11-06 20:24:13,591] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00017064] [2017-11-06 20:24:13,595] - Components::process(): Found all the components!
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,297] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 20, in onMessage
+    data_json = json.loads(data)
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,400] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,409] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,410] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,411] - ValueError: Expecting value: line 1 column 1 (char 0)
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,412] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 20, in onMessage
+    data_json = json.loads(data)
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,413] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,414] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,416] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ S_ERR root [0x00017064] [2017-11-06 20:24:14,416] - ValueError: Expecting value: line 1 column 1 (char 0)
+  WARN root [0x00017064] [2017-11-06 20:24:14,417] - bots.cpp:284: Profile updateBots took 0.12 seconds
+ DEBUG root [0x00017064] [2017-11-06 20:24:15,295] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:15,296] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:30,295] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:30,297] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:45,295] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:45,298] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,062] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.30.
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,062] - ClientObjectBase::setSpaceData: spaceID(2), key=threeCards, value=[39, 25, 22].
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,063] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 2, "type": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,063] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.30.
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,063] - ClientObjectBase::setSpaceData: spaceID(2), key=threeCards, value=[39, 25, 22].
+ DEBUG root [0x00017064] [2017-11-06 20:24:47,064] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 2, "type": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:48,061] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 3, "type": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:48,063] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 3, "type": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:49,061] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:49,063] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:51,028] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [8, 7, 6], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:51,030] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [8, 7, 6], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:52,028] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [12, 11, 10], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:52,029] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [12, 11, 10], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:53,028] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [24, 23, 21], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:53,030] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [24, 23, 21], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:54,661] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [47, 46, 45], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:54,662] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [47, 46, 45], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:55,661] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=2.
+ DEBUG root [0x00017064] [2017-11-06 20:24:55,661] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:55,661] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=2.
+ DEBUG root [0x00017064] [2017-11-06 20:24:55,661] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:56,661] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:56,662] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:57,595] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:57,596] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [54, 53], "powerCid": 2, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:58,595] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [3, 2], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:58,597] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [3, 2], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:59,595] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [15, 13], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:24:59,595] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [15, 13], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:01,295] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [26, 25], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:01,297] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [26, 25], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:02,295] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [36, 34], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:02,296] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [36, 34], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:03,294] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [36, 34], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:03,296] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [36, 34], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:04,529] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [39, 37], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:04,530] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [39, 37], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:05,529] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [42, 41], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:05,530] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [42, 41], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:06,528] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [42, 41], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:06,528] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [42, 41], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:07,728] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:07,730] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:08,728] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:08,728] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:09,728] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:09,729] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [50, 49], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:12,894] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [9], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:12,896] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [9], "powerCid": 1, "curCid": 2}.
+  INFO root [0x00017064] [2017-11-06 20:25:13,594] - ClientApp::onChannelTimeOut: Channel 172.16.4.154:53417/0/0/0 timed out.
+ DEBUG root [0x00017064] [2017-11-06 20:25:13,894] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [38], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:13,895] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [38], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:14,894] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [44], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:14,895] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [44], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:15,627] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [44], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:15,630] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [44], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:16,628] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:16,630] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:17,628] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:17,628] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:18,327] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:18,328] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [51], "powerCid": 2, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:19,328] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [14], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:19,329] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [14], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:20,327] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [33], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:20,329] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [33], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:21,995] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [43], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:21,997] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [43], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:22,995] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [43], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:22,995] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [43], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:23,994] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:23,996] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:24,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:24,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:25,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:25,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [48], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:26,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [4, 1], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:26,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [4, 1], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:29,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:29,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:30,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:30,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:31,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:31,830] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [31, 30], "powerCid": 1, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:32,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [16], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:32,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [16], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:33,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [17], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:33,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [17], "powerCid": 2, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:34,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:34,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:35,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:35,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:36,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:36,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [40], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:37,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [5], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:37,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [5], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:38,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [35], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:38,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [35], "powerCid": 1, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:39,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [35], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:39,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [35], "powerCid": 1, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:40,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:40,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:41,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:41,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:42,827] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:42,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [52], "powerCid": 3, "curCid": 3}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:43,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [20, 18], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:43,831] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [20, 18], "powerCid": 3, "curCid": 1}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:44,828] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [20, 18], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:44,829] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCards": [20, 18], "powerCid": 3, "curCid": 2}.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,427] - ClientObjectBase::onEntityLeaveWorld: DdzAvatar(19), appID(3).
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,428] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,428] - DdzAvatar::~DdzAvatar(): 20
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,428] - ClientObjectBase::onEntityLeaveWorld: DdzAvatar(20), appID(2).
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,428] - DdzAvatar::~DdzAvatar(): 19
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,428] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,594] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(19), isOnGround(0), appID(3).
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,594] - AttributeError: 'module' object has no attribute 'PlayerDdzAvatar'
+ ERROR root [0x00017064] [2017-11-06 20:25:47,595] - DdzAvatar::onBecomePlayer(): please implement PlayerDdzAvatar.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,595] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=0.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,595] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.10.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,596] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=1.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,596] - ClientObjectBase::setSpaceData: spaceID(3), key=roomtime, value=15.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,596] - ClientObjectBase::initSpaceData: spaceID(3), datasize=4.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,596] - ClientObjectBase::onEntityEnterSpace: DdzAvatar(19).
+  INFO root [0x00017064] [2017-11-06 20:25:47,596] - ClientObjectBase::createEntity: new DdzAvatar (20)
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,597] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,597] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,598] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(20), isOnGround(0), appID(3).
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,598] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(20), isOnGround(0), appID(2).
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,598] - AttributeError: 'module' object has no attribute 'PlayerDdzAvatar'
+ ERROR root [0x00017064] [2017-11-06 20:25:47,599] - DdzAvatar::onBecomePlayer(): please implement PlayerDdzAvatar.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,599] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=0.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,599] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.10.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,600] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=1.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,600] - ClientObjectBase::setSpaceData: spaceID(3), key=roomtime, value=15.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,600] - ClientObjectBase::initSpaceData: spaceID(3), datasize=4.
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,600] - ClientObjectBase::onEntityEnterSpace: DdzAvatar(20).
+  INFO root [0x00017064] [2017-11-06 20:25:47,600] - ClientObjectBase::createEntity: new DdzAvatar (19)
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,601] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:25:47,601] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:25:47,602] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(19), isOnGround(0), appID(2).
+ DEBUG root [0x00017064] [2017-11-06 20:25:59,261] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=1.
+  INFO root [0x00017064] [2017-11-06 20:25:59,263] - ClientObjectBase::createEntity: new DdzAvatar (22)
+ S_ERR root [0x00017064] [2017-11-06 20:25:59,266] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:25:59,271] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:25:59,274] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(22), isOnGround(0), appID(3).
+ DEBUG root [0x00017064] [2017-11-06 20:25:59,274] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=1.
+  INFO root [0x00017064] [2017-11-06 20:25:59,276] - ClientObjectBase::createEntity: new DdzAvatar (22)
+ S_ERR root [0x00017064] [2017-11-06 20:25:59,279] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 12, in __init__
+    self.base.reqEnterGame(1)
+ S_ERR root [0x00017064] [2017-11-06 20:25:59,283] - AttributeError: 'NoneType' object has no attribute 'reqEnterGame'
+ DEBUG root [0x00017064] [2017-11-06 20:25:59,285] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(22), isOnGround(0), appID(2).
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,262] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 20, in onMessage
+    data_json = json.loads(data)
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,266] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,269] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,272] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,274] - ValueError: Expecting value: line 1 column 1 (char 0)
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,276] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/bots\DdzAvatar.py", line 20, in onMessage
+    data_json = json.loads(data)
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,280] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\__init__.py", line 318, in loads
+    return _default_decoder.decode(s)
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,282] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 343, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,285] -   File "C:/Users/hyc/Desktop/kbengine/kbe/res/scripts/common/Lib\json\decoder.py", line 361, in raw_decode
+    raise ValueError(errmsg("Expecting value", s, err.value)) from None
+ S_ERR root [0x00017064] [2017-11-06 20:26:00,287] - ValueError: Expecting value: line 1 column 1 (char 0)
+ DEBUG root [0x00017064] [2017-11-06 20:26:01,260] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00017064] [2017-11-06 20:26:01,260] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+  INFO root [0x00017064] [2017-11-06 20:26:06,961] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x00017064] [2017-11-06 20:26:06,961] - ClientObjectBase::tickSend: serverCloased!
+  INFO root [0x00017064] [2017-11-06 20:26:06,961] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x00017064] [2017-11-06 20:26:06,961] - ClientObjectBase::tickSend: serverCloased!
+  WARN root [0x00017064] [2017-11-06 20:26:07,564] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,568] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,570] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,571] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,571] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,571] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,571] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,571] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,572] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,572] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,572] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,572] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,572] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,573] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,574] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,575] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,575] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,575] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,576] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,577] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,578] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,578] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,578] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,578] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,578] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,579] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,579] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,579] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,579] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,580] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,580] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,580] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,580] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,581] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,581] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,581] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,581] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,581] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,582] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,582] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,582] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,582] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,582] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,583] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,583] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,583] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,583] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,583] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,584] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,585] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,586] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,587] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,588] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,589] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,593] - DdzAvatar::~DdzAvatar(): 19
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,593] - DdzAvatar::~DdzAvatar(): 20
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,593] - DdzAvatar::~DdzAvatar(): 22
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,593] - DdzAvatar::~DdzAvatar(): 20
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,593] - DdzAvatar::~DdzAvatar(): 19
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,594] - DdzAvatar::~DdzAvatar(): 22
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,728] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 65 75 E3 70 19 A5 C8 C4 08 8D E3 29 CB 44 A9 6B
+ DEBUG root [0x00017064] [2017-11-06 20:26:07,729] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 75 A5 06 7D 73 26 6B 43 50 97 07 8D 22 CA 84 FA
+  WARN root [0x00017064] [2017-11-06 20:26:07,987] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,988] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,988] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,988] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,989] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,990] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,990] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,990] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,990] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,990] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,991] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,991] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,991] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,992] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,992] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,992] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,992] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00017064] [2017-11-06 20:26:07,993] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

@@ -9,8 +9,6 @@ class DdzAvatar(KBEngine.Entity):
 	def __init__(self):
 		KBEngine.Entity.__init__(self)
 
-		self.chairID = 0
-
 		self.base.reqEnterGame(1)
 
 		DEBUG_MSG("Bots::DdzAvatar __init__")
@@ -24,4 +22,22 @@ class DdzAvatar(KBEngine.Entity):
 			self.base.reqContinue()
 
 	def onSay(self,str):
+		pass
+
+	def onEnterGame(self,gameID,result):
+		self.gameID = gameID
+		self.base.reqEnterHall(1)
+
+	def onLeaveGame(self,gameID):
+		pass
+
+	def onEnterHall(self,hallID):
+		self.hallID = hallID
+		self.base.reqEnterRoom("广东省深圳市")
+		pass
+
+	def onLeaveHall(self,hallID):
+		pass
+
+	def onEnterRoom(self,data):
 		pass

@@ -52,9 +52,7 @@ class Player(KBEngine.Entity):
 		pass
 	def onEnterRoom(self,data):
 		pass
-	def onEnterDDZRoom(self,chairID):
-		self.chairID = chairID
-		pass
+
 	def onLeaveRoom(self,retcode,chairID):
 		if self.chairID == chairID:
 			self.base.reqLeaveHall()

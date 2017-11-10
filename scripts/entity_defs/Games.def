@@ -1,5 +1,6 @@
 <root>
 	<Implements>
+		<Interface>	BaseObject	</Interface>
 	</Implements>
 
 	<Properties>
@@ -17,16 +18,6 @@
         <addIncome>
 			<Arg>	FLOAT	</Arg>
 		</addIncome>
-
-        <reqEnterGames>
-			<!-- 玩家的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-		</reqEnterGames>
-
-		<reqLeaveGames>
-			<!-- 玩家的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-		</reqLeaveGames>
 
 		<reqChargeToPlayer>
 			<Arg>	UNICODE	</Arg>
@@ -50,16 +41,6 @@
 			<!-- 大厅的ID -->
 			<Arg>	INT32	</Arg>
 		</reqLeaveGame>
-
-
-		<!-- 大厅向大厅管理器注册大厅 -->
-		<addHalls>
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-
-			<!-- 大厅的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-		</addHalls>
 
 		<!-- 请求游戏信息 -->
 		<reqGameInfo>
