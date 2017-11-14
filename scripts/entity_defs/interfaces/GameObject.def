@@ -1,5 +1,10 @@
 <root>
 	<Properties>
+	    <cid>
+                <Type>			INT32			</Type>
+                <Flags>			BASE	      	</Flags>
+                <Default>		0				</Default>
+        </cid>
 	</Properties>
 
 	<ClientMethods>

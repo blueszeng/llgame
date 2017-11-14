@@ -4,7 +4,8 @@
 	</Implements>
 
 	<Properties>
-	    <income>
+
+	     <income>
 			<Type>			FLOAT				</Type>
 			<Flags>			BASE			    </Flags>
 			<Default>								</Default>
@@ -24,28 +25,10 @@
 			<Arg>	FLOAT	</Arg>
 		</reqChargeToPlayer>
 
-		<!-- 客户端调用该接口请求进入大厅 -->
-		<reqEnterGame>
-			<!-- 玩家的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-		</reqEnterGame>
-
-		<!-- 客户端调用该接口请求离开大厅 -->
-		<reqLeaveGame>
-			<!-- 玩家的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-		</reqLeaveGame>
-
-		<!-- 请求游戏信息 -->
 		<reqGameInfo>
 		<Arg>  MAILBOX   </Arg>
 		</reqGameInfo>
+
 	</BaseMethods>
 
 	<CellMethods>

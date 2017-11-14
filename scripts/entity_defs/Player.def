@@ -1,4 +1,8 @@
 <root>
+    <Implements>
+		<Interface>	GameObject	</Interface>
+	</Implements>
+
 	<Properties>
 
 	<alipay>
@@ -209,50 +213,6 @@
         	<Arg>	FLOAT		</Arg>
 			<Arg>	FLOAT		</Arg>
 		</onCharge>
-		<!-- 服务器返回某人发送聊天信息 -->
-		<onSay>
-			<Arg>	UNICODE		</Arg>
-		</onSay>
-
-        <!-- 服务器返回游戏大厅信息 -->
-		<onEnterGame>
-		    <Arg>	INT32	</Arg>
-		    <Arg>	UNICODE	</Arg>
-		</onEnterGame>
-		<!-- 离开对应游戏 -->
-        <onLeaveGame>
-		    <Arg>	INT32	</Arg>
-		</onLeaveGame>
-
-        <!-- 进入对应hall -->
-		<onEnterHall>
-		    <Arg>	INT32	</Arg>
-		</onEnterHall>
-		<!-- 离开游戏hall -->
-        <onLeaveHall>
-		    <Arg>	INT32	</Arg>
-		</onLeaveHall>
-
-		<onStartGame>
-		</onStartGame>
-
-		<onEnterRoom>
-		    <Arg>  UNICODE </Arg>
-		</onEnterRoom>
-
-        <onLeaveRoom>
-            <Arg>  INT32	</Arg>
-		    <Arg>  INT32 </Arg>
-		</onLeaveRoom>
-
-		<onContinue>
-		</onContinue>
-
-        <onMessage>
-            <Arg> INT32</Arg>
-            <Arg> INT32</Arg>
-            <Arg> UNICODE </Arg>
-        </onMessage>
 
         <onRegisterProperties>
             <Arg> INT32</Arg>
@@ -319,57 +279,10 @@
 			<Arg>	UNICODE	</Arg>
 		</reqCash>
 
-		<!-- 客户端调用该接口请求进入游戏-->
-		<reqEnterGame>
-			<Exposed/>
-			<Utype> 10005 </Utype>
-
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-		</reqEnterGame>
-
-		<!-- 客户端调用该接口请求离开游戏 -->
-		<reqLeaveGame>
-			<Exposed/>
-			<Utype> 10006 </Utype>
-		</reqLeaveGame>
-
-		<reqEnterHall>
-			<Exposed/>
-			<Utype> 10007 </Utype>
-			<!-- 大厅的ID -->
-			<Arg>	INT32	</Arg>
-		</reqEnterHall>
-
-		<reqLeaveHall>
-			<Exposed/>
-			<Utype> 10008 </Utype>
-		</reqLeaveHall>
-
-
-		<!-- 请求游戏信息 -->
 		<reqGameInfo>
 			<Exposed/>
 			<Utype> 10011 </Utype>
 		</reqGameInfo>
-
-		<reqEnterRoom>
-			<Exposed/>
-			<Utype> 10013 </Utype>
-			<Arg>	UNICODE	</Arg>
-		</reqEnterRoom>
-
-		<reqLeaveRoom>
-			<Exposed/>
-			<Utype> 10014 </Utype>
-		</reqLeaveRoom>
-
-		<reqMessage>
-			<Exposed/>
-			<Utype> 10015 </Utype>
-			<Arg>  INT32 </Arg>
-			<Arg>  UNICODE </Arg>
-		</reqMessage>
 
 		<reqAccessBank>
 			<Exposed/>
@@ -401,33 +314,10 @@
 	        <Utype> 10020 </Utype>
 	    </reqMyRankInfo>
 
-        <reqContinue>
-            <Exposed/>
-	        <Utype> 10021 </Utype>
-		</reqContinue>
-
 		<reqRestoreRoom>
             <Exposed/>
 		</reqRestoreRoom>
 
 	</BaseMethods>
-
-	<CellMethods>
-
-	    <reqMessageC>
-	        <Exposed/>
-            <Arg> INT32</Arg>
-            <Arg> UNICODE </Arg>
-        </reqMessageC>
-
-        <set_gold>
-            <Arg> FLOAT</Arg>
-        </set_gold>
-
-        <set_AoiRadius>
-            <Arg> FLOAT</Arg>
-        </set_AoiRadius>
-
-	</CellMethods>
 
 </root>

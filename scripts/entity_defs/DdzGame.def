@@ -1,6 +1,6 @@
 <root>
 	<Implements>
-	    <Interface> BaseObject <Interface>
+	    <Interface> BaseObject </Interface>
 	</Implements>
 
 	<Properties>

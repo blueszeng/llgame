@@ -23,16 +23,25 @@ class DdzRoom(KBEngine.Base,BaseObject):
 
         if state == ROOM_STATE_READY:
             #如果将房间恢复为准备状态，即设置为结束状态，不允许再次使用
-            self.state = ROOM_STATE_FINISH
+            self.state = state
         else:
             self.state = state
 
         for pp in self.players.values():
             pp.state = state
-
-            #游戏结束，玩家链接不存在，则直接销毁玩家实体
+            #游戏结束，因为只能在base进程中检测client状态
+            #所以需要把游戏状态发回base进程
             if self.state == ROOM_STATE_FINISH and not pp.client and pp.cell:
                 pp.destroyCellEntity()
+
+    def onGetCell(self):
+        """
+        KBEngine method.
+        entity的cell部分实体被创建成功
+        """
+        DEBUG_MSG("%r[%r]::onGetCell()" % (self.className,self.id))
+
+        self.parent.onRoomGetCell(self,self.cid)
 
     def onLoseCell(self):
         """
@@ -42,42 +51,30 @@ class DdzRoom(KBEngine.Base,BaseObject):
         DEBUG_MSG("%r[%r]::onLoseCell()" % (self.className, self.cid))
 
         self.parent.onRoomLoseCell(self, self.cid)
+
         self.destroy()
 
-    def onGetCell(self):
-        """
-        KBEngine method.
-        entity的cell部分实体被创建成功
-        """
-        DEBUG_MSG("%r[%r]::onGetCell()" % (self.className,self.cid))
-
-        self.parent.onRoomGetCell(self,self.cid)
-
     def reqEnter(self, player):
-        super().reqEnter(player)
 
         if player.id in self.players:
             return
 
-        if self.state == 0:
+        super().reqEnter(player)
+        player.cellData["cid"] = 0
+
+        if self.state == ROOM_STATE_READY:
 
             for i in range(1, 4):
                 has = False
                 for pp in self.players.values():
-                    if i == pp.cid:
+                    if i == pp.cellData["cid"]:
                         has = True
                         break
                 if has == False:
-                    player.cid = i
+                    player.cellData["cid"] = i
                     break
 
-            player.createCell(self.cell, player.cid)
-
-            #满足开始游戏人数，设置玩家和房间状态1
-            if len(self.players) == 3:
-
-                self.set_state(ROOM_STATE_INGAME)
-                self.cell.set_state(ROOM_STATE_INGAME)
+            player.createCell(self.cell, player.cellData["cid"])
 
     def reqLeave(self,player):
 
@@ -90,25 +87,21 @@ class DdzRoom(KBEngine.Base,BaseObject):
         if player.cell:
             player.destroyCellEntity()
 
-        if self.reqPlayerCount() == 0 and self.cell:
-            self.destroyCellEntity()
+    def reqContinue(self, player):
 
-    def onContinue(self, player):
-        DEBUG_MSG("DdzRoom::onContinue Player[%r] PlayerCount[%r]" % (player.id, len(self.players)))
-        #防止多次离开
-        if player.id not in self.players:
+        DEBUG_MSG("%r[%r]::reqContinue() Entity[%r] EntityCount[%r]" % (self.className,self.id,player.id, len(self.players)))
+
+        # 如果房间正在游戏中，不予处理
+        if self.state == ROOM_STATE_INGAME:
             return
 
         if player.cell:
-            if player.id in self.players:
 
-                del self.players[player.id]
+            if player.client:
+                player.bContinue = True
+                player.client.onContinue()
 
-                if player.client:
-                    player.bContinue = True
-                    player.client.onContinue()
+            super().reqLeave(player)
+            if player.cell:
+                player.destroyCellEntity()
 
-            player.destroyCellEntity()
-
-            if len(self.players) == 0 and self.cell and self.state == ROOM_STATE_FINISH:
-                self.destroyCellEntity()

@@ -1,17 +1,19 @@
+# -*- coding: utf-8 -*-
 import KBEngine
 import json
 from Rules_DDZ import *
 from KBEDebug import *
 from GlobalConst import *
+from interfaces.RoomEntity import *
 import Helper
 
-class DdzRoom(KBEngine.Entity):
+class DdzRoom(KBEngine.Entity,RoomEntity):
 
     def __init__(self):
         KBEngine.Entity.__init__(self)
+        RoomEntity.__init__(self)
 
         self.position = (9999.0, 0.0, 0.0)
-        self.timerMgr = {}
 
         self.players    = {}
         self.cards      = []
@@ -35,8 +37,6 @@ class DdzRoom(KBEngine.Entity):
         self.powerCid   = 0
         self.powerCards = []
 
-        KBEngine.globalData["Room_%i" % self.spaceID] = self.base
-
         KBEngine.setSpaceData(self.spaceID, "curfen", "%.2f" % self.curfen)
         KBEngine.setSpaceData(self.spaceID, "multiple", str(self.multiple))
         KBEngine.setSpaceData(self.spaceID, "roomtime", str(self.roomtime))
@@ -44,65 +44,39 @@ class DdzRoom(KBEngine.Entity):
 
     def set_state(self,state):
 
-        DEBUG_MSG("DdzRoom::set_state space[%r] state[%r]" % (self.spaceID,state))
+        DEBUG_MSG("%r::set_state() space[%r] state[%r]" % (self.className,self.spaceID,state))
 
         self.stateC = state
         KBEngine.setSpaceData(self.spaceID, "state", str(self.stateC))
 
-    def _sendAllClients(self, action, json):
-        for pp in self.players.values():
-            if pp.client:
-                pp.client.onMessage(0,action,json)
-
-    def _addUserArgTimer(self,initialOffset,repeatOffset,userArg):
-            tid = self.addTimer(initialOffset,repeatOffset,userArg)
-            bMgr = False
-            if userArg in self.timerMgr:
-                self._removeUserArgTimer(userArg)
-            if repeatOffset > 0:
-                self.timerMgr[userArg] = tid
-                bMgr = True
-
-    def _removeUserArgTimer(self,userArg):
-        if userArg == 0:
-
-            INFO_MSG("DdzRoom::_removeUserArgTimer(0)")
-
-            for tt in self.timerMgr.values():
-                self.delTimer(tt)
-            self.timerMgr.clear()
-
-        elif userArg in self.timerMgr:
-            tid = self.timerMgr.pop(userArg)
-            self.delTimer(tid)
+        self.base.set_state(state)
 
     def onEnter(self, player):
 
-        DEBUG_MSG('DdzRoom::onEnter space[%d] cid = %i.' % (self.spaceID, player.cid))
+        DEBUG_MSG('%r::onEnter() space[%d] cid[%i]' % (self.className,self.spaceID, player.cid))
 
         self.players[player.cid] = player
 
         #满足开局人数
         if len(self.players.values()) == 3:
-            self._addUserArgTimer(1,0,ACTION_ROOM_DISPATCH)
+
+            self.set_state(ROOM_STATE_INGAME)
+
+            self.addTimerMgr(1,0,ACTION_ROOM_DISPATCH)
 
     def onLeave(self, player):
 
-        DEBUG_MSG('DdzRoom::onLeave space[%d] cid = %i.' % (self.spaceID, player.cid))
+        DEBUG_MSG('%r::onLeave() space[%d] cid[%i]' % (self.className, self.spaceID, player.cid))
 
         if player.cid in self.players:
             del self.players[player.cid]
 
-    def onDestroy(self):
-        """
-        KBEngine method
-        """
+            if len(self.players) == 0:
+                self.destroy()
 
-        del KBEngine.globalData["Room_%i" % self.spaceID]
-
-    def _dispatchCards(self):
+    def dispatchCards(self):
         """发牌"""
-        INFO_MSG("DdzRoom::_dispatchCards space[%d]" % (self.spaceID))
+        DEBUG_MSG("%r::dispatchCards() space[%d]" % (self.className,self.spaceID))
 
         self.cards = reqRandomCards54()
 
@@ -111,7 +85,7 @@ class DdzRoom(KBEngine.Entity):
             pp.cards        = getCardsby(self.cards, 17)
             pp.cardCount    = len(pp.cards)
 
-    def _nextPlayer(self,userArg):
+    def nextPlayer(self,userArg):
 
         if self.curCid == 0:
             # 随机一位玩家先手
@@ -121,8 +95,8 @@ class DdzRoom(KBEngine.Entity):
 
         #重置房间时间
         self.curRoomtime = self.roomtime
-        self._removeUserArgTimer(0)
-        self._addUserArgTimer(1, 1, userArg)
+        self.delTimerMgr(0)
+        self.addTimerMgr(1, 1, userArg)
 
         if userArg == ACTION_ROOM_JIAOPAI_NEXT:
 
@@ -146,8 +120,8 @@ class DdzRoom(KBEngine.Entity):
 
     def reqMessage(self,player,action,buf):
 
-        DEBUG_MSG("DdzRoom::reqMessage %r space[%d] player[%r] buf[%r]"
-                  % (DEBUG_ACTION_STRING.get(action),self.spaceID,player.cid,buf))
+        DEBUG_MSG("%r::reqMessage() %r space[%d] player[%r] buf[%r]"
+                  % (self.className,DEBUG_ACTION_STRING.get(action),self.spaceID,player.cid,buf))
 
         #不是当前玩家，则默认为超时操作，不予处理
         if self.curCid != player.cid:
@@ -208,7 +182,7 @@ class DdzRoom(KBEngine.Entity):
                 #如果没人叫分，则重新发牌
                 self.beginCid = 0
                 self.giveupCount -= 1
-                self._addUserArgTimer(1, 0, ACTION_ROOM_DISPATCH)
+                self.addTimerMgr(1, 0, ACTION_ROOM_DISPATCH)
                 return
 
             elif self.beginCid == 0:
@@ -221,10 +195,10 @@ class DdzRoom(KBEngine.Entity):
 
             if getLastCid(self.dzCid) == player.cid:
 
-                self._nextPlayer(ACTION_ROOM_NEXT)
+                self.nextPlayer(ACTION_ROOM_NEXT)
                 return
 
-        self._nextPlayer(ACTION_ROOM_JIAOPAI_NEXT)
+        self.nextPlayer(ACTION_ROOM_JIAOPAI_NEXT)
 
     def onMessage_ACTION_ROOM_CHUPAI(self,player,action,data_json):
 
@@ -251,28 +225,26 @@ class DdzRoom(KBEngine.Entity):
             player.cardCount    = len(player.cards)
 
             if player.cardCount == 0:
-                self._addUserArgTimer(1.5,0,ACTION_ROOM_COMPUTE)
+                self.addTimerMgr(1.5,0,ACTION_ROOM_COMPUTE)
             else:
-                self._nextPlayer(ACTION_ROOM_NEXT)
+                self.nextPlayer(ACTION_ROOM_NEXT)
         else:
-            self._nextPlayer(ACTION_ROOM_NEXT)
+            self.nextPlayer(ACTION_ROOM_NEXT)
 
     def onTimer(self, id, userArg):
         """
-        KBEngine method.
-        使用addTimer后， 当时间到达则该接口被调用
-        @param id		: addTimer 的返回值ID
-        @param userArg	: addTimer 最后一个参数所给入的数据
+        KBEngine method
         """
-
         if userArg == ACTION_ROOM_DISPATCH:
-            self._sendAllClients(ACTION_ROOM_DISPATCH, "")
-            self._dispatchCards()
-            self._addUserArgTimer(1, 0, ACTION_ROOM_STARTGAME)
+
+            self.sendAllClients(ACTION_ROOM_DISPATCH, "")
+            self.dispatchCards()
+
+            self.addTimerMgr(1, 0, ACTION_ROOM_STARTGAME)
 
         if userArg == ACTION_ROOM_STARTGAME:
 
-            self._nextPlayer(ACTION_ROOM_JIAOPAI_NEXT)
+            self.nextPlayer(ACTION_ROOM_JIAOPAI_NEXT)
 
         elif userArg == ACTION_ROOM_JIAOPAI_NEXT or userArg == ACTION_ROOM_NEXT:
 
@@ -281,12 +253,12 @@ class DdzRoom(KBEngine.Entity):
 
             if self.curRoomtime <= 0:
 
-                self._removeUserArgTimer(0)
+                self.delTimerMgr(0)
                 self.onOuttime(userArg,player)
 
             elif player.tuoguan == 1:
 
-                self._removeUserArgTimer(0)
+                self.delTimerMgr(0)
                 self.onAi(userArg, player)
 
         elif userArg == ACTION_ROOM_COMPUTE:
@@ -461,10 +433,10 @@ class DdzRoom(KBEngine.Entity):
             dzPlayer.set_gold(-realLoseGold)
 
         # 退出游戏状态
-        self.base.set_state(ROOM_STATE_READY)
+        self.set_state(ROOM_STATE_READY)
 
         data_json   = json.dumps(datas)
-        self._sendAllClients(ACTION_ROOM_COMPUTE,data_json)
+        self.sendAllClients(ACTION_ROOM_COMPUTE,data_json)
 
-        INFO_MSG("DdzRoom::onCompute space[%d] data_json = [%r]" % (self.spaceID,data_json))
+        INFO_MSG("DdzRoom::onCompute() space[%d] data_json = [%r]" % (self.spaceID,data_json))
 

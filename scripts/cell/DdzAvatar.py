@@ -7,8 +7,6 @@ class DdzAvatar(KBEngine.Entity,EntityCommon):
 
     def __init__(self):
 
-        DEBUG_MSG("DdzAvatar::Cell __init__")
-
         KBEngine.Entity.__init__(self)
         EntityCommon.__init__(self)
 
@@ -20,7 +18,7 @@ class DdzAvatar(KBEngine.Entity,EntityCommon):
         """
         KBEngine method
         """
-        DEBUG_MSG("DdzAvatar::onDestroy: %i" % self.id)
+        DEBUG_MSG("%r[%r].Cell::onDestroy()" % (self.className,self.id))
 
         room = self.getCurrRoom()
         if room:
@@ -34,7 +32,7 @@ class DdzAvatar(KBEngine.Entity,EntityCommon):
         if exposed != self.id:
             return
 
-        DEBUG_MSG("DdzAvatar::reqMessageC avatar[%r] buf = %r" % (self.cid,buf))
+        DEBUG_MSG("%r[%r].Cell::reqMessageC() buf = %r" % (self.className, self.id,buf))
 
         if action == ACTION_ROOM_TUOGUAN:
             data_json = json.loads(buf)

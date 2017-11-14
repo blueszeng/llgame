@@ -21,7 +21,7 @@ class GameObject:
 
     def Games(self):
 
-        return KBEngine.globalData.get("Games")
+        return KBEngine.globalData['Games']
 
     def ExitGame(self):
         """清空所有引用,才能在服务器上销毁该实体"""
@@ -55,7 +55,7 @@ class GameObject:
     def reqEnterRoom(self):
 
         if self.hall:
-            self.hall.reqEnterChild(self)
+            self.hall.reqEnterRoom(self)
 
     def reqLeaveRoom(self):
 

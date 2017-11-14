@@ -13,8 +13,6 @@ class Player(KBEngine.Proxy,GameObject):
 		KBEngine.Proxy.__init__(self)
 		GameObject.__init__(self)
 
-		self.activeProxy = None
-
 	def createCell(self, space,cid):
 		"""
         defined method.

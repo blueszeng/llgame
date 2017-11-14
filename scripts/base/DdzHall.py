@@ -2,12 +2,8 @@
 # -*- coding: utf-8 -*-
 import KBEngine
 from d_config import *
-from KBEDebug import *
 from GlobalConst import *
 from interfaces.BaseObject import *
-
-FIND_ROOM_NOT_FOUND = 0
-FIND_ROOM_CREATING = 1
 
 class DdzHall(KBEngine.Base,BaseObject):
 	"""
@@ -51,9 +47,13 @@ class DdzHall(KBEngine.Base,BaseObject):
 			else:
 				del self.childs[roomID]["players"][player]
 
+				#如果player已丢失client，则需要销毁该引用
+				if player:
+					player.destroy()
+
 	def onRoomLoseCell(self,roomMailbox,roomID):
 		"""
-		Room 销毁时，通知Hall对其进行删除
+		Room 销毁时，回调
 		"""
 		if roomID in self.childs:
 			del self.childs[roomID]
@@ -72,7 +72,7 @@ class DdzHall(KBEngine.Base,BaseObject):
 		params = {"cid": self.lastNewRoomKey,
 				  "parent": self,
 				  "state": 0,
-				  "difen": d_DDZ[self.hallID]["base"],
+				  "difen": d_DDZ[self.cid]["base"],
 				  "taxRate": d_DDZ["taxRate"]}
 
 		KBEngine.createBaseAnywhere("DdzRoom", params, None)
@@ -82,27 +82,19 @@ class DdzHall(KBEngine.Base,BaseObject):
 
 		self.childs[self.lastNewRoomKey] = roomDatas
 
-	def reqContinue(self,player,roomID):
+	def reqContinue(self,player):
 
-		if player.gold < d_DDZ[self.hallID]["limit"]:
-
-			DEBUG_MSG("DdzHall::reqContinue Player[%d] gold[%r] < limit[%r]" % (player.id,player.gold,d_DDZ[self.hallID]["limit"]))
-			self.reqLeaveRoom(player,roomID)
+		if not player.room:
 			return
 
-		DEBUG_MSG("DdzHall::reqContinue Player[%r] Hall[%r] RoomID[%r]" % (player.id, self.hallID, roomID))
-		roomDatas = self.findRoom(roomID, False)
+		if player.gold < d_DDZ[self.cid]["limit"]:
 
-		if type(roomDatas) is dict:
-			roomMailbox = roomDatas["roomMailbox"]
-			if roomMailbox.state != ROOM_STATE_INGAME:
+			DEBUG_MSG("%r[%r]::reqContinue() Entity[%d].gold < limit" % (self.className,self.id,player.id))
+			player.room.reqLeave(player)
 
-				roomMailbox.onContinue(player)
+		else:
+			player.room.reqContinue(player)
 
-				if player.id in roomDatas["players"]:
-					del roomDatas["players"][player.id]
-					if len(roomDatas["players"]) <= 0:
-						del self.childs[roomID]
 
 
 

@@ -15,8 +15,6 @@ class Ranks(KBEngine.Base):
 
 		KBEngine.globalData["Ranks"] = self
 
-		INFO_MSG("Ranks[%i].__init__" % (self.id))
-
 	def onTimer(self, id, userArg):
 		"""
 		KBEngine method.

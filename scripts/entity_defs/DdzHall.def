@@ -7,6 +7,15 @@
 	</Properties>
 
 	<BaseMethods>
+
+	    <reqEnterRoom>
+		    <Arg>	MAILBOX	</Arg>
+		</reqEnterRoom>
+
+	    <reqContinue>
+		    <Arg>	MAILBOX	</Arg>
+		</reqContinue>
+
 	</BaseMethods>
 
 	<CellMethods>

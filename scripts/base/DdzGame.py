@@ -1,5 +1,4 @@
 from d_config import  *
-from KBEDebug import *
 from Functor import *
 from interfaces.BaseObject import *
 
@@ -21,8 +20,8 @@ class DdzGame(KBEngine.Base,BaseObject):
         @param userArg	: addTimer 最后一个参数所给入的数据
         """
         for i in range(d_games.datas[self.className]["hallCount"]):
-            hallID = i + 1
-            KBEngine.createBaseAnywhere("DdzHall", {"cid": hallID}, Functor(self.onCreateBaseCallback, hallID))
+            cid = i + 1
+            KBEngine.createBaseAnywhere("DdzHall", {"cid": cid}, Functor(self.onCreateBaseCallback, cid))
 
     def onCreateBaseCallback(self, id, mailbox):
 
@@ -34,20 +33,20 @@ class DdzGame(KBEngine.Base,BaseObject):
 
         #下发大厅信息
         results = []
-        for hall in self.childs:
+        for hall in self.childs.values():
 
             result = {}
-            result["id"] = hall.hallID
+            result["id"] = hall.cid
             result["players_count"] = hall.reqPlayerCount()
-            result["limit"] = d_DDZ[hall.hallID]["limit"]
-            result["base"] = d_DDZ[hall.hallID]["base"]
+            result["limit"] = d_DDZ[hall.cid]["limit"]
+            result["base"] = d_DDZ[hall.cid]["base"]
 
             results.append(result)
 
         json_results = json.dumps(results)
 
         if player.client:
-            player.client.onEnterGame(self.hallsID, json_results)
+            player.client.onEnterGame(0, json_results)
 
     def reqLeave(self,player):
         super().reqLeave(player)

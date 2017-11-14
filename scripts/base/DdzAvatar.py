@@ -89,12 +89,12 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
 
     def reqContinue(self):
         """
-        exposed
         继续游戏
         """
         INFO_MSG("%r[%r]::reqContinue()" % (self.className,self.id))
 
-        KBEngine.globalData["Halls" + str(self.gameID)].reqContinue(self, self.hallID, self.roomID)
+        if self.hall:
+            self.hall.reqContinue(self)
 
     def set_gold(self, settleGold):
 
@@ -102,4 +102,5 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         self.activeProxy.gold += gold
         self.gold = self.activeProxy.gold
 
-        DEBUG_MSG("DdzAvatar::set_gold avatar[%r] self.gold[%r] settleGold[%r]" % (self.id, self.gold, gold))
+        DEBUG_MSG("%r[%r]::set_gold() gold[%r] settleGold[%r]" %(self.className,self.id,self.gold,settleGold))
+

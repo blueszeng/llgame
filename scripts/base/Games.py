@@ -34,11 +34,11 @@ class Games(KBEngine.Base,BaseObject):
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
 
-		for data in d_games.datas:
-			KBEngine.createBaseAnywhere("DdzGame",
-										{"cid": data["id"],
-										 "open": data["open"]},
-										Functor(self.onCreateBaseCallback,data["id"]))
+		for data in d_games.datas.values():
+
+			params = {'cid': data["id"],'open': data["open"]}
+
+			KBEngine.createBaseAnywhere("DdzGame",params,Functor(self.onCreateBaseCallback,data["id"]))
 
 	def onCreateBaseCallback(self,id,game):
 		self.childs[id] = game
@@ -74,8 +74,8 @@ class Games(KBEngine.Base,BaseObject):
 		for game in self.childs.values():
 
 			result = {}
-			result["id"] = game.hallsID
-			result["name"] = game.hallsName
+			result["id"] = game.cid
+			result["name"] = game.className
 			result["players_count"] = game.reqPlayerCount()
 			result["open"] = game.open
 
