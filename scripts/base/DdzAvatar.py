@@ -74,9 +74,6 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         if self.state == 0:
             self.ExitGame()
 
-            if not self.client and self.activeProxy:
-                self.activeProxy.destroy()
-
     def reqLeaveGame(self):
 
         super().reqLeaveGame()

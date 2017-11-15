@@ -65,7 +65,7 @@ class Player(KBEngine.Proxy,GameObject):
 
 	def onDestroy(self):
 
-		self.ExitGame()
+		self.Games().reqLeave(self)
 
 	def reqReviseProperties(self,name,sex,head):
 		"""
@@ -169,8 +169,11 @@ class Player(KBEngine.Proxy,GameObject):
 				self.client.onEnterGame(-1,"")
 
 	def reqLeaveGame(self):
-		"""重写方法"""
+
 		self.activeProxy = None
+
+		if not self.client:
+			self.destroy()
 
 	def reqCashInfo(self,amount):
 

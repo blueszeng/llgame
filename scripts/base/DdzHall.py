@@ -38,6 +38,7 @@ class DdzHall(KBEngine.Base,BaseObject):
 		"""
         Room的cell创建好了
         """
+		#todo 未添加到def
 		self.childs[roomID]["roomMailbox"] = roomMailbox
 
 		# space已经创建好了， 现在可以将之前请求进入的玩家全部丢到cell地图中
@@ -55,6 +56,7 @@ class DdzHall(KBEngine.Base,BaseObject):
 		"""
 		Room 销毁时，回调
 		"""
+		# todo 未添加到def
 		if roomID in self.childs:
 			del self.childs[roomID]
 

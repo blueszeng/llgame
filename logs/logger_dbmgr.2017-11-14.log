@@ -2748,3 +2748,7 @@ D528989FC643B795895F220E479468E49E1EF449485891ACF37C1E48997E97897EEA8DD7D37A9C1E
    DEBUG      dbmgr-1 1001 4000  [2017-11-14 19:40:48 747] - Dbmgr::writeEntity: Player(115).
    DEBUG      dbmgr-1 1001 4000  [2017-11-14 19:40:48 787] - Dbmgr::onEntityOffline: 115, entityType=1.
     INFO      dbmgr-1 1001 4000  [2017-11-14 19:40:48 741] - Buffered_DBTasks::onFiniTask: Playing buffered task for entityID=0, dbid=115, dbid_tasks_size=1, entityid_tasks_size=0.
+   DEBUG      dbmgr-1 1001 4000  [2017-11-14 20:38:44 001] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 1001 4000  [2017-11-14 21:38:44 016] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 1001 4000  [2017-11-14 22:38:44 070] - Dbmgr::DBTaskServerLog()
+   DEBUG      dbmgr-1 1001 4000  [2017-11-14 23:38:44 025] - Dbmgr::DBTaskServerLog()

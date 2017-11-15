@@ -132,3 +132,958 @@
   INFO root [2017-11-14 19:40:05,101] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:57578/0/0/0 timed out.
   INFO root [2017-11-14 19:40:05,403] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:57581/0/0/0 timed out.
   INFO root [2017-11-14 19:40:05,808] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:57584/0/0/0 timed out.
+  INFO root [2017-11-15 16:27:49,084] - 
+  INFO root [2017-11-15 16:27:49,091] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-11-15 16:27:49,092] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [2017-11-15 16:27:49,093] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [2017-11-15 16:27:49,093] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [2017-11-15 16:27:49,100] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20099 )
+  INFO root [2017-11-15 16:27:49,100] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20099, SOMAXCONN=5.
+  INFO root [2017-11-15 16:27:49,101] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:54416 )
+  INFO root [2017-11-15 16:27:49,102] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:54416, SOMAXCONN=5.
+  INFO root [2017-11-15 16:27:49,102] - server-configs:
+  INFO root [2017-11-15 16:27:49,102] - 	internalAddr : 172.16.4.154:54416
+  INFO root [2017-11-15 16:27:49,102] - 	componentID : 1000
+  INFO root [2017-11-15 16:27:49,145] - ---- machine Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0C507A48AA39F594AB6DDF736D3EC194. Config: Debug X86. Built: 16:14:24 Jul  7 2017. AppID: 1000. UID: 1001. PID: 258908 ----
+  INFO root [2017-11-15 16:27:49,145] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-11-15 16:27:49,145] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-11-15 16:27:49,146] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-11-15 16:27:49,247] - EndPoint::getInterfaces: found eth0 172.16.4.154
+  INFO root [2017-11-15 16:27:49,247] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 172.16.4.154.
+  INFO root [2017-11-15 16:27:49,247] - Machine::findBroadcastInterface: Confirmed 172.16.4.154 (eth0) as default broadcast route interface.
+  INFO root [2017-11-15 16:27:49,248] - Machine::initNetwork: bind broadcast successfully! addr:172.16.4.154:20086
+  INFO root [2017-11-15 16:27:49,453] - ---- machine is running ----
+  INFO root [2017-11-15 16:27:49,453] - Components::process(): Found all the components!
+  INFO root [2017-11-15 16:27:49,756] - Machine::onBroadcastInterface: added newUID 1001.
+  INFO root [2017-11-15 16:27:49,756] - Machine::onBroadcastInterface[172.16.4.154:64734/0/0/0]: uid:1001, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:258136, intaddr:172.16.4.154, intport:54418, extaddr:172.16.4.154, extport:54417.
+  INFO root [2017-11-15 16:27:49,756] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:27:49,756] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:50,149] - Machine::onBroadcastInterface: logger update, pid=258136, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:50,250] - Machine::onFindInterfaceAddr[172.16.4.154:64735/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20665.
+  INFO root [2017-11-15 16:27:50,250] - Machine::onFindInterfaceAddr[172.16.4.154:64735/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20665.
+  INFO root [2017-11-15 16:27:50,251] - Machine::onBroadcastInterface[172.16.4.154:64736/0/0/0]: uid:1001, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:258220, intaddr:172.16.4.154, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:27:50,251] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:27:50,251] - Components::addComponent[interfaces], uid=1001, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:50,291] - Machine::onBroadcastInterface: interfaces update, pid=258220, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:50,291] - Machine::onFindInterfaceAddr[172.16.4.154:64737/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20635.
+  INFO root [2017-11-15 16:27:50,306] - Machine::onFindInterfaceAddr[172.16.4.154:64737/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20635.
+  INFO root [2017-11-15 16:27:50,613] - Machine::onFindInterfaceAddr[172.16.4.154:64742/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20605.
+  INFO root [2017-11-15 16:27:50,613] - Machine::onFindInterfaceAddr[172.16.4.154:64742/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20605.
+  INFO root [2017-11-15 16:27:51,512] - Machine::onBroadcastInterface[172.16.4.154:64745/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:259028, intaddr:172.16.4.154, intport:54422, extaddr:172.16.4.154, extport:20015.
+  INFO root [2017-11-15 16:27:51,512] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:27:51,512] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:51,533] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:51,651] - Machine::onBroadcastInterface[172.16.4.154:64746/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:258888, intaddr:172.16.4.154, intport:54423, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:27:51,651] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:51,674] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:51,790] - Machine::onBroadcastInterface[172.16.4.154:64747/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:225696, intaddr:172.16.4.154, intport:54424, extaddr:172.16.4.154, extport:20013.
+  INFO root [2017-11-15 16:27:51,790] - Components::addComponent[loginapp], uid=1001, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:51,810] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:51,935] - Machine::onBroadcastInterface[172.16.4.154:64748/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:222784, intaddr:172.16.4.154, intport:54419, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:27:51,935] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:51,957] - Machine::onBroadcastInterface: baseappmgr update, pid=222784, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:52,058] - Machine::onBroadcastInterface[172.16.4.154:64749/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:258844, intaddr:172.16.4.154, intport:54421, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:27:52,058] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:52,071] - Machine::onBroadcastInterface: cellappmgr update, pid=258844, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:52,794] - Machine::onBroadcastInterface: logger update, pid=258136, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:52,795] - Machine::onBroadcastInterface: logger update, pid=258136, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:52,896] - Machine::onBroadcastInterface[172.16.4.154:64751/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:223796, intaddr:172.16.4.154, intport:54420, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:27:52,896] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:27:52,909] - Machine::onBroadcastInterface: dbmgr update, pid=223796, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:53,327] - Machine::onBroadcastInterface: interfaces update, pid=258220, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:53,328] - Machine::onBroadcastInterface: interfaces update, pid=258220, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,560] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,561] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,676] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,677] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,789] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,789] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,903] - Machine::onBroadcastInterface: baseappmgr update, pid=222784, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:54,903] - Machine::onBroadcastInterface: baseappmgr update, pid=222784, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:55,017] - Machine::onBroadcastInterface: cellappmgr update, pid=258844, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:55,017] - Machine::onBroadcastInterface: cellappmgr update, pid=258844, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:55,942] - Machine::onBroadcastInterface: dbmgr update, pid=223796, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:27:55,943] - Machine::onBroadcastInterface: dbmgr update, pid=223796, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:27:58,663] - Machine::onFindInterfaceAddr[172.16.4.154:64759/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20112.
+  INFO root [2017-11-15 16:27:58,689] - Machine::onFindInterfaceAddr[172.16.4.154:64759/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20112.
+  INFO root [2017-11-15 16:27:58,792] - Machine::onFindInterfaceAddr[172.16.4.154:64762/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20572.
+  INFO root [2017-11-15 16:27:58,794] - Machine::onFindInterfaceAddr[172.16.4.154:64762/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20572.
+  INFO root [2017-11-15 16:27:58,895] - Machine::onFindInterfaceAddr[172.16.4.154:64763/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20827.
+  INFO root [2017-11-15 16:27:58,897] - Machine::onFindInterfaceAddr[172.16.4.154:64763/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20827.
+  INFO root [2017-11-15 16:27:58,898] - Machine::onFindInterfaceAddr[172.16.4.154:64766/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20134.
+  INFO root [2017-11-15 16:27:58,923] - Machine::onFindInterfaceAddr[172.16.4.154:64766/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20134.
+  INFO root [2017-11-15 16:27:59,025] - Machine::onFindInterfaceAddr[172.16.4.154:64771/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20134.
+  INFO root [2017-11-15 16:27:59,058] - Machine::onFindInterfaceAddr[172.16.4.154:64771/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20134.
+  INFO root [2017-11-15 16:27:59,060] - Machine::onFindInterfaceAddr[172.16.4.154:64772/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20542.
+  INFO root [2017-11-15 16:27:59,083] - Machine::onFindInterfaceAddr[172.16.4.154:64772/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20542.
+  INFO root [2017-11-15 16:27:59,185] - Machine::onFindInterfaceAddr[172.16.4.154:64777/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20542.
+  INFO root [2017-11-15 16:27:59,200] - Machine::onFindInterfaceAddr[172.16.4.154:64777/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20542.
+  INFO root [2017-11-15 16:28:00,007] - Machine::onFindInterfaceAddr[172.16.4.154:64780/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20501.
+  INFO root [2017-11-15 16:28:00,051] - Machine::onFindInterfaceAddr[172.16.4.154:64780/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20501.
+  INFO root [2017-11-15 16:28:00,758] - Machine::onFindInterfaceAddr[172.16.4.154:64783/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20103.
+  INFO root [2017-11-15 16:28:00,772] - Machine::onFindInterfaceAddr[172.16.4.154:64783/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20103.
+  INFO root [2017-11-15 16:28:00,873] - Machine::onFindInterfaceAddr[172.16.4.154:64786/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20410.
+  INFO root [2017-11-15 16:28:00,891] - Machine::onFindInterfaceAddr[172.16.4.154:64786/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20410.
+  INFO root [2017-11-15 16:28:00,993] - Machine::onFindInterfaceAddr[172.16.4.154:64789/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20717.
+  INFO root [2017-11-15 16:28:01,014] - Machine::onFindInterfaceAddr[172.16.4.154:64789/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20717.
+  INFO root [2017-11-15 16:28:01,117] - Machine::onFindInterfaceAddr[172.16.4.154:64792/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20508.
+  INFO root [2017-11-15 16:28:01,132] - Machine::onFindInterfaceAddr[172.16.4.154:64792/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20508.
+  INFO root [2017-11-15 16:28:01,233] - Machine::onFindInterfaceAddr[172.16.4.154:64795/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20968.
+  INFO root [2017-11-15 16:28:01,246] - Machine::onFindInterfaceAddr[172.16.4.154:64795/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20968.
+  INFO root [2017-11-15 16:28:02,859] - Machine::onFindInterfaceAddr[172.16.4.154:64798/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20072.
+  INFO root [2017-11-15 16:28:02,873] - Machine::onFindInterfaceAddr[172.16.4.154:64798/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20072.
+  INFO root [2017-11-15 16:28:02,975] - Machine::onFindInterfaceAddr[172.16.4.154:64801/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20529.
+  INFO root [2017-11-15 16:28:02,988] - Machine::onFindInterfaceAddr[172.16.4.154:64801/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20529.
+ DEBUG root [2017-11-15 16:28:08,149] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,150] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,162] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,162] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,496] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,496] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,811] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:08,812] - Machine::onBroadcastInterface: loginapp update, pid=225696, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:09,128] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:09,129] - Machine::onBroadcastInterface: baseapp update, pid=259028, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:09,142] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:28:09,142] - Machine::onBroadcastInterface: cellapp update, pid=258888, uid=1001, globalorderid=5, grouporderid=1!
+  INFO root [2017-11-15 16:28:49,533] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64731/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:49,636] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64732/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:49,739] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64733/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:49,840] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64734/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:50,346] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64735/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:50,346] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64736/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:50,346] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64737/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:50,650] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64742/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:51,559] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64745/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:51,660] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64746/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:51,862] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64747/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:51,963] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64748/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:52,064] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64749/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:52,872] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64750/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:52,973] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64751/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:53,377] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64752/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:54,590] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64753/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:54,691] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64754/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:54,792] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64755/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:54,893] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64756/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:55,095] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64757/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:56,009] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64758/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:58,748] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64759/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:58,849] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64762/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:58,951] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64763/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:58,951] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64766/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:59,057] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64771/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:59,058] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64772/0/0/0 timed out.
+  INFO root [2017-11-15 16:28:59,261] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64777/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:00,069] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64780/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:00,777] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64783/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:00,878] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64786/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:01,080] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64789/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:01,181] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64792/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:01,282] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64795/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:02,894] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64798/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:02,995] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64801/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:08,138] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64804/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:08,138] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64805/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:08,543] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64806/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:08,846] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64807/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:09,148] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64808/0/0/0 timed out.
+  INFO root [2017-11-15 16:29:09,148] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:64809/0/0/0 timed out.
+  INFO root [2017-11-15 16:34:49,686] - Machine::onFindInterfaceAddr[172.16.4.154:52720/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20035.
+  INFO root [2017-11-15 16:34:49,702] - Machine::onFindInterfaceAddr[172.16.4.154:52720/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20035.
+  INFO root [2017-11-15 16:34:50,106] - Machine::onFindInterfaceAddr[172.16.4.154:52723/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20207.
+  INFO root [2017-11-15 16:34:50,119] - Machine::onFindInterfaceAddr[172.16.4.154:52723/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20207.
+  INFO root [2017-11-15 16:34:50,423] - Machine::onFindInterfaceAddr[172.16.4.154:52726/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20330.
+  INFO root [2017-11-15 16:34:50,436] - Machine::onFindInterfaceAddr[172.16.4.154:52726/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20330.
+  INFO root [2017-11-15 16:34:50,741] - Machine::onFindInterfaceAddr[172.16.4.154:52729/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20503.
+  INFO root [2017-11-15 16:34:50,759] - Machine::onFindInterfaceAddr[172.16.4.154:52729/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20503.
+  INFO root [2017-11-15 16:34:51,161] - Machine::onFindInterfaceAddr[172.16.4.154:52732/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20626.
+  INFO root [2017-11-15 16:34:51,174] - Machine::onFindInterfaceAddr[172.16.4.154:52732/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20626.
+  INFO root [2017-11-15 16:34:51,477] - Machine::onFindInterfaceAddr[172.16.4.154:52735/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20798.
+  INFO root [2017-11-15 16:34:51,513] - Machine::onFindInterfaceAddr[172.16.4.154:52735/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20798.
+  INFO root [2017-11-15 16:34:51,816] - Machine::onFindInterfaceAddr[172.16.4.154:52738/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20974.
+  INFO root [2017-11-15 16:34:51,829] - Machine::onFindInterfaceAddr[172.16.4.154:52738/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20974.
+  INFO root [2017-11-15 16:34:52,131] - Machine::onFindInterfaceAddr[172.16.4.154:52741/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20094.
+  INFO root [2017-11-15 16:34:52,131] - Machine::onFindInterfaceAddr[172.16.4.154:52741/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20094.
+  INFO root [2017-11-15 16:35:49,759] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52720/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:50,164] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52723/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:50,466] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52726/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:50,770] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52729/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:51,173] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52732/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:51,577] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52735/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:51,880] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52738/0/0/0 timed out.
+  INFO root [2017-11-15 16:35:52,183] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52741/0/0/0 timed out.
+  INFO root [2017-11-15 16:36:39,960] - 
+  INFO root [2017-11-15 16:36:39,961] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-11-15 16:36:39,961] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [2017-11-15 16:36:39,961] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [2017-11-15 16:36:39,961] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [2017-11-15 16:36:39,963] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20099 )
+  INFO root [2017-11-15 16:36:39,963] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20099, SOMAXCONN=5.
+  INFO root [2017-11-15 16:36:39,964] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:54601 )
+  INFO root [2017-11-15 16:36:39,964] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:54601, SOMAXCONN=5.
+  INFO root [2017-11-15 16:36:39,964] - server-configs:
+  INFO root [2017-11-15 16:36:39,964] - 	internalAddr : 172.16.4.154:54601
+  INFO root [2017-11-15 16:36:39,964] - 	componentID : 1000
+  INFO root [2017-11-15 16:36:40,116] - ---- machine Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0C507A48AA39F594AB6DDF736D3EC194. Config: Debug X86. Built: 16:14:24 Jul  7 2017. AppID: 1000. UID: 1001. PID: 259876 ----
+  INFO root [2017-11-15 16:36:40,116] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-11-15 16:36:40,116] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-11-15 16:36:40,116] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-11-15 16:36:40,217] - EndPoint::getInterfaces: found eth0 172.16.4.154
+  INFO root [2017-11-15 16:36:40,217] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 172.16.4.154.
+  INFO root [2017-11-15 16:36:40,217] - Machine::findBroadcastInterface: Confirmed 172.16.4.154 (eth0) as default broadcast route interface.
+  INFO root [2017-11-15 16:36:40,218] - Machine::initNetwork: bind broadcast successfully! addr:172.16.4.154:20086
+  INFO root [2017-11-15 16:36:40,411] - ---- machine is running ----
+  INFO root [2017-11-15 16:36:40,411] - Components::process(): Found all the components!
+  INFO root [2017-11-15 16:36:41,156] - Machine::onBroadcastInterface: added newUID 1001.
+  INFO root [2017-11-15 16:36:41,156] - Machine::onBroadcastInterface[172.16.4.154:52747/0/0/0]: uid:1001, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:259700, intaddr:172.16.4.154, intport:54603, extaddr:172.16.4.154, extport:54602.
+  INFO root [2017-11-15 16:36:41,156] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:36:41,157] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:41,469] - Machine::onBroadcastInterface: logger update, pid=259700, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:41,571] - Machine::onFindInterfaceAddr[172.16.4.154:52748/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20953.
+  INFO root [2017-11-15 16:36:41,571] - Machine::onFindInterfaceAddr[172.16.4.154:52748/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20953.
+  INFO root [2017-11-15 16:36:41,571] - Machine::onBroadcastInterface[172.16.4.154:52749/0/0/0]: uid:1001, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:255576, intaddr:172.16.4.154, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:36:41,572] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:36:41,572] - Components::addComponent[interfaces], uid=1001, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:41,606] - Machine::onBroadcastInterface: interfaces update, pid=255576, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:41,606] - Machine::onFindInterfaceAddr[172.16.4.154:52750/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20309.
+  INFO root [2017-11-15 16:36:41,620] - Machine::onFindInterfaceAddr[172.16.4.154:52750/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20309.
+  INFO root [2017-11-15 16:36:42,428] - Machine::onBroadcastInterface[172.16.4.154:52755/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:260080, intaddr:172.16.4.154, intport:54606, extaddr:172.16.4.154, extport:20013.
+  INFO root [2017-11-15 16:36:42,428] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:36:42,428] - Components::addComponent[loginapp], uid=1001, componentID=9000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:42,445] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:42,546] - Machine::onBroadcastInterface[172.16.4.154:52756/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:223104, intaddr:172.16.4.154, intport:54605, extaddr:172.16.4.154, extport:20015.
+  INFO root [2017-11-15 16:36:42,546] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:42,565] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:42,767] - Machine::onBroadcastInterface[172.16.4.154:52757/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:259100, intaddr:172.16.4.154, intport:54604, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:36:42,767] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:42,780] - Machine::onBroadcastInterface: baseappmgr update, pid=259100, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:43,184] - Machine::onBroadcastInterface[172.16.4.154:52758/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:260008, intaddr:172.16.4.154, intport:54608, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:36:43,184] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:43,201] - Machine::onBroadcastInterface: cellappmgr update, pid=260008, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:43,402] - Machine::onBroadcastInterface[172.16.4.154:52759/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:257544, intaddr:172.16.4.154, intport:54607, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:36:43,402] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:43,415] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:44,222] - Machine::onBroadcastInterface[172.16.4.154:52760/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:257204, intaddr:172.16.4.154, intport:54609, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:36:44,222] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:36:44,238] - Machine::onBroadcastInterface: dbmgr update, pid=257204, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:44,256] - Machine::onBroadcastInterface: logger update, pid=259700, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:44,256] - Machine::onBroadcastInterface: logger update, pid=259700, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:44,369] - Machine::onBroadcastInterface: interfaces update, pid=255576, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:44,369] - Machine::onBroadcastInterface: interfaces update, pid=255576, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,490] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,490] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,809] - Machine::onBroadcastInterface: baseappmgr update, pid=259100, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,809] - Machine::onBroadcastInterface: baseappmgr update, pid=259100, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,925] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:45,925] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:46,350] - Machine::onBroadcastInterface: cellappmgr update, pid=260008, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:46,350] - Machine::onBroadcastInterface: cellappmgr update, pid=260008, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:46,464] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:46,464] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:47,293] - Machine::onBroadcastInterface: dbmgr update, pid=257204, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:36:47,293] - Machine::onBroadcastInterface: dbmgr update, pid=257204, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:36:49,511] - Machine::onFindInterfaceAddr[172.16.4.154:52769/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20127.
+  INFO root [2017-11-15 16:36:49,539] - Machine::onFindInterfaceAddr[172.16.4.154:52769/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20127.
+  INFO root [2017-11-15 16:36:49,841] - Machine::onFindInterfaceAddr[172.16.4.154:52772/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20247.
+  INFO root [2017-11-15 16:36:49,883] - Machine::onFindInterfaceAddr[172.16.4.154:52772/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20247.
+  INFO root [2017-11-15 16:36:49,984] - Machine::onFindInterfaceAddr[172.16.4.154:52775/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20452.
+  INFO root [2017-11-15 16:36:50,001] - Machine::onFindInterfaceAddr[172.16.4.154:52775/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20452.
+  INFO root [2017-11-15 16:36:50,001] - Machine::onFindInterfaceAddr[172.16.4.154:52776/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20247.
+  INFO root [2017-11-15 16:36:50,001] - Machine::onFindInterfaceAddr[172.16.4.154:52776/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20247.
+  INFO root [2017-11-15 16:36:50,304] - Machine::onFindInterfaceAddr[172.16.4.154:52781/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 16:36:50,317] - Machine::onFindInterfaceAddr[172.16.4.154:52781/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 16:36:50,419] - Machine::onFindInterfaceAddr[172.16.4.154:52784/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 16:36:50,432] - Machine::onFindInterfaceAddr[172.16.4.154:52784/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 16:36:50,533] - Machine::onFindInterfaceAddr[172.16.4.154:52787/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20288.
+  INFO root [2017-11-15 16:36:50,546] - Machine::onFindInterfaceAddr[172.16.4.154:52787/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20288.
+  INFO root [2017-11-15 16:36:50,647] - Machine::onFindInterfaceAddr[172.16.4.154:52790/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20288.
+  INFO root [2017-11-15 16:36:50,677] - Machine::onFindInterfaceAddr[172.16.4.154:52790/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20288.
+  INFO root [2017-11-15 16:36:51,284] - Machine::onFindInterfaceAddr[172.16.4.154:52793/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20943.
+  INFO root [2017-11-15 16:36:51,297] - Machine::onFindInterfaceAddr[172.16.4.154:52793/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20943.
+  INFO root [2017-11-15 16:36:51,600] - Machine::onFindInterfaceAddr[172.16.4.154:52796/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20860.
+  INFO root [2017-11-15 16:36:51,617] - Machine::onFindInterfaceAddr[172.16.4.154:52796/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20860.
+  INFO root [2017-11-15 16:36:52,021] - Machine::onFindInterfaceAddr[172.16.4.154:52799/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20339.
+  INFO root [2017-11-15 16:36:52,044] - Machine::onFindInterfaceAddr[172.16.4.154:52799/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20339.
+  INFO root [2017-11-15 16:36:52,145] - Machine::onFindInterfaceAddr[172.16.4.154:52800/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20444.
+  INFO root [2017-11-15 16:36:52,167] - Machine::onFindInterfaceAddr[172.16.4.154:52800/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20444.
+  INFO root [2017-11-15 16:36:52,472] - Machine::onFindInterfaceAddr[172.16.4.154:52805/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20770.
+  INFO root [2017-11-15 16:36:52,473] - Machine::onFindInterfaceAddr[172.16.4.154:52805/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20770.
+  INFO root [2017-11-15 16:36:52,777] - Machine::onFindInterfaceAddr[172.16.4.154:52808/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20586.
+  INFO root [2017-11-15 16:36:52,809] - Machine::onFindInterfaceAddr[172.16.4.154:52808/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20586.
+  INFO root [2017-11-15 16:36:54,122] - Machine::onFindInterfaceAddr[172.16.4.154:52811/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20410.
+  INFO root [2017-11-15 16:36:54,136] - Machine::onFindInterfaceAddr[172.16.4.154:52811/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20410.
+  INFO root [2017-11-15 16:36:54,238] - Machine::onFindInterfaceAddr[172.16.4.154:52814/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20717.
+  INFO root [2017-11-15 16:36:54,256] - Machine::onFindInterfaceAddr[172.16.4.154:52814/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20717.
+  INFO root [2017-11-15 16:36:54,459] - Machine::onFindInterfaceAddr[172.16.4.154:52817/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20582.
+  INFO root [2017-11-15 16:36:54,459] - Machine::onFindInterfaceAddr[172.16.4.154:52817/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20582.
+  INFO root [2017-11-15 16:36:54,861] - Machine::onFindInterfaceAddr[172.16.4.154:52820/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20705.
+  INFO root [2017-11-15 16:36:54,879] - Machine::onFindInterfaceAddr[172.16.4.154:52820/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20705.
+  INFO root [2017-11-15 16:36:54,879] - Machine::onFindInterfaceAddr[172.16.4.154:52821/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20758.
+  INFO root [2017-11-15 16:36:54,880] - Machine::onFindInterfaceAddr[172.16.4.154:52821/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20758.
+  INFO root [2017-11-15 16:36:55,185] - Machine::onFindInterfaceAddr[172.16.4.154:52826/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20881.
+  INFO root [2017-11-15 16:36:55,198] - Machine::onFindInterfaceAddr[172.16.4.154:52826/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20881.
+  INFO root [2017-11-15 16:36:55,502] - Machine::onFindInterfaceAddr[172.16.4.154:52829/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20001.
+  INFO root [2017-11-15 16:36:55,514] - Machine::onFindInterfaceAddr[172.16.4.154:52829/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20001.
+  INFO root [2017-11-15 16:36:55,919] - Machine::onFindInterfaceAddr[172.16.4.154:52832/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20177.
+  INFO root [2017-11-15 16:36:55,932] - Machine::onFindInterfaceAddr[172.16.4.154:52832/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20177.
+  INFO root [2017-11-15 16:36:56,235] - Machine::onFindInterfaceAddr[172.16.4.154:52835/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20297.
+  INFO root [2017-11-15 16:36:56,235] - Machine::onFindInterfaceAddr[172.16.4.154:52835/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20297.
+  INFO root [2017-11-15 16:36:56,637] - Machine::onFindInterfaceAddr[172.16.4.154:52836/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20472.
+  INFO root [2017-11-15 16:36:56,650] - Machine::onFindInterfaceAddr[172.16.4.154:52836/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20472.
+ DEBUG root [2017-11-15 16:37:00,105] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,106] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,125] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,126] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,442] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,442] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,658] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,658] - Machine::onBroadcastInterface: loginapp update, pid=260080, uid=1001, globalorderid=1, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,672] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,672] - Machine::onBroadcastInterface: baseapp update, pid=223104, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,990] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:37:00,990] - Machine::onBroadcastInterface: cellapp update, pid=257544, uid=1001, globalorderid=5, grouporderid=1!
+  INFO root [2017-11-15 16:37:14,170] - Machine::onFindInterfaceAddr[172.16.4.154:52845/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20391.
+  INFO root [2017-11-15 16:37:14,185] - Machine::onFindInterfaceAddr[172.16.4.154:52845/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20391.
+  INFO root [2017-11-15 16:37:14,588] - Machine::onFindInterfaceAddr[172.16.4.154:52848/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20563.
+  INFO root [2017-11-15 16:37:14,608] - Machine::onFindInterfaceAddr[172.16.4.154:52848/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20563.
+  INFO root [2017-11-15 16:37:14,913] - Machine::onFindInterfaceAddr[172.16.4.154:52851/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20687.
+  INFO root [2017-11-15 16:37:14,945] - Machine::onFindInterfaceAddr[172.16.4.154:52851/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20687.
+  INFO root [2017-11-15 16:37:15,249] - Machine::onFindInterfaceAddr[172.16.4.154:52854/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20859.
+  INFO root [2017-11-15 16:37:15,267] - Machine::onFindInterfaceAddr[172.16.4.154:52854/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20859.
+  INFO root [2017-11-15 16:37:15,570] - Machine::onFindInterfaceAddr[172.16.4.154:52857/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20982.
+  INFO root [2017-11-15 16:37:15,570] - Machine::onFindInterfaceAddr[172.16.4.154:52857/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20982.
+  INFO root [2017-11-15 16:37:15,974] - Machine::onFindInterfaceAddr[172.16.4.154:52858/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20155.
+  INFO root [2017-11-15 16:37:16,006] - Machine::onFindInterfaceAddr[172.16.4.154:52858/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20155.
+  INFO root [2017-11-15 16:37:16,310] - Machine::onFindInterfaceAddr[172.16.4.154:52861/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20278.
+  INFO root [2017-11-15 16:37:16,326] - Machine::onFindInterfaceAddr[172.16.4.154:52861/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20278.
+  INFO root [2017-11-15 16:37:16,630] - Machine::onFindInterfaceAddr[172.16.4.154:52864/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20450.
+  INFO root [2017-11-15 16:37:16,644] - Machine::onFindInterfaceAddr[172.16.4.154:52864/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20450.
+  INFO root [2017-11-15 16:37:40,787] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52743/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,192] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52744/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,192] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52745/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,192] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52746/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,192] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52747/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,596] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52748/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,596] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52749/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:41,597] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52750/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:42,506] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52755/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:42,608] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52756/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:42,810] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52757/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:43,215] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52758/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:43,417] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52759/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:44,225] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52760/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:44,226] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52761/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:44,427] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52762/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:45,539] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52763/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:45,841] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52764/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:45,942] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52765/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:46,346] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52766/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:46,549] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52767/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:47,362] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52768/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:49,588] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52769/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:49,891] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52772/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:49,992] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52775/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:49,992] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52776/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:50,395] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52781/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:50,497] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52784/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:50,598] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52787/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:50,699] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52790/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:51,306] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52793/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:51,609] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52796/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:52,113] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52799/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:52,215] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52800/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:52,519] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52805/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:52,822] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52808/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:54,134] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52811/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:54,338] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52814/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:54,539] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52817/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:54,943] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52820/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:54,943] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52821/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:55,246] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52826/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:55,550] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52829/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:55,954] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52832/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:56,257] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52835/0/0/0 timed out.
+  INFO root [2017-11-15 16:37:56,660] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52836/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:00,094] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52839/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:00,094] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52840/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:00,497] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52841/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:00,700] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52842/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:00,700] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52843/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:01,002] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52844/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:14,224] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52845/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:14,629] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52848/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:14,932] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52851/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:15,336] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52854/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:15,639] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52857/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:16,043] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52858/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:16,345] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52861/0/0/0 timed out.
+  INFO root [2017-11-15 16:38:16,648] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52864/0/0/0 timed out.
+  INFO root [2017-11-15 16:40:20,936] - 
+  INFO root [2017-11-15 16:40:20,936] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-11-15 16:40:20,937] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [2017-11-15 16:40:20,937] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [2017-11-15 16:40:20,937] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [2017-11-15 16:40:20,939] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20099 )
+  INFO root [2017-11-15 16:40:20,939] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20099, SOMAXCONN=5.
+  INFO root [2017-11-15 16:40:20,940] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:54661 )
+  INFO root [2017-11-15 16:40:20,940] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:54661, SOMAXCONN=5.
+  INFO root [2017-11-15 16:40:20,940] - server-configs:
+  INFO root [2017-11-15 16:40:20,940] - 	internalAddr : 172.16.4.154:54661
+  INFO root [2017-11-15 16:40:20,940] - 	componentID : 1000
+  INFO root [2017-11-15 16:40:20,954] - ---- machine Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0C507A48AA39F594AB6DDF736D3EC194. Config: Debug X86. Built: 16:14:24 Jul  7 2017. AppID: 1000. UID: 1001. PID: 258400 ----
+  INFO root [2017-11-15 16:40:20,955] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-11-15 16:40:20,955] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-11-15 16:40:20,955] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-11-15 16:40:21,056] - EndPoint::getInterfaces: found eth0 172.16.4.154
+  INFO root [2017-11-15 16:40:21,056] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 172.16.4.154.
+  INFO root [2017-11-15 16:40:21,056] - Machine::findBroadcastInterface: Confirmed 172.16.4.154 (eth0) as default broadcast route interface.
+  INFO root [2017-11-15 16:40:21,057] - Machine::initNetwork: bind broadcast successfully! addr:172.16.4.154:20086
+  INFO root [2017-11-15 16:40:21,274] - ---- machine is running ----
+  INFO root [2017-11-15 16:40:21,301] - Components::process(): Found all the components!
+  INFO root [2017-11-15 16:40:21,422] - Machine::onBroadcastInterface: added newUID 1001.
+  INFO root [2017-11-15 16:40:21,422] - Machine::onBroadcastInterface[172.16.4.154:52870/0/0/0]: uid:1001, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:259684, intaddr:172.16.4.154, intport:54660, extaddr:172.16.4.154, extport:54659.
+  INFO root [2017-11-15 16:40:21,423] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:40:21,423] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:21,776] - Machine::onBroadcastInterface: logger update, pid=259684, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:21,877] - Machine::onFindInterfaceAddr[172.16.4.154:52871/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20013.
+  INFO root [2017-11-15 16:40:21,877] - Machine::onFindInterfaceAddr[172.16.4.154:52871/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20013.
+  INFO root [2017-11-15 16:40:21,878] - Machine::onFindInterfaceAddr[172.16.4.154:52872/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20320.
+  INFO root [2017-11-15 16:40:21,878] - Machine::onFindInterfaceAddr[172.16.4.154:52872/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20320.
+  INFO root [2017-11-15 16:40:21,979] - Machine::onBroadcastInterface[172.16.4.154:52877/0/0/0]: uid:1001, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:257776, intaddr:172.16.4.154, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:40:21,979] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:40:21,979] - Components::addComponent[interfaces], uid=1001, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:22,034] - Machine::onBroadcastInterface: interfaces update, pid=257776, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:22,261] - Machine::onBroadcastInterface[172.16.4.154:52878/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:223064, intaddr:172.16.4.154, intport:54663, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:40:22,261] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 16:40:22,261] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:22,274] - Machine::onBroadcastInterface: cellappmgr update, pid=223064, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:22,577] - Machine::onFindInterfaceAddr[172.16.4.154:52879/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20616.
+  INFO root [2017-11-15 16:40:22,610] - Machine::onFindInterfaceAddr[172.16.4.154:52879/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20616.
+  INFO root [2017-11-15 16:40:22,811] - Machine::onBroadcastInterface[172.16.4.154:52882/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:258996, intaddr:172.16.4.154, intport:54667, extaddr:172.16.4.154, extport:20013.
+  INFO root [2017-11-15 16:40:22,811] - Components::addComponent[loginapp], uid=1001, componentID=9000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:22,836] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:22,939] - Machine::onFindInterfaceAddr[172.16.4.154:52883/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20791.
+  INFO root [2017-11-15 16:40:22,939] - Machine::onFindInterfaceAddr[172.16.4.154:52883/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20791.
+  INFO root [2017-11-15 16:40:22,939] - Machine::onBroadcastInterface[172.16.4.154:52884/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:259652, intaddr:172.16.4.154, intport:54666, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:40:22,939] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:22,952] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:22,952] - Machine::onBroadcastInterface[172.16.4.154:52885/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:259440, intaddr:172.16.4.154, intport:54665, extaddr:172.16.4.154, extport:20015.
+  INFO root [2017-11-15 16:40:22,952] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:22,966] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:23,268] - Machine::onFindInterfaceAddr[172.16.4.154:52886/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20912.
+  INFO root [2017-11-15 16:40:23,268] - Machine::onFindInterfaceAddr[172.16.4.154:52886/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20912.
+  INFO root [2017-11-15 16:40:23,470] - Machine::onBroadcastInterface[172.16.4.154:52887/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:259504, intaddr:172.16.4.154, intport:54664, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:40:23,470] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:23,483] - Machine::onBroadcastInterface: baseappmgr update, pid=259504, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:23,585] - Machine::onFindInterfaceAddr[172.16.4.154:52888/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20319.
+  INFO root [2017-11-15 16:40:23,598] - Machine::onFindInterfaceAddr[172.16.4.154:52888/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20319.
+  INFO root [2017-11-15 16:40:24,001] - Machine::onFindInterfaceAddr[172.16.4.154:52891/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20443.
+  INFO root [2017-11-15 16:40:24,014] - Machine::onFindInterfaceAddr[172.16.4.154:52891/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20443.
+  INFO root [2017-11-15 16:40:24,317] - Machine::onFindInterfaceAddr[172.16.4.154:52894/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20615.
+  INFO root [2017-11-15 16:40:24,336] - Machine::onFindInterfaceAddr[172.16.4.154:52894/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20615.
+  INFO root [2017-11-15 16:40:24,437] - Machine::onBroadcastInterface[172.16.4.154:52897/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:259992, intaddr:172.16.4.154, intport:54662, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 16:40:24,437] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 16:40:24,455] - Machine::onBroadcastInterface: dbmgr update, pid=259992, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:24,472] - Machine::onBroadcastInterface: logger update, pid=259684, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:24,472] - Machine::onBroadcastInterface: logger update, pid=259684, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:24,674] - Machine::onFindInterfaceAddr[172.16.4.154:52899/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20738.
+  INFO root [2017-11-15 16:40:24,687] - Machine::onFindInterfaceAddr[172.16.4.154:52899/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20738.
+  INFO root [2017-11-15 16:40:24,990] - Machine::onFindInterfaceAddr[172.16.4.154:52902/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20911.
+  INFO root [2017-11-15 16:40:25,021] - Machine::onFindInterfaceAddr[172.16.4.154:52902/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20911.
+ DEBUG root [2017-11-15 16:40:25,141] - Machine::onBroadcastInterface: interfaces update, pid=257776, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:25,142] - Machine::onBroadcastInterface: interfaces update, pid=257776, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:25,369] - Machine::onBroadcastInterface: cellappmgr update, pid=223064, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:25,370] - Machine::onBroadcastInterface: cellappmgr update, pid=223064, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:25,888] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:25,888] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,001] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,001] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,013] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,013] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,531] - Machine::onBroadcastInterface: baseappmgr update, pid=259504, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:26,532] - Machine::onBroadcastInterface: baseappmgr update, pid=259504, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:27,451] - Machine::onBroadcastInterface: dbmgr update, pid=259992, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 16:40:27,451] - Machine::onBroadcastInterface: dbmgr update, pid=259992, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 16:40:29,367] - Machine::onFindInterfaceAddr[172.16.4.154:52912/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20145.
+  INFO root [2017-11-15 16:40:29,400] - Machine::onFindInterfaceAddr[172.16.4.154:52912/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20145.
+  INFO root [2017-11-15 16:40:29,502] - Machine::onFindInterfaceAddr[172.16.4.154:52915/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20145.
+  INFO root [2017-11-15 16:40:29,522] - Machine::onFindInterfaceAddr[172.16.4.154:52915/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20145.
+  INFO root [2017-11-15 16:40:29,927] - Machine::onFindInterfaceAddr[172.16.4.154:52918/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20883.
+  INFO root [2017-11-15 16:40:29,929] - Machine::onFindInterfaceAddr[172.16.4.154:52918/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20883.
+  INFO root [2017-11-15 16:40:30,031] - Machine::onFindInterfaceAddr[172.16.4.154:52921/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20238.
+  INFO root [2017-11-15 16:40:30,061] - Machine::onFindInterfaceAddr[172.16.4.154:52921/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20238.
+  INFO root [2017-11-15 16:40:30,062] - Machine::onFindInterfaceAddr[172.16.4.154:52922/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20444.
+  INFO root [2017-11-15 16:40:30,080] - Machine::onFindInterfaceAddr[172.16.4.154:52922/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20444.
+  INFO root [2017-11-15 16:40:30,181] - Machine::onFindInterfaceAddr[172.16.4.154:52925/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20238.
+  INFO root [2017-11-15 16:40:30,182] - Machine::onFindInterfaceAddr[172.16.4.154:52925/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20238.
+  INFO root [2017-11-15 16:40:30,585] - Machine::onFindInterfaceAddr[172.16.4.154:52930/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20973.
+  INFO root [2017-11-15 16:40:30,617] - Machine::onFindInterfaceAddr[172.16.4.154:52930/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20973.
+  INFO root [2017-11-15 16:40:30,719] - Machine::onFindInterfaceAddr[172.16.4.154:52933/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20973.
+  INFO root [2017-11-15 16:40:30,740] - Machine::onFindInterfaceAddr[172.16.4.154:52933/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20973.
+  INFO root [2017-11-15 16:40:31,447] - Machine::onFindInterfaceAddr[172.16.4.154:52936/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20882.
+  INFO root [2017-11-15 16:40:31,460] - Machine::onFindInterfaceAddr[172.16.4.154:52936/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20882.
+  INFO root [2017-11-15 16:40:31,562] - Machine::onFindInterfaceAddr[172.16.4.154:52939/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20392.
+  INFO root [2017-11-15 16:40:31,575] - Machine::onFindInterfaceAddr[172.16.4.154:52939/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20392.
+  INFO root [2017-11-15 16:40:31,980] - Machine::onFindInterfaceAddr[172.16.4.154:52942/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20668.
+  INFO root [2017-11-15 16:40:31,980] - Machine::onFindInterfaceAddr[172.16.4.154:52942/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20668.
+  INFO root [2017-11-15 16:40:32,182] - Machine::onFindInterfaceAddr[172.16.4.154:52945/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20178.
+  INFO root [2017-11-15 16:40:32,182] - Machine::onFindInterfaceAddr[172.16.4.154:52945/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20178.
+  INFO root [2017-11-15 16:40:32,284] - Machine::onFindInterfaceAddr[172.16.4.154:52948/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20534.
+  INFO root [2017-11-15 16:40:32,297] - Machine::onFindInterfaceAddr[172.16.4.154:52948/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20534.
+  INFO root [2017-11-15 16:40:32,801] - Machine::onFindInterfaceAddr[172.16.4.154:52951/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20320.
+  INFO root [2017-11-15 16:40:32,801] - Machine::onFindInterfaceAddr[172.16.4.154:52951/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20320.
+  INFO root [2017-11-15 16:40:34,213] - Machine::onFindInterfaceAddr[172.16.4.154:52954/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20297.
+  INFO root [2017-11-15 16:40:34,240] - Machine::onFindInterfaceAddr[172.16.4.154:52954/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20297.
+  INFO root [2017-11-15 16:40:34,342] - Machine::onFindInterfaceAddr[172.16.4.154:52957/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20705.
+  INFO root [2017-11-15 16:40:34,355] - Machine::onFindInterfaceAddr[172.16.4.154:52957/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20705.
+ DEBUG root [2017-11-15 16:40:39,516] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=2, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:39,517] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=2, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:39,530] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:39,530] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:39,963] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:39,964] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,196] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=2, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,197] - Machine::onBroadcastInterface: loginapp update, pid=258996, uid=1001, globalorderid=2, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,513] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,513] - Machine::onBroadcastInterface: baseapp update, pid=259440, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,833] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 16:40:40,833] - Machine::onBroadcastInterface: cellapp update, pid=259652, uid=1001, globalorderid=5, grouporderid=1!
+  INFO root [2017-11-15 16:41:21,333] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52868/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:21,434] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52869/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:21,434] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52870/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:21,940] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52871/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:21,940] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52872/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,041] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52877/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,343] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52878/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,646] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52879/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,848] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52882/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,949] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52883/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,949] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52884/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:22,949] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52885/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:23,352] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52886/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:23,556] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52887/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:23,657] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52888/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:24,058] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52891/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:24,363] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52894/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:24,464] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52897/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:24,464] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52898/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:24,766] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52899/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:25,070] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52902/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:25,172] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52903/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:25,374] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52906/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:25,879] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52907/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:26,082] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52908/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:26,082] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52909/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:26,587] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52910/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:27,495] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52911/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:29,415] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52912/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:29,517] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52915/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,021] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52918/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,122] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52921/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,123] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52922/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,225] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52925/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,629] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52930/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:30,730] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52933/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:31,538] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52936/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:31,639] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52939/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:32,042] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52942/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:32,245] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52945/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:32,346] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52948/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:32,850] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52951/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:34,262] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52954/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:34,363] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52957/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:39,603] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52960/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:39,604] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52961/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:40,009] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52962/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:40,211] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52963/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:40,514] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52964/0/0/0 timed out.
+  INFO root [2017-11-15 16:41:40,817] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:52965/0/0/0 timed out.
+  INFO root [2017-11-15 17:19:53,455] - Machine::onFindInterfaceAddr[172.16.4.154:54977/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20985.
+  INFO root [2017-11-15 17:19:53,489] - Machine::onFindInterfaceAddr[172.16.4.154:54977/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20985.
+  INFO root [2017-11-15 17:19:53,792] - Machine::onFindInterfaceAddr[172.16.4.154:54980/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20157.
+  INFO root [2017-11-15 17:19:53,805] - Machine::onFindInterfaceAddr[172.16.4.154:54980/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20157.
+  INFO root [2017-11-15 17:19:54,210] - Machine::onFindInterfaceAddr[172.16.4.154:54983/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20280.
+  INFO root [2017-11-15 17:19:54,210] - Machine::onFindInterfaceAddr[172.16.4.154:54983/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20280.
+  INFO root [2017-11-15 17:19:54,210] - Machine::onFindInterfaceAddr[172.16.4.154:54984/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20329.
+  INFO root [2017-11-15 17:19:54,229] - Machine::onFindInterfaceAddr[172.16.4.154:54984/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20329.
+  INFO root [2017-11-15 17:19:54,532] - Machine::onFindInterfaceAddr[172.16.4.154:54987/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20453.
+  INFO root [2017-11-15 17:19:54,546] - Machine::onFindInterfaceAddr[172.16.4.154:54987/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20453.
+  INFO root [2017-11-15 17:19:54,848] - Machine::onFindInterfaceAddr[172.16.4.154:54990/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 17:19:54,862] - Machine::onFindInterfaceAddr[172.16.4.154:54990/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20625.
+  INFO root [2017-11-15 17:19:55,266] - Machine::onFindInterfaceAddr[172.16.4.154:54993/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20748.
+  INFO root [2017-11-15 17:19:55,300] - Machine::onFindInterfaceAddr[172.16.4.154:54993/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20748.
+  INFO root [2017-11-15 17:19:55,604] - Machine::onFindInterfaceAddr[172.16.4.154:54996/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20924.
+  INFO root [2017-11-15 17:19:55,618] - Machine::onFindInterfaceAddr[172.16.4.154:54996/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20924.
+  INFO root [2017-11-15 17:20:14,652] - 
+  INFO root [2017-11-15 17:20:14,652] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-11-15 17:20:14,653] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [2017-11-15 17:20:14,653] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [2017-11-15 17:20:14,653] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [2017-11-15 17:20:14,655] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20099 )
+  INFO root [2017-11-15 17:20:14,655] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20099, SOMAXCONN=5.
+  INFO root [2017-11-15 17:20:14,656] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:56412 )
+  INFO root [2017-11-15 17:20:14,656] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:56412, SOMAXCONN=5.
+  INFO root [2017-11-15 17:20:14,656] - server-configs:
+  INFO root [2017-11-15 17:20:14,656] - 	internalAddr : 172.16.4.154:56412
+  INFO root [2017-11-15 17:20:14,656] - 	componentID : 1000
+  INFO root [2017-11-15 17:20:14,669] - ---- machine Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0C507A48AA39F594AB6DDF736D3EC194. Config: Debug X86. Built: 16:14:24 Jul  7 2017. AppID: 1000. UID: 1001. PID: 261988 ----
+  INFO root [2017-11-15 17:20:14,669] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-11-15 17:20:14,669] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-11-15 17:20:14,670] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-11-15 17:20:14,771] - EndPoint::getInterfaces: found eth0 172.16.4.154
+  INFO root [2017-11-15 17:20:14,771] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 172.16.4.154.
+  INFO root [2017-11-15 17:20:14,771] - Machine::findBroadcastInterface: Confirmed 172.16.4.154 (eth0) as default broadcast route interface.
+  INFO root [2017-11-15 17:20:14,772] - Machine::initNetwork: bind broadcast successfully! addr:172.16.4.154:20086
+  INFO root [2017-11-15 17:20:14,954] - ---- machine is running ----
+  INFO root [2017-11-15 17:20:14,954] - Components::process(): Found all the components!
+  INFO root [2017-11-15 17:20:15,906] - Machine::onBroadcastInterface: added newUID 1001.
+  INFO root [2017-11-15 17:20:15,907] - Machine::onBroadcastInterface[172.16.4.154:55005/0/0/0]: uid:1001, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:261688, intaddr:172.16.4.154, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:20:15,907] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:20:15,907] - Components::addComponent[interfaces], uid=1001, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:16,292] - Machine::onBroadcastInterface: interfaces update, pid=261688, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:16,292] - Machine::onBroadcastInterface[172.16.4.154:55006/0/0/0]: uid:1001, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:261908, intaddr:172.16.4.154, intport:56414, extaddr:172.16.4.154, extport:56413.
+  INFO root [2017-11-15 17:20:16,292] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:20:16,292] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:16,329] - Machine::onBroadcastInterface: logger update, pid=261908, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:16,430] - Machine::onBroadcastInterface[172.16.4.154:55007/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:262000, intaddr:172.16.4.154, intport:56416, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:20:16,430] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:20:16,430] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:16,444] - Machine::onBroadcastInterface: cellappmgr update, pid=262000, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:17,153] - Machine::onBroadcastInterface[172.16.4.154:55008/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:260796, intaddr:172.16.4.154, intport:56417, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:20:17,153] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:17,166] - Machine::onBroadcastInterface: baseappmgr update, pid=260796, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:17,685] - Machine::onBroadcastInterface[172.16.4.154:55009/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:261696, intaddr:172.16.4.154, intport:56419, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:20:17,685] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:17,702] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:18,208] - Machine::onBroadcastInterface[172.16.4.154:55010/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:257196, intaddr:172.16.4.154, intport:56418, extaddr:172.16.4.154, extport:20015.
+  INFO root [2017-11-15 17:20:18,208] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:18,232] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:18,333] - Machine::onBroadcastInterface[172.16.4.154:55011/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:166672, intaddr:172.16.4.154, intport:56415, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:20:18,333] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:18,355] - Machine::onBroadcastInterface: dbmgr update, pid=166672, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:18,456] - Machine::onBroadcastInterface[172.16.4.154:55012/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:258328, intaddr:172.16.4.154, intport:56420, extaddr:172.16.4.154, extport:20013.
+  INFO root [2017-11-15 17:20:18,456] - Components::addComponent[loginapp], uid=1001, componentID=9000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:20:18,473] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:18,877] - Machine::onFindInterfaceAddr[172.16.4.154:55013/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20515.
+  INFO root [2017-11-15 17:20:18,899] - Machine::onFindInterfaceAddr[172.16.4.154:55013/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20515.
+ DEBUG root [2017-11-15 17:20:19,013] - Machine::onBroadcastInterface: interfaces update, pid=261688, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:19,013] - Machine::onBroadcastInterface: interfaces update, pid=261688, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:19,032] - Machine::onBroadcastInterface: logger update, pid=261908, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:19,032] - Machine::onBroadcastInterface: logger update, pid=261908, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:19,234] - Machine::onFindInterfaceAddr[172.16.4.154:55018/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20687.
+  INFO root [2017-11-15 17:20:19,275] - Machine::onFindInterfaceAddr[172.16.4.154:55018/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20687.
+ DEBUG root [2017-11-15 17:20:19,403] - Machine::onBroadcastInterface: cellappmgr update, pid=262000, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:19,404] - Machine::onBroadcastInterface: cellappmgr update, pid=262000, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:19,607] - Machine::onFindInterfaceAddr[172.16.4.154:55022/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20811.
+  INFO root [2017-11-15 17:20:19,621] - Machine::onFindInterfaceAddr[172.16.4.154:55022/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20811.
+  INFO root [2017-11-15 17:20:19,924] - Machine::onFindInterfaceAddr[172.16.4.154:55025/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20986.
+  INFO root [2017-11-15 17:20:19,948] - Machine::onFindInterfaceAddr[172.16.4.154:55025/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20986.
+ DEBUG root [2017-11-15 17:20:20,272] - Machine::onBroadcastInterface: baseappmgr update, pid=260796, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:20,272] - Machine::onBroadcastInterface: baseappmgr update, pid=260796, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:20,373] - Machine::onFindInterfaceAddr[172.16.4.154:55029/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20159.
+  INFO root [2017-11-15 17:20:20,403] - Machine::onFindInterfaceAddr[172.16.4.154:55029/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20159.
+  INFO root [2017-11-15 17:20:20,708] - Machine::onFindInterfaceAddr[172.16.4.154:55032/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20282.
+  INFO root [2017-11-15 17:20:20,730] - Machine::onFindInterfaceAddr[172.16.4.154:55032/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20282.
+ DEBUG root [2017-11-15 17:20:20,858] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:20,858] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:21,061] - Machine::onFindInterfaceAddr[172.16.4.154:55036/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20454.
+  INFO root [2017-11-15 17:20:21,061] - Machine::onFindInterfaceAddr[172.16.4.154:55036/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20454.
+ DEBUG root [2017-11-15 17:20:21,180] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:21,180] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:21,382] - Machine::onFindInterfaceAddr[172.16.4.154:55038/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20578.
+  INFO root [2017-11-15 17:20:21,400] - Machine::onFindInterfaceAddr[172.16.4.154:55038/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20578.
+ DEBUG root [2017-11-15 17:20:21,401] - Machine::onBroadcastInterface: dbmgr update, pid=166672, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:21,401] - Machine::onBroadcastInterface: dbmgr update, pid=166672, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:21,518] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:20:21,518] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:20:23,336] - Machine::onFindInterfaceAddr[172.16.4.154:55043/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20341.
+  INFO root [2017-11-15 17:20:23,373] - Machine::onFindInterfaceAddr[172.16.4.154:55043/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20341.
+  INFO root [2017-11-15 17:20:23,474] - Machine::onFindInterfaceAddr[172.16.4.154:55046/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20341.
+  INFO root [2017-11-15 17:20:23,526] - Machine::onFindInterfaceAddr[172.16.4.154:55046/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20341.
+  INFO root [2017-11-15 17:20:24,234] - Machine::onFindInterfaceAddr[172.16.4.154:55049/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20146.
+  INFO root [2017-11-15 17:20:24,267] - Machine::onFindInterfaceAddr[172.16.4.154:55049/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20146.
+  INFO root [2017-11-15 17:20:24,370] - Machine::onFindInterfaceAddr[172.16.4.154:55052/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20146.
+  INFO root [2017-11-15 17:20:24,398] - Machine::onFindInterfaceAddr[172.16.4.154:55052/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20146.
+  INFO root [2017-11-15 17:20:25,308] - Machine::onFindInterfaceAddr[172.16.4.154:55055/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20565.
+  INFO root [2017-11-15 17:20:25,341] - Machine::onFindInterfaceAddr[172.16.4.154:55055/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20565.
+  INFO root [2017-11-15 17:20:25,443] - Machine::onFindInterfaceAddr[172.16.4.154:55058/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20565.
+  INFO root [2017-11-15 17:20:25,476] - Machine::onFindInterfaceAddr[172.16.4.154:55058/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20565.
+  INFO root [2017-11-15 17:20:25,477] - Machine::onFindInterfaceAddr[172.16.4.154:55059/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20026.
+  INFO root [2017-11-15 17:20:25,520] - Machine::onFindInterfaceAddr[172.16.4.154:55059/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20026.
+  INFO root [2017-11-15 17:20:25,622] - Machine::onFindInterfaceAddr[172.16.4.154:55062/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20483.
+  INFO root [2017-11-15 17:20:25,622] - Machine::onFindInterfaceAddr[172.16.4.154:55062/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20483.
+  INFO root [2017-11-15 17:20:25,623] - Machine::onFindInterfaceAddr[172.16.4.154:55065/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20587.
+  INFO root [2017-11-15 17:20:25,636] - Machine::onFindInterfaceAddr[172.16.4.154:55065/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20587.
+  INFO root [2017-11-15 17:20:25,737] - Machine::onFindInterfaceAddr[172.16.4.154:55068/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20483.
+  INFO root [2017-11-15 17:20:25,766] - Machine::onFindInterfaceAddr[172.16.4.154:55068/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20483.
+  INFO root [2017-11-15 17:20:26,170] - Machine::onFindInterfaceAddr[172.16.4.154:55073/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20524.
+  INFO root [2017-11-15 17:20:26,184] - Machine::onFindInterfaceAddr[172.16.4.154:55073/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20524.
+  INFO root [2017-11-15 17:20:26,285] - Machine::onFindInterfaceAddr[172.16.4.154:55076/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20524.
+  INFO root [2017-11-15 17:20:26,298] - Machine::onFindInterfaceAddr[172.16.4.154:55076/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20524.
+  INFO root [2017-11-15 17:20:26,500] - Machine::onFindInterfaceAddr[172.16.4.154:55079/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20494.
+  INFO root [2017-11-15 17:20:26,513] - Machine::onFindInterfaceAddr[172.16.4.154:55079/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20494.
+  INFO root [2017-11-15 17:20:27,524] - Machine::onFindInterfaceAddr[172.16.4.154:55082/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20014.
+  INFO root [2017-11-15 17:20:27,541] - Machine::onFindInterfaceAddr[172.16.4.154:55082/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20014.
+  INFO root [2017-11-15 17:20:27,844] - Machine::onFindInterfaceAddr[172.16.4.154:55085/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20935.
+  INFO root [2017-11-15 17:20:27,844] - Machine::onFindInterfaceAddr[172.16.4.154:55085/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20935.
+  INFO root [2017-11-15 17:20:28,350] - Machine::onFindInterfaceAddr[172.16.4.154:55088/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20718.
+  INFO root [2017-11-15 17:20:28,364] - Machine::onFindInterfaceAddr[172.16.4.154:55088/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20718.
+  INFO root [2017-11-15 17:20:29,577] - Machine::onFindInterfaceAddr[172.16.4.154:55091/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20699.
+  INFO root [2017-11-15 17:20:29,577] - Machine::onFindInterfaceAddr[172.16.4.154:55091/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20699.
+  INFO root [2017-11-15 17:20:30,486] - Machine::onFindInterfaceAddr[172.16.4.154:55094/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20455.
+  INFO root [2017-11-15 17:20:30,504] - Machine::onFindInterfaceAddr[172.16.4.154:55094/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20455.
+ DEBUG root [2017-11-15 17:20:35,680] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:35,680] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:35,796] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:35,796] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,030] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,030] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,268] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,268] - Machine::onBroadcastInterface: loginapp update, pid=258328, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,382] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,382] - Machine::onBroadcastInterface: cellapp update, pid=261696, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,718] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:20:36,718] - Machine::onBroadcastInterface: baseapp update, pid=257196, uid=1001, globalorderid=4, grouporderid=1!
+  INFO root [2017-11-15 17:21:15,141] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55000/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,141] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55001/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,444] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55002/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,747] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55003/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,949] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55004/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,950] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55005/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:15,950] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55006/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:16,457] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55007/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:17,171] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55008/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:17,778] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55009/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:18,284] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55010/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:18,385] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55011/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:18,487] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55012/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:18,892] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55013/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:19,093] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55015/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:19,094] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55017/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:19,296] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55018/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:19,397] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55021/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:19,699] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55022/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:20,003] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55025/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:20,306] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55028/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:20,407] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55029/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:20,710] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55032/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:20,913] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55033/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:21,115] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55036/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:21,217] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55037/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:21,419] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55038/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:21,420] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55039/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:21,523] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55042/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:23,341] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55043/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:23,543] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55046/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:24,250] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55049/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:24,451] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55052/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,361] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55055/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,462] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55058/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,462] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55059/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,664] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55062/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,664] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55065/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:25,766] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55068/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:26,171] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55073/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:26,373] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55076/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:26,575] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55079/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:27,585] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55082/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:27,888] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55085/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:28,393] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55088/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:29,606] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55091/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:30,514] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55094/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:35,660] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55097/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:35,862] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55098/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:36,064] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55099/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:36,266] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55100/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:36,468] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55101/0/0/0 timed out.
+  INFO root [2017-11-15 17:21:36,771] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55102/0/0/0 timed out.
+  INFO root [2017-11-15 17:24:26,435] - 
+  INFO root [2017-11-15 17:24:26,435] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2017-11-15 17:24:26,436] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [2017-11-15 17:24:26,436] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [2017-11-15 17:24:26,436] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [2017-11-15 17:24:26,438] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20099 )
+  INFO root [2017-11-15 17:24:26,438] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20099, SOMAXCONN=5.
+  INFO root [2017-11-15 17:24:26,438] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:56465 )
+  INFO root [2017-11-15 17:24:26,439] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:56465, SOMAXCONN=5.
+  INFO root [2017-11-15 17:24:26,439] - server-configs:
+  INFO root [2017-11-15 17:24:26,439] - 	internalAddr : 172.16.4.154:56465
+  INFO root [2017-11-15 17:24:26,439] - 	componentID : 1000
+  INFO root [2017-11-15 17:24:26,466] - ---- machine Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 0C507A48AA39F594AB6DDF736D3EC194. Config: Debug X86. Built: 16:14:24 Jul  7 2017. AppID: 1000. UID: 1001. PID: 261824 ----
+  INFO root [2017-11-15 17:24:26,503] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [2017-11-15 17:24:26,531] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2017-11-15 17:24:26,531] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2017-11-15 17:24:26,632] - EndPoint::getInterfaces: found eth0 172.16.4.154
+  INFO root [2017-11-15 17:24:26,632] - Machine::findBroadcastInterface:Machine::findBroadcastInterface: Broadcast discovery receipt from 172.16.4.154.
+  INFO root [2017-11-15 17:24:26,633] - Machine::findBroadcastInterface: Confirmed 172.16.4.154 (eth0) as default broadcast route interface.
+  INFO root [2017-11-15 17:24:26,633] - Machine::initNetwork: bind broadcast successfully! addr:172.16.4.154:20086
+  INFO root [2017-11-15 17:24:26,821] - ---- machine is running ----
+  INFO root [2017-11-15 17:24:26,822] - Components::process(): Found all the components!
+  INFO root [2017-11-15 17:24:27,326] - Machine::onBroadcastInterface: added newUID 1001.
+  INFO root [2017-11-15 17:24:27,326] - Machine::onBroadcastInterface[172.16.4.154:55105/0/0/0]: uid:1001, username:, componentType:logger, componentID:2000, globalorderid=-1, grouporderid=-1, pid:255508, intaddr:172.16.4.154, intport:56467, extaddr:172.16.4.154, extport:56466.
+  INFO root [2017-11-15 17:24:27,326] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:24:27,326] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:27,745] - Machine::onBroadcastInterface: logger update, pid=255508, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:27,746] - Machine::onFindInterfaceAddr[172.16.4.154:55106/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20658.
+  INFO root [2017-11-15 17:24:27,746] - Machine::onFindInterfaceAddr[172.16.4.154:55106/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20658.
+  INFO root [2017-11-15 17:24:27,746] - Machine::onFindInterfaceAddr[172.16.4.154:55107/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20710.
+  INFO root [2017-11-15 17:24:27,747] - Machine::onFindInterfaceAddr[172.16.4.154:55107/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20710.
+  INFO root [2017-11-15 17:24:27,848] - Machine::onFindInterfaceAddr[172.16.4.154:55108/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20628.
+  INFO root [2017-11-15 17:24:27,849] - Machine::onFindInterfaceAddr[172.16.4.154:55108/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:logger, finderaddr:172.16.4.154, finderRecvPort:20628.
+  INFO root [2017-11-15 17:24:27,849] - Machine::onFindInterfaceAddr[172.16.4.154:55109/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20834.
+  INFO root [2017-11-15 17:24:27,849] - Machine::onFindInterfaceAddr[172.16.4.154:55109/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20834.
+  INFO root [2017-11-15 17:24:27,850] - Machine::onBroadcastInterface[172.16.4.154:55110/0/0/0]: uid:1001, username:, componentType:interfaces, componentID:3000, globalorderid=-1, grouporderid=-1, pid:258092, intaddr:172.16.4.154, intport:30099, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:24:27,850] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:24:27,850] - Components::addComponent[interfaces], uid=1001, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:27,890] - Machine::onBroadcastInterface: interfaces update, pid=258092, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:28,408] - Machine::onBroadcastInterface[172.16.4.154:55119/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, globalorderid=-1, grouporderid=-1, pid:261816, intaddr:172.16.4.154, intport:56469, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:24:28,408] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [2017-11-15 17:24:28,408] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:28,441] - Machine::onBroadcastInterface: baseappmgr update, pid=261816, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:28,761] - Machine::onBroadcastInterface[172.16.4.154:55120/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, globalorderid=-1, grouporderid=-1, pid:257028, intaddr:172.16.4.154, intport:56471, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:24:28,761] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:28,802] - Machine::onBroadcastInterface: cellappmgr update, pid=257028, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:29,013] - Machine::onBroadcastInterface[172.16.4.154:55121/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderid=-1, grouporderid=-1, pid:259848, intaddr:172.16.4.154, intport:56473, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:24:29,013] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=3, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:29,039] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:29,040] - Machine::onBroadcastInterface[172.16.4.154:55122/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, globalorderid=-1, grouporderid=-1, pid:259232, intaddr:172.16.4.154, intport:56472, extaddr:172.16.4.154, extport:20013.
+  INFO root [2017-11-15 17:24:29,040] - Components::addComponent[loginapp], uid=1001, componentID=9000, globalorderid=4, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:29,059] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:29,160] - Machine::onBroadcastInterface[172.16.4.154:55123/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, globalorderid=-1, grouporderid=-1, pid:260388, intaddr:172.16.4.154, intport:56470, extaddr:172.16.4.154, extport:20015.
+  INFO root [2017-11-15 17:24:29,160] - Components::addComponent[baseapp], uid=1001, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:29,173] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:30,405] - Machine::onBroadcastInterface: logger update, pid=255508, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:30,405] - Machine::onBroadcastInterface: logger update, pid=255508, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:30,405] - Machine::onBroadcastInterface[172.16.4.154:55125/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, globalorderid=-1, grouporderid=-1, pid:261888, intaddr:172.16.4.154, intport:56468, extaddr:nonsupport, extport:0.
+  INFO root [2017-11-15 17:24:30,405] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=6, grouporderid=1, totalcount=1
+ DEBUG root [2017-11-15 17:24:30,419] - Machine::onBroadcastInterface: dbmgr update, pid=261888, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:30,834] - Machine::onBroadcastInterface: interfaces update, pid=258092, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:30,834] - Machine::onBroadcastInterface: interfaces update, pid=258092, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:31,457] - Machine::onBroadcastInterface: baseappmgr update, pid=261816, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:31,457] - Machine::onBroadcastInterface: baseappmgr update, pid=261816, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:31,772] - Machine::onBroadcastInterface: cellappmgr update, pid=257028, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:31,773] - Machine::onBroadcastInterface: cellappmgr update, pid=257028, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:31,874] - Machine::onFindInterfaceAddr[172.16.4.154:55129/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20559.
+  INFO root [2017-11-15 17:24:31,888] - Machine::onFindInterfaceAddr[172.16.4.154:55129/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20559.
+ DEBUG root [2017-11-15 17:24:32,101] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:32,101] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:32,215] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:32,215] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:32,316] - Machine::onFindInterfaceAddr[172.16.4.154:55134/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20679.
+  INFO root [2017-11-15 17:24:32,340] - Machine::onFindInterfaceAddr[172.16.4.154:55134/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20679.
+  INFO root [2017-11-15 17:24:32,341] - Machine::onFindInterfaceAddr[172.16.4.154:55135/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20731.
+  INFO root [2017-11-15 17:24:32,341] - Machine::onFindInterfaceAddr[172.16.4.154:55135/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:bots, finderaddr:172.16.4.154, finderRecvPort:20731.
+ DEBUG root [2017-11-15 17:24:32,455] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:32,455] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:32,658] - Machine::onFindInterfaceAddr[172.16.4.154:55139/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20087.
+  INFO root [2017-11-15 17:24:32,671] - Machine::onFindInterfaceAddr[172.16.4.154:55139/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20087.
+  INFO root [2017-11-15 17:24:32,975] - Machine::onFindInterfaceAddr[172.16.4.154:55142/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20210.
+  INFO root [2017-11-15 17:24:32,999] - Machine::onFindInterfaceAddr[172.16.4.154:55142/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:logger, finderaddr:172.16.4.154, finderRecvPort:20210.
+  INFO root [2017-11-15 17:24:33,302] - Machine::onFindInterfaceAddr[172.16.4.154:55145/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20382.
+  INFO root [2017-11-15 17:24:33,316] - Machine::onFindInterfaceAddr[172.16.4.154:55145/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20382.
+ DEBUG root [2017-11-15 17:24:33,529] - Machine::onBroadcastInterface: dbmgr update, pid=261888, uid=1001, globalorderid=-1, grouporderid=-1!
+ DEBUG root [2017-11-15 17:24:33,529] - Machine::onBroadcastInterface: dbmgr update, pid=261888, uid=1001, globalorderid=-1, grouporderid=-1!
+  INFO root [2017-11-15 17:24:33,630] - Machine::onFindInterfaceAddr[172.16.4.154:55149/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20555.
+  INFO root [2017-11-15 17:24:33,631] - Machine::onFindInterfaceAddr[172.16.4.154:55149/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20555.
+  INFO root [2017-11-15 17:24:34,034] - Machine::onFindInterfaceAddr[172.16.4.154:55152/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20678.
+  INFO root [2017-11-15 17:24:34,050] - Machine::onFindInterfaceAddr[172.16.4.154:55152/0/0/0]: uid:9092, username:, componentType:console, componentID:6488173801307439104, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20678.
+  INFO root [2017-11-15 17:24:35,464] - Machine::onFindInterfaceAddr[172.16.4.154:55155/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20269.
+  INFO root [2017-11-15 17:24:35,480] - Machine::onFindInterfaceAddr[172.16.4.154:55155/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20269.
+  INFO root [2017-11-15 17:24:35,581] - Machine::onFindInterfaceAddr[172.16.4.154:55158/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20269.
+  INFO root [2017-11-15 17:24:35,594] - Machine::onFindInterfaceAddr[172.16.4.154:55158/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20269.
+  INFO root [2017-11-15 17:24:35,795] - Machine::onFindInterfaceAddr[172.16.4.154:55161/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20445.
+  INFO root [2017-11-15 17:24:35,795] - Machine::onFindInterfaceAddr[172.16.4.154:55161/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20445.
+  INFO root [2017-11-15 17:24:36,098] - Machine::onFindInterfaceAddr[172.16.4.154:55164/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20464.
+  INFO root [2017-11-15 17:24:36,099] - Machine::onFindInterfaceAddr[172.16.4.154:55164/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20464.
+  INFO root [2017-11-15 17:24:36,201] - Machine::onFindInterfaceAddr[172.16.4.154:55167/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20924.
+  INFO root [2017-11-15 17:24:36,201] - Machine::onFindInterfaceAddr[172.16.4.154:55167/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20924.
+  INFO root [2017-11-15 17:24:36,404] - Machine::onFindInterfaceAddr[172.16.4.154:55170/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20535.
+  INFO root [2017-11-15 17:24:36,404] - Machine::onFindInterfaceAddr[172.16.4.154:55170/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20535.
+  INFO root [2017-11-15 17:24:37,516] - Machine::onFindInterfaceAddr[172.16.4.154:55173/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20006.
+  INFO root [2017-11-15 17:24:37,556] - Machine::onFindInterfaceAddr[172.16.4.154:55173/0/0/0]: uid:1001, username:, componentType:dbmgr, componentID:4000, find:logger, finderaddr:172.16.4.154, finderRecvPort:20006.
+  INFO root [2017-11-15 17:24:37,658] - Machine::onFindInterfaceAddr[172.16.4.154:55176/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20568.
+  INFO root [2017-11-15 17:24:37,683] - Machine::onFindInterfaceAddr[172.16.4.154:55176/0/0/0]: uid:1001, username:, componentType:baseappmgr, componentID:5000, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20568.
+  INFO root [2017-11-15 17:24:37,886] - Machine::onFindInterfaceAddr[172.16.4.154:55179/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20179.
+  INFO root [2017-11-15 17:24:37,899] - Machine::onFindInterfaceAddr[172.16.4.154:55179/0/0/0]: uid:1001, username:, componentType:cellappmgr, componentID:6000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20179.
+  INFO root [2017-11-15 17:24:38,203] - Machine::onFindInterfaceAddr[172.16.4.154:55182/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20201.
+  INFO root [2017-11-15 17:24:38,231] - Machine::onFindInterfaceAddr[172.16.4.154:55182/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20201.
+  INFO root [2017-11-15 17:24:38,332] - Machine::onFindInterfaceAddr[172.16.4.154:55183/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20557.
+  INFO root [2017-11-15 17:24:38,349] - Machine::onFindInterfaceAddr[172.16.4.154:55183/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20557.
+  INFO root [2017-11-15 17:24:38,451] - Machine::onFindInterfaceAddr[172.16.4.154:55188/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20171.
+  INFO root [2017-11-15 17:24:38,451] - Machine::onFindInterfaceAddr[172.16.4.154:55188/0/0/0]: uid:1001, username:, componentType:loginapp, componentID:9000, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20171.
+  INFO root [2017-11-15 17:24:40,270] - Machine::onFindInterfaceAddr[172.16.4.154:55191/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20189.
+  INFO root [2017-11-15 17:24:40,298] - Machine::onFindInterfaceAddr[172.16.4.154:55191/0/0/0]: uid:1001, username:, componentType:cellapp, componentID:8001, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20189.
+  INFO root [2017-11-15 17:24:40,400] - Machine::onFindInterfaceAddr[172.16.4.154:55194/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20548.
+  INFO root [2017-11-15 17:24:40,413] - Machine::onFindInterfaceAddr[172.16.4.154:55194/0/0/0]: uid:1001, username:, componentType:baseapp, componentID:7001, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20548.
+ DEBUG root [2017-11-15 17:24:45,581] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:45,582] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:45,595] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:45,595] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:45,910] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:45,910] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,127] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,128] - Machine::onBroadcastInterface: baseapp update, pid=260388, uid=1001, globalorderid=5, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,244] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,244] - Machine::onBroadcastInterface: cellapp update, pid=259848, uid=1001, globalorderid=4, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,562] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=3, grouporderid=1!
+ DEBUG root [2017-11-15 17:24:46,562] - Machine::onBroadcastInterface: loginapp update, pid=259232, uid=1001, globalorderid=3, grouporderid=1!
+  INFO root [2017-11-15 17:25:27,304] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55104/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,405] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55105/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,405] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55106/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,405] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55107/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,911] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55108/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,911] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55109/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:27,911] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55110/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:28,416] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55119/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:28,820] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55120/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:29,023] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55121/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:29,023] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55122/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:29,225] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55123/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:30,437] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55124/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:30,438] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55125/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:30,842] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55126/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:31,448] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55127/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:31,853] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55128/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:31,954] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55129/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,155] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55132/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,256] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55133/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,357] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55134/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,357] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55135/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,458] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55138/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:32,660] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55139/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:33,063] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55142/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:33,367] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55145/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:33,569] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55148/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:33,670] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55149/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:34,074] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55152/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:35,488] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55155/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:35,589] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55158/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:35,891] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55161/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:36,195] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55164/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:36,296] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55167/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:36,497] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55170/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:37,608] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55173/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:37,709] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55176/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:37,911] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55179/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:38,213] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55182/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:38,414] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55183/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:38,515] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55188/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:40,331] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55191/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:40,432] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55194/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:45,576] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55197/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:45,576] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55198/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:45,980] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55199/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:46,182] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55200/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:46,283] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55201/0/0/0 timed out.
+  INFO root [2017-11-15 17:25:46,586] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:55202/0/0/0 timed out.
