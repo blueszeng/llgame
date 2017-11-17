@@ -67,6 +67,12 @@ class Player(KBEngine.Proxy,GameObject):
 
 		self.Games().reqLeave(self)
 
+		if self.activeProxy:
+			self.activeProxy.activeProxy = None
+			self.activeProxy = None
+
+		DEBUG_MSG("%r[%r]::onDestroy() " % (self.className, self.id))
+
 	def reqReviseProperties(self,name,sex,head):
 		"""
 		Exposed
@@ -170,10 +176,10 @@ class Player(KBEngine.Proxy,GameObject):
 
 	def reqLeaveGame(self):
 
-		self.activeProxy = None
-
 		if not self.client:
 			self.destroy()
+		else:
+			self.activeProxy = None
 
 	def reqCashInfo(self,amount):
 

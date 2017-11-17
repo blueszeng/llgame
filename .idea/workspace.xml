@@ -18,38 +18,24 @@
     <favorites_list name="balls_server_assets" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5231425">
+    <splitter split-orientation="horizontal" split-proportion="0.7375152">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
           <file leaf-file-name="Player.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/base/Player.py">
+            <entry file="file://$PROJECT_DIR$/scripts/bots/Player.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#350#626#0" expanded="false" />
-                    <element signature="e#660#1145#0" expanded="false" />
-                    <element signature="e#1196#1273#0" expanded="false" />
-                    <element signature="e#1466#1922#0" expanded="false" />
-                    <element signature="e#1970#2388#0" expanded="false" />
-                    <element signature="e#2419#2537#0" expanded="false" />
-                    <element signature="e#2565#2628#0" expanded="false" />
-                    <element signature="e#2659#2692#0" expanded="false" />
-                    <element signature="e#2721#2790#0" expanded="false" />
-                    <element signature="e#2820#2890#0" expanded="false" />
-                    <element signature="e#3575#4224#0" expanded="false" />
-                    <element signature="e#4262#5289#0" expanded="false" />
-                    <element signature="e#5316#5478#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="190">
+                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DdzAvatar.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DdzAvatar.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/base/DdzAvatar.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
-                  <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+                <state relative-caret-position="407">
+                  <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
                   <folding>
                     <element signature="e#25#40#0" expanded="true" />
                     <element signature="e#357#672#0" expanded="false" />
@@ -61,8 +47,37 @@
           <file leaf-file-name="DdzAvatar.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/cell/DdzAvatar.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="399">
+                  <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DdzRoom.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/cell/DdzRoom.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+                  <folding>
+                    <element signature="e#2647#3638#0" expanded="false" />
+                    <element signature="e#3693#4183#0" expanded="false" />
+                    <element signature="e#4263#6398#0" expanded="false" />
+                    <element signature="e#6477#7322#0" expanded="false" />
+                    <element signature="e#7368#8184#0" expanded="false" />
+                    <element signature="e#8234#9172#0" expanded="false" />
+                    <element signature="e#9217#9731#0" expanded="false" />
+                    <element signature="e#9767#13593#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DdzAvatar.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/bots/DdzAvatar.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="456">
+                  <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -73,8 +88,8 @@
           <file leaf-file-name="DdzHall.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/base/DdzHall.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+                <state relative-caret-position="478">
+                  <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
                   <folding>
                     <element signature="e#25#40#0" expanded="true" />
                     <element signature="e#323#596#0" expanded="false" />
@@ -84,11 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DdzRoom.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="DdzRoom.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/base/DdzRoom.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="407">
-                  <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+                <state relative-caret-position="222">
+                  <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
                   <folding>
                     <element signature="e#24#39#0" expanded="true" />
                   </folding>
@@ -100,11 +115,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="GameObject.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DdzAvatar.def" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/entity_defs/DdzAvatar.def">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="293">
+                  <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GameObject.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/base/interfaces/GameObject.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+                <state relative-caret-position="437">
+                  <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -115,16 +140,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="266">
                   <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Player.def" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/entity_defs/Player.def">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1427">
-                  <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -153,11 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>set</find>
-      <find>reqEnterHall</find>
-      <find>reqMes</find>
-      <find>Games</find>
-      <find>activeAvatar</find>
       <find>activePlayer</find>
       <find>gold</find>
       <find>self.rooms</find>
@@ -181,14 +191,18 @@
       <find>player.id</find>
       <find>activeProxy</find>
       <find>client</find>
-      <find>self.activeProxy</find>
       <find>destroy</find>
+      <find>self.childs</find>
+      <find>state</find>
+      <find>mailbox</find>
+      <find>cid</find>
+      <find>MAILBOX</find>
+      <find>self.activeProxy</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/cell/Player.py" />
         <option value="$PROJECT_DIR$/../../Hall.py" />
         <option value="$PROJECT_DIR$/scripts/bots/ZjhRoom.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/ZjhRoom.def" />
@@ -211,8 +225,6 @@
         <option value="$PROJECT_DIR$/scripts/base/kbemain.py" />
         <option value="$PROJECT_DIR$/scripts/interface/kbemain.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/Halls.def" />
-        <option value="$PROJECT_DIR$/scripts/bots/Player.py" />
-        <option value="$PROJECT_DIR$/scripts/bots/DdzAvatar.py" />
         <option value="$PROJECT_DIR$/scripts/base/Halls.py" />
         <option value="$PROJECT_DIR$/scripts/common/Helper.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/DdzAvatar.def" />
@@ -221,30 +233,33 @@
         <option value="$PROJECT_DIR$/scripts/entity_defs/DdzHall.def" />
         <option value="$PROJECT_DIR$/scripts/cell/interfaces/EntityCommon.py" />
         <option value="$PROJECT_DIR$/scripts/cell/interfaces/RoomEntity.py" />
-        <option value="$PROJECT_DIR$/scripts/cell/DdzRoom.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/Player.def" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/Games.def" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/DdzRoom.def" />
         <option value="$PROJECT_DIR$/scripts/base/Ranks.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/DdzGame.def" />
-        <option value="$PROJECT_DIR$/scripts/base/interfaces/GameObject.py" />
         <option value="$PROJECT_DIR$/scripts/data/d_games.py" />
         <option value="$PROJECT_DIR$/scripts/base/Games.py" />
         <option value="$PROJECT_DIR$/scripts/base/DdzGame.py" />
         <option value="$PROJECT_DIR$/scripts/base/interfaces/BaseObject.py" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/interfaces/GameObject.def" />
         <option value="$PROJECT_DIR$/scripts/entity_defs/interfaces/BaseObject.def" />
-        <option value="$PROJECT_DIR$/scripts/base/DdzRoom.py" />
         <option value="$PROJECT_DIR$/scripts/cell/DdzAvatar.py" />
-        <option value="$PROJECT_DIR$/scripts/base/DdzHall.py" />
+        <option value="$PROJECT_DIR$/scripts/base/interfaces/GameObject.py" />
         <option value="$PROJECT_DIR$/scripts/base/Player.py" />
+        <option value="$PROJECT_DIR$/scripts/cell/Player.py" />
+        <option value="$PROJECT_DIR$/scripts/base/DdzHall.py" />
+        <option value="$PROJECT_DIR$/scripts/bots/DdzAvatar.py" />
+        <option value="$PROJECT_DIR$/scripts/bots/Player.py" />
+        <option value="$PROJECT_DIR$/scripts/cell/DdzRoom.py" />
         <option value="$PROJECT_DIR$/scripts/base/DdzAvatar.py" />
+        <option value="$PROJECT_DIR$/scripts/base/DdzRoom.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="314" />
-    <option name="y" value="2" />
+    <option name="x" value="401" />
+    <option name="y" value="26" />
     <option name="width" value="1529" />
     <option name="height" value="1072" />
   </component>
@@ -308,6 +323,12 @@
               <item name="llgame" type="b2602c69:ProjectViewProjectNode" />
               <item name="llgame" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="llgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llgame" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="cell" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,13 +348,6 @@
               <item name="llgame" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="entity_defs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="llgame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="llgame" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="entity_defs" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -612,8 +626,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../scripts/interface/Poller.py" />
-    <entry file="file://$PROJECT_DIR$/../../scripts/base/kbemain.py" />
     <entry file="file://$PROJECT_DIR$/../../kbemain.py" />
     <entry file="file://$PROJECT_DIR$/scripts/interface/JbPoller.py" />
     <entry file="file://$PROJECT_DIR$/scripts/common/Rules_DDZ.py">
@@ -668,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bots/Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/tips/baseapp/KBEngine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -702,6 +707,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,13 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bots/DdzAvatar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -730,6 +731,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="72" column="16" lean-forward="true" selection-start-line="72" selection-start-column="16" selection-end-line="72" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+            <element signature="e#591#1082#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,14 +747,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/base/interfaces/RoomBase.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/cell/Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/entities.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -794,14 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/DdzRoom.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -858,25 +847,7 @@
         <state relative-caret-position="456">
           <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cell/DdzRoom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="38" />
-          <folding>
             <element signature="e#24#39#0" expanded="false" />
-            <element signature="e#2363#3354#0" expanded="false" />
-            <element signature="e#3409#3899#0" expanded="false" />
-            <element signature="e#3979#6114#0" expanded="false" />
-            <element signature="e#6193#7038#0" expanded="false" />
-            <element signature="e#7084#7900#0" expanded="false" />
-            <element signature="e#7950#8888#0" expanded="false" />
-            <element signature="e#8933#9447#0" expanded="false" />
-            <element signature="e#9483#13309#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,36 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/Player.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1427">
-          <caret line="196" column="34" lean-forward="false" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/entity_defs/interfaces/GameObject.def">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/base/DdzRoom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/DdzAvatar.def">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="53" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -933,15 +878,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/base/DdzHall.py">
+    <entry file="file://$PROJECT_DIR$/scripts/cell/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/base/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <element signature="e#350#626#0" expanded="false" />
+            <element signature="e#660#1145#0" expanded="false" />
+            <element signature="e#1196#1273#0" expanded="false" />
+            <element signature="e#1389#1571#0" expanded="false" />
+            <element signature="e#1621#2077#0" expanded="false" />
+            <element signature="e#2125#2543#0" expanded="false" />
+            <element signature="e#2574#2692#0" expanded="false" />
+            <element signature="e#2720#2783#0" expanded="false" />
+            <element signature="e#2814#2847#0" expanded="false" />
+            <element signature="e#2876#2945#0" expanded="false" />
+            <element signature="e#2975#3045#0" expanded="false" />
+            <element signature="e#3738#4387#0" expanded="false" />
+            <element signature="e#4425#5452#0" expanded="false" />
+            <element signature="e#5479#5641#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/Room.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/DdzRoom.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/bots.6488991481812942848.2017-11-16.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cell/DdzAvatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cell/DdzRoom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="e#2647#3638#0" expanded="false" />
+            <element signature="e#3693#4183#0" expanded="false" />
+            <element signature="e#4263#6398#0" expanded="false" />
+            <element signature="e#6477#7322#0" expanded="false" />
+            <element signature="e#7368#8184#0" expanded="false" />
+            <element signature="e#8234#9172#0" expanded="false" />
+            <element signature="e#9217#9731#0" expanded="false" />
+            <element signature="e#9767#13593#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bots/Player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-            <element signature="e#323#596#0" expanded="false" />
-            <element signature="e#628#705#0" expanded="false" />
-          </folding>
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/Player.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="254" column="21" lean-forward="true" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,10 +982,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/cell/DdzAvatar.py">
+    <entry file="file://$PROJECT_DIR$/scripts/base/DdzAvatar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="407">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <element signature="e#357#672#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bots/DdzAvatar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -965,41 +1005,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/base/interfaces/GameObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="437">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/base/Player.py">
+    <entry file="file://$PROJECT_DIR$/scripts/entity_defs/DdzAvatar.def">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state relative-caret-position="293">
+          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/base/DdzHall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
           <folding>
-            <element signature="e#350#626#0" expanded="false" />
-            <element signature="e#660#1145#0" expanded="false" />
-            <element signature="e#1196#1273#0" expanded="false" />
-            <element signature="e#1466#1922#0" expanded="false" />
-            <element signature="e#1970#2388#0" expanded="false" />
-            <element signature="e#2419#2537#0" expanded="false" />
-            <element signature="e#2565#2628#0" expanded="false" />
-            <element signature="e#2659#2692#0" expanded="false" />
-            <element signature="e#2721#2790#0" expanded="false" />
-            <element signature="e#2820#2890#0" expanded="false" />
-            <element signature="e#3575#4224#0" expanded="false" />
-            <element signature="e#4262#5289#0" expanded="false" />
-            <element signature="e#5316#5478#0" expanded="false" />
+            <element signature="e#25#40#0" expanded="true" />
+            <element signature="e#323#596#0" expanded="false" />
+            <element signature="e#628#705#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/base/DdzAvatar.py">
+    <entry file="file://$PROJECT_DIR$/scripts/base/DdzRoom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state relative-caret-position="222">
+          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
           <folding>
-            <element signature="e#25#40#0" expanded="true" />
-            <element signature="e#357#672#0" expanded="false" />
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

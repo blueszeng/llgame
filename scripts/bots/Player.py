@@ -9,19 +9,7 @@ class Player(KBEngine.Entity):
 	def __init__(self):
 		KBEngine.Entity.__init__(self)
 
-		self.gameID = 0
-		self.hallID = 0
-		self.roomID = 0
-		self.chairID = 0
-
 		self.base.reqEnterGame(1)
-
-	def onBecomePlayer( self ):
-		"""
-		KBEngine method.
-		当这个entity被引擎定义为角色时被调用
-		"""
-		DEBUG_MSG("%s::onBecomePlayer: %i" % (self.__class__.__name__, self.id))
 
 	def onGameInfo(self,data):
 		pass
@@ -37,35 +25,24 @@ class Player(KBEngine.Entity):
 		pass
 	def onStartGame(self):
 		pass
-
 	def onEnterGame(self,gameID,result):
-		self.gameID = gameID
-		self.base.reqEnterHall(1)
-
+		pass
 	def onLeaveGame(self,gameID):
 		pass
 	def onEnterHall(self,hallID):
-		self.hallID = hallID
-		self.base.reqEnterRoom("广东省深圳市")
 		pass
 	def onLeaveHall(self,hallID):
 		pass
 	def onEnterRoom(self,data):
 		pass
-
 	def onLeaveRoom(self,retcode,chairID):
-		if self.chairID == chairID:
-			self.base.reqLeaveHall()
-
+		pass
 	def onContinue(self):
 		pass
 	def onRoomState(self,data):
 		pass
 	def onMessage(self,retcode,action,data):
-		data_json = json.loads(data)
-		if action == ACTION_ROOM_COMPUTE :
-			self.base.reqContinue()
-
+		pass
 	def onRegisterProperties(self,retcode):
 		pass
 	def onAccessBank(self,retcode,access,offsetGold):
@@ -82,17 +59,4 @@ class Player(KBEngine.Entity):
 		pass
 	def onUpdateHalls(self,data):
 		pass
-
-class PlayerPlayer(Player):
-
-	def __init__(self):
-		pass
-
-	def onBecomePlayer( self ):
-		"""
-		KBEngine method.
-		当这个entity被引擎定义为角色时被调用
-		"""
-		DEBUG_MSG("%s::onBecomePlayer: %i" % (self.__class__.__name__, self.id))
-		self.__init__()
 

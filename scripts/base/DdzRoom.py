@@ -60,21 +60,9 @@ class DdzRoom(KBEngine.Base,BaseObject):
             return
 
         super().reqEnter(player)
-        player.cellData["cid"] = 0
 
         if self.state == ROOM_STATE_READY:
-
-            for i in range(1, 4):
-                has = False
-                for pp in self.players.values():
-                    if i == pp.cellData["cid"]:
-                        has = True
-                        break
-                if has == False:
-                    player.cellData["cid"] = i
-                    break
-
-            player.createCell(self.cell, player.cellData["cid"])
+            player.createCell(self.cell)
 
     def reqLeave(self,player):
 

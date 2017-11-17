@@ -34,19 +34,19 @@ class DdzHall(KBEngine.Base,BaseObject):
 		if player.client:
 			player.client.onLeaveHall(0)
 
-	def onRoomGetCell(self, roomMailbox, roomID):
+	def onRoomGetCell(self, roomMailbox, lastNewRoomKey):
 		"""
         Room的cell创建好了
         """
 		#todo 未添加到def
-		self.childs[roomID]["roomMailbox"] = roomMailbox
+		self.childs[lastNewRoomKey]["roomMailbox"] = roomMailbox
 
 		# space已经创建好了， 现在可以将之前请求进入的玩家全部丢到cell地图中
-		for player in self.childs[roomID]["players"]:
+		for player in self.childs[lastNewRoomKey]["players"]:
 			if player.client:
 				roomMailbox.reqEnter(player)
 			else:
-				del self.childs[roomID]["players"][player]
+				del self.childs[lastNewRoomKey]["players"][player]
 
 				#如果player已丢失client，则需要销毁该引用
 				if player:
@@ -64,9 +64,17 @@ class DdzHall(KBEngine.Base,BaseObject):
 		"""
 		先查找空房间，如果没空房，则将玩家排队，然后创建新房间
 		"""
-		for roomData in self.childs:
-			if len(roomData["players"]) < 3 and roomData["mailbox"].state == ROOM_STATE_READY:
-				roomData["mailbox"].reqEnter(player)
+		for roomData in self.childs.values():
+
+			DEBUG_MSG(roomData)
+			if len(roomData['players']) < 3 and roomData["roomMailbox"] is None:
+
+				roomData['players'].append(player)
+				return
+
+			elif len(roomData["players"]) < 3 and roomData["roomMailbox"].state == ROOM_STATE_READY:
+
+				roomData["roomMailbox"].reqEnter(player)
 				return
 
 		self.lastNewRoomKey = self.lastNewRoomKey + 1
@@ -79,7 +87,7 @@ class DdzHall(KBEngine.Base,BaseObject):
 
 		KBEngine.createBaseAnywhere("DdzRoom", params, None)
 
-		roomDatas = {"mailbox": None,
+		roomDatas = {"roomMailbox": None,
 					 "players": [player]}
 
 		self.childs[self.lastNewRoomKey] = roomDatas

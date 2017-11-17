@@ -1,0 +1,360 @@
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 531] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 531] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 532] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 532] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 533] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20013 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 534] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 535] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49441 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 536] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49441, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 536] - server-configs:
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 536] - 	internalAddr : 172.16.4.154:49441
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 536] - 	externalAddr : 172.16.4.154:20013
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:41 536] - 	componentID : 9000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 287] - Components::findLogger: found logger, addr:172.16.4.154:49435
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 287] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 287] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 291] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 75C8DA776708D1E89693088467E5A4FB. Config: Debug X86. Built: 16:13:51 Jul  7 2017. AppID: 9000. UID: 1001. PID: 283632 ----
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 292] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 292] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 292] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 420] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 420] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 420] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 422] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 422] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 423] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 454] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 484] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 484] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 486] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 486] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:42 700] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:33:42 700] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:50 187] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:50 301] - Components::findComponents: found dbmgr, addr:172.16.4.154:49436
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:50 301] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:50 301] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:50 302] - Components::findComponents: found dbmgr, addr:172.16.4.154:49436
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:52 307] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:52 420] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49438
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:52 420] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:52 420] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49438
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:54 432] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:54 446] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:33:54 453] - Components::process(): Found all the components!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:34:00 447] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+ WARNING   loginapp01 1001 9000  [2017-11-16 20:34:00 789] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20267, errorno=10048
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:02 025] - HTTPCBHandler::bind: 172.16.4.154:21103
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:02 627] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:15 967] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=52 76 09 1A 66 2C 0E 66 12 0E 12 04 04 1B 49 42 , addr:127.0.0.1:49489/0/0/0
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:15 967] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=D9 DE C3 ED 4D C1 6B 56 79 07 66 97 61 98 1E 7B , addr:127.0.0.1:49490/0/0/0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - onRequestCreateAccount() bot_6488989698582642688_1
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - Loginapp::_createAccount: accountName=bot_6488989698582642688_1, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - PendingLoginMgr::add: bot_6488989698582642688_1, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - onRequestCreateAccount() bot_6488989698582642688_2
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - Loginapp::_createAccount: accountName=bot_6488989698582642688_2, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 007] - PendingLoginMgr::add: bot_6488989698582642688_2, size=2.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 107] - onCreateAccountCallbackFromDB() accountName=bot_6488989698582642688_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 107] - Loginapp::onReqCreateAccountResult: accountName=bot_6488989698582642688_2, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 107] - PendingLoginMgr::remove: bot_6488989698582642688_2, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 127] - onReuqestLogin() loginName=bot_6488989698582642688_2, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 127] - PendingLoginMgr::add: bot_6488989698582642688_2, size=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 127] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488989698582642688_2, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 147] - onCreateAccountCallbackFromDB() accountName=bot_6488989698582642688_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 147] - Loginapp::onReqCreateAccountResult: accountName=bot_6488989698582642688_1, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 147] - PendingLoginMgr::remove: bot_6488989698582642688_1, size=0.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 167] - onReuqestLogin() loginName=bot_6488989698582642688_1, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 167] - PendingLoginMgr::add: bot_6488989698582642688_1, size=2.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 167] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488989698582642688_1, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 247] - onLoginCallbackFromDB() loginName=bot_6488989698582642688_2, accountName=bot_6488989698582642688_2, errorno=0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:34:16 267] - onLoginCallbackFromDB() loginName=bot_6488989698582642688_1, accountName=bot_6488989698582642688_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 306] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488989698582642688_2, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 306] - PendingLoginMgr::remove: bot_6488989698582642688_2, size=1.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 327] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488989698582642688_1, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:34:16 327] - PendingLoginMgr::remove: bot_6488989698582642688_1, size=0.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:35:45 291] - ServerApp::onChannelTimeOut: Channel 127.0.0.1:49489/0/0/0 timed out.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:35:45 953] - ServerApp::onChannelTimeOut: Channel 127.0.0.1:49490/0/0/0 timed out.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 941] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 941] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 941] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 941] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 943] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20013 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 944] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 945] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49543 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 946] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49543, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 946] - server-configs:
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 946] - 	internalAddr : 172.16.4.154:49543
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 946] - 	externalAddr : 172.16.4.154:20013
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:32 946] - 	componentID : 9000
+ WARNING   loginapp-1 1001 9000  [2017-11-16 20:40:33 699] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20380, errorno=10048
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 702] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 75C8DA776708D1E89693088467E5A4FB. Config: Debug X86. Built: 16:13:51 Jul  7 2017. AppID: 9000. UID: 1001. PID: 249436 ----
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 703] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 703] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 703] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 831] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 831] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 831] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 833] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 833] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 834] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:33 866] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 900] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 900] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 903] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:33 903] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:34 135] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:40:34 135] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 469] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 512] - Components::findComponents: found logger, addr:172.16.4.154:49538
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 512] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 512] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 514] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 648] - Components::findComponents: found dbmgr, addr:172.16.4.154:49539
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 648] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 649] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:41 649] - Components::findComponents: found dbmgr, addr:172.16.4.154:49539
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:43 663] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:43 715] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49542
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:43 715] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:43 715] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49542
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:45 743] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:45 762] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:45 769] - Components::process(): Found all the components!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:40:51 863] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=2, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:40:53 114] - HTTPCBHandler::bind: 172.16.4.154:21103
+    INFO   loginapp01 1001 9000  [2017-11-16 20:40:54 182] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 183] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=16 89 CD FB 06 B7 36 B6 89 25 64 7E 97 F9 BE 3B , addr:127.0.0.1:49585/0/0/0
+    INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 183] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=C7 05 14 1A 30 2C 28 C8 4D D2 08 78 A5 AB EE D7 , addr:127.0.0.1:49586/0/0/0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - onRequestCreateAccount() bot_6488991481812942848_2
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - Loginapp::_createAccount: accountName=bot_6488991481812942848_2, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - PendingLoginMgr::add: bot_6488991481812942848_2, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - onRequestCreateAccount() bot_6488991481812942848_1
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - Loginapp::_createAccount: accountName=bot_6488991481812942848_1, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 203] - PendingLoginMgr::add: bot_6488991481812942848_1, size=2.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 303] - onCreateAccountCallbackFromDB() accountName=bot_6488991481812942848_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 303] - Loginapp::onReqCreateAccountResult: accountName=bot_6488991481812942848_2, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 303] - PendingLoginMgr::remove: bot_6488991481812942848_2, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 323] - onCreateAccountCallbackFromDB() accountName=bot_6488991481812942848_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 323] - Loginapp::onReqCreateAccountResult: accountName=bot_6488991481812942848_1, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 323] - PendingLoginMgr::remove: bot_6488991481812942848_1, size=0.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 344] - onReuqestLogin() loginName=bot_6488991481812942848_2, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 344] - PendingLoginMgr::add: bot_6488991481812942848_2, size=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 344] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488991481812942848_2, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 345] - onReuqestLogin() loginName=bot_6488991481812942848_1, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 345] - PendingLoginMgr::add: bot_6488991481812942848_1, size=2.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 345] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488991481812942848_1, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 442] - onLoginCallbackFromDB() loginName=bot_6488991481812942848_1, accountName=bot_6488991481812942848_1, errorno=0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:41:11 462] - onLoginCallbackFromDB() loginName=bot_6488991481812942848_2, accountName=bot_6488991481812942848_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 482] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488991481812942848_1, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 482] - PendingLoginMgr::remove: bot_6488991481812942848_1, size=1.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 502] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488991481812942848_2, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:41:11 502] - PendingLoginMgr::remove: bot_6488991481812942848_2, size=0.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 485] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 486] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 486] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 486] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 488] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20013 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 489] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 489] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49607 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 490] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49607, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 491] - server-configs:
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 491] - 	internalAddr : 172.16.4.154:49607
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 491] - 	externalAddr : 172.16.4.154:20013
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:10 491] - 	componentID : 9000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 004] - Components::findLogger: found logger, addr:172.16.4.154:49601
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 005] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 005] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 019] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 75C8DA776708D1E89693088467E5A4FB. Config: Debug X86. Built: 16:13:51 Jul  7 2017. AppID: 9000. UID: 1001. PID: 276908 ----
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 019] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 020] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 020] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 148] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 148] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 148] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 150] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 150] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 151] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 182] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 213] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 214] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 216] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 216] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:11 429] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:42:11 429] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:18 883] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:18 920] - Components::findComponents: found dbmgr, addr:172.16.4.154:49602
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:18 920] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:18 920] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:18 920] - Components::findComponents: found dbmgr, addr:172.16.4.154:49602
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:20 936] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:21 004] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49604
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:21 004] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:21 004] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49604
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:23 017] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:23 036] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:23 049] - Components::process(): Found all the components!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:42:28 957] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:30 201] - HTTPCBHandler::bind: 172.16.4.154:21103
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:31 416] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 216] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=74 F6 E4 65 BE B0 68 6F 6F 29 F9 D1 84 E4 59 62 , addr:127.0.0.1:49645/0/0/0
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 216] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=B2 7D 6D 74 41 A0 7E 2E EC CA BE A0 5A 9D 18 AE , addr:127.0.0.1:49646/0/0/0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 236] - onRequestCreateAccount() bot_6488991879666466816_2
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 236] - Loginapp::_createAccount: accountName=bot_6488991879666466816_2, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 236] - PendingLoginMgr::add: bot_6488991879666466816_2, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 256] - onRequestCreateAccount() bot_6488991879666466816_1
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 256] - Loginapp::_createAccount: accountName=bot_6488991879666466816_1, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 256] - PendingLoginMgr::add: bot_6488991879666466816_1, size=2.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 336] - onCreateAccountCallbackFromDB() accountName=bot_6488991879666466816_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 336] - Loginapp::onReqCreateAccountResult: accountName=bot_6488991879666466816_2, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 336] - PendingLoginMgr::remove: bot_6488991879666466816_2, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 356] - onCreateAccountCallbackFromDB() accountName=bot_6488991879666466816_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 356] - Loginapp::onReqCreateAccountResult: accountName=bot_6488991879666466816_1, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 356] - PendingLoginMgr::remove: bot_6488991879666466816_1, size=0.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 377] - onReuqestLogin() loginName=bot_6488991879666466816_2, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 377] - PendingLoginMgr::add: bot_6488991879666466816_2, size=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 377] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488991879666466816_2, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 378] - onReuqestLogin() loginName=bot_6488991879666466816_1, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 378] - PendingLoginMgr::add: bot_6488991879666466816_1, size=2.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 378] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488991879666466816_1, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 457] - onLoginCallbackFromDB() loginName=bot_6488991879666466816_1, accountName=bot_6488991879666466816_1, errorno=0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:42:44 477] - onLoginCallbackFromDB() loginName=bot_6488991879666466816_2, accountName=bot_6488991879666466816_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 497] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488991879666466816_1, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 497] - PendingLoginMgr::remove: bot_6488991879666466816_1, size=1.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 517] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488991879666466816_2, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:42:44 517] - PendingLoginMgr::remove: bot_6488991879666466816_2, size=0.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 685] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 685] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 685] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 685] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 687] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20013 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 689] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 689] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49714 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 690] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49714, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 690] - server-configs:
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 691] - 	internalAddr : 172.16.4.154:49714
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 691] - 	externalAddr : 172.16.4.154:20013
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:10 691] - 	componentID : 9000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 220] - Components::findLogger: found logger, addr:172.16.4.154:49708
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 220] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 220] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 224] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 75C8DA776708D1E89693088467E5A4FB. Config: Debug X86. Built: 16:13:51 Jul  7 2017. AppID: 9000. UID: 1001. PID: 267276 ----
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 225] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 225] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 225] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 354] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 354] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 354] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 356] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 356] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 357] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 388] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 420] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 420] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 423] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 423] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:11 635] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:11 635] - Components::process(): Request for the process of identity...
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:19 223] - ServerApp::lookApp: 172.16.4.154:49729/0/0/0, componentID=9000
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:19 223] - ServerApp::lookApp: response! componentID=9000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:19 444] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:19 532] - Components::findComponents: found dbmgr, addr:172.16.4.154:49709
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:19 532] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:19 532] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:19 532] - Components::findComponents: found dbmgr, addr:172.16.4.154:49709
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:21 543] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:21 639] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49711
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:21 639] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:21 640] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49711
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:23 644] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:23 656] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:23 663] - Components::process(): Found all the components!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:28 604] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:50:29 850] - HTTPCBHandler::bind: 172.16.4.154:21103
+    INFO   loginapp01 1001 9000  [2017-11-16 20:50:30 743] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 779] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 780] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 780] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 780] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 782] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20013 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 783] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20013, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 783] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49780 )
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 784] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49780, SOMAXCONN=128.
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 784] - server-configs:
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 784] - 	internalAddr : 172.16.4.154:49780
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 785] - 	externalAddr : 172.16.4.154:20013
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:55 785] - 	componentID : 9000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 309] - Components::findLogger: found logger, addr:172.16.4.154:49774
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 309] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 309] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 313] - ---- loginapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 75C8DA776708D1E89693088467E5A4FB. Config: Debug X86. Built: 16:13:51 Jul  7 2017. AppID: 9000. UID: 1001. PID: 277108 ----
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 313] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 313] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 314] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 441] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 441] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 441] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 443] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 443] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 443] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 476] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 507] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 507] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 509] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 509] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:50:56 735] - ---- loginapp is running ----
+   DEBUG   loginapp-1 1001 9000  [2017-11-16 20:50:56 736] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:04 329] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:04 385] - Components::findComponents: found dbmgr, addr:172.16.4.154:49778
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:04 385] - Components::addComponent: reset orderLog, uid=1001!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:04 385] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:04 386] - Components::findComponents: found dbmgr, addr:172.16.4.154:49778
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:06 389] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:06 485] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49775
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:06 486] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:06 486] - Components::findComponents: found baseappmgr, addr:172.16.4.154:49775
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:08 509] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:08 529] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:08 538] - Components::process(): Found all the components!
+    INFO   loginapp-1 1001 9000  [2017-11-16 20:51:13 770] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:15 011] - HTTPCBHandler::bind: 172.16.4.154:21103
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:16 349] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 630] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=6B BE 4D 92 FA F4 39 86 D2 FD 5A 5E 0F 57 52 40 , addr:127.0.0.1:49823/0/0/0
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 630] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=96 3B 54 CE 74 C8 61 94 17 4D E3 C8 D8 86 88 FA , addr:127.0.0.1:49824/0/0/0
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - onRequestCreateAccount() bot_6488994162138939392_1
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - Loginapp::_createAccount: accountName=bot_6488994162138939392_1, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - PendingLoginMgr::add: bot_6488994162138939392_1, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - onRequestCreateAccount() bot_6488994162138939392_2
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - Loginapp::_createAccount: accountName=bot_6488994162138939392_2, passwordsize=0, type=1, oldType=3.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 669] - PendingLoginMgr::add: bot_6488994162138939392_2, size=2.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 789] - onCreateAccountCallbackFromDB() accountName=bot_6488994162138939392_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 789] - Loginapp::onReqCreateAccountResult: accountName=bot_6488994162138939392_1, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 789] - PendingLoginMgr::remove: bot_6488994162138939392_1, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 829] - onReuqestLogin() loginName=bot_6488994162138939392_1, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 829] - PendingLoginMgr::add: bot_6488994162138939392_1, size=1.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 829] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488994162138939392_1, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 830] - onCreateAccountCallbackFromDB() accountName=bot_6488994162138939392_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 830] - Loginapp::onReqCreateAccountResult: accountName=bot_6488994162138939392_2, failedcode=0.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 830] - PendingLoginMgr::remove: bot_6488994162138939392_2, size=0.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 869] - onReuqestLogin() loginName=bot_6488994162138939392_2, clientType=6
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 869] - PendingLoginMgr::add: bot_6488994162138939392_2, size=2.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 869] - Loginapp::login: new client[CLIENT_TYPE_BOTS], loginName=bot_6488994162138939392_2, datas=bots.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 909] - onLoginCallbackFromDB() loginName=bot_6488994162138939392_1, accountName=bot_6488994162138939392_1, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 949] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488994162138939392_1, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:34 949] - PendingLoginMgr::remove: bot_6488994162138939392_1, size=1.
+  S_INFO   loginapp01 1001 9000  [2017-11-16 20:51:34 990] - onLoginCallbackFromDB() loginName=bot_6488994162138939392_2, accountName=bot_6488994162138939392_2, errorno=0
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:35 029] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=bot_6488994162138939392_2, addr=172.16.4.154:20015.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:51:35 029] - PendingLoginMgr::remove: bot_6488994162138939392_2, size=0.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:53:03 958] - ServerApp::onChannelTimeOut: Channel 127.0.0.1:49823/0/0/0 timed out.
+    INFO   loginapp01 1001 9000  [2017-11-16 20:53:04 628] - ServerApp::onChannelTimeOut: Channel 127.0.0.1:49824/0/0/0 timed out.
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:54:11 988] - ServerApp::lookApp: 172.16.4.154:49854/0/0/0, componentID=9000
+   DEBUG   loginapp01 1001 9000  [2017-11-16 20:54:11 988] - ServerApp::lookApp: response! componentID=9000

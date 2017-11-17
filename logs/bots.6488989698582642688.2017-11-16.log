@@ -1,0 +1,369 @@
+  INFO root [0x000414c0] [2017-11-16 20:34:08,622] - 
+  INFO root [0x000414c0] [2017-11-16 20:34:08,623] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000414c0] [2017-11-16 20:34:08,624] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:49483 )
+  INFO root [0x000414c0] [2017-11-16 20:34:08,624] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:49483, SOMAXCONN=5.
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,653] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,653] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,653] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,655] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,655] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,656] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,687] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000414c0] [2017-11-16 20:34:08,717] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x000414c0] [2017-11-16 20:34:08,717] - Script::install(): KBExtra is successfully!
+  INFO root [0x000414c0] [2017-11-16 20:34:08,721] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 124556E6025E0209A64D4D365F48CE09. Config: Debug. Built: 16:13:57 Jul  7 2017. AppID: 6488989698582642688. UID: 1001. PID: 275628 ----
+  INFO root [0x000414c0] [2017-11-16 20:34:08,721] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x000414c0] [2017-11-16 20:34:08,721] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000414c0] [2017-11-16 20:34:08,722] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+SCRIPT root [0x000414c0] [2017-11-16 20:34:08,907] - 3
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,913] - loaded script:Player(1).
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,922] - loaded script:DdzAvatar(2).
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,927] - loaded script:DdzRoom(7).
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,928] - loaded script:ZjhRoom(9).
+  INFO root [0x000414c0] [2017-11-16 20:34:08,929] - TelnetServer server is running on port 51000
+ S_DBG root [0x000414c0] [2017-11-16 20:34:08,929] - onInit::isReload:0
+  INFO root [0x000414c0] [2017-11-16 20:34:08,929] - ---- bots is running ----
+ DEBUG root [0x000414c0] [2017-11-16 20:34:08,929] - Components::process(): Request for the process of identity...
+ DEBUG root [0x000414c0] [2017-11-16 20:34:15,951] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 52 76 09 1A 66 2C 0E 66 12 0E 12 04 04 1B 49 42
+ DEBUG root [0x000414c0] [2017-11-16 20:34:15,953] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: D9 DE C3 ED 4D C1 6B 56 79 07 66 97 61 98 1E 7B
+  WARN root [0x000414c0] [2017-11-16 20:34:15,953] - bots.cpp:284: Profile updateBots took 0.66 seconds
+  INFO root [0x000414c0] [2017-11-16 20:34:15,990] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x000414c0] [2017-11-16 20:34:15,990] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x000414c0] [2017-11-16 20:34:16,123] - ClientObject::onCreateAccountResult: bot_6488989698582642688_2 create is successfully!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,157] - ClientObject::onCreateAccountResult: bot_6488989698582642688_1 create is successfully!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,323] - ClientObject::onLoginSuccessfully: bot_6488989698582642688_2 addr=172.16.4.154:20015!
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,323] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 70 72 81 C5 B3 9E DB B5 EE FD E4 74 EE FE 01 DB
+  INFO root [0x000414c0] [2017-11-16 20:34:16,357] - ClientObject::onLoginSuccessfully: bot_6488989698582642688_1 addr=172.16.4.154:20015!
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,358] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: BC CB D3 2F 48 16 F8 1F 50 C7 65 B9 8A 20 12 B6
+  INFO root [0x000414c0] [2017-11-16 20:34:16,358] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x000414c0] [2017-11-16 20:34:16,390] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x000414c0] [2017-11-16 20:34:16,490] - ClientObject::onCreatedProxies(bot_6488989698582642688_2): rndUUID=6488989732151164928 eid=8 entityType=Player!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,490] - ClientObjectBase::createEntity: new Player (8)
+  INFO root [0x000414c0] [2017-11-16 20:34:16,523] - ClientObject::onCreatedProxies(bot_6488989698582642688_1): rndUUID=6488989732151164929 eid=9 entityType=Player!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,523] - ClientObjectBase::createEntity: new Player (9)
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,557] - ClientObjectBase::onEntityDestroyed: Player(8).
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,557] - Player::~Player(): 8
+  INFO root [0x000414c0] [2017-11-16 20:34:16,557] - ClientObject::onCreatedProxies(bot_6488989698582642688_2): rndUUID=6488989732151164930 eid=10 entityType=DdzAvatar!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,557] - ClientObjectBase::createEntity: new DdzAvatar (10)
+ S_DBG root [0x000414c0] [2017-11-16 20:34:16,558] - Bots::DdzAvatar __init__
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,590] - ClientObjectBase::onEntityDestroyed: Player(9).
+ DEBUG root [0x000414c0] [2017-11-16 20:34:16,590] - Player::~Player(): 9
+  INFO root [0x000414c0] [2017-11-16 20:34:16,590] - ClientObject::onCreatedProxies(bot_6488989698582642688_1): rndUUID=6488989732151164931 eid=11 entityType=DdzAvatar!
+  INFO root [0x000414c0] [2017-11-16 20:34:16,590] - ClientObjectBase::createEntity: new DdzAvatar (11)
+ S_DBG root [0x000414c0] [2017-11-16 20:34:16,591] - Bots::DdzAvatar __init__
+  INFO root [0x000414c0] [2017-11-16 20:34:16,957] - Components::findComponents: find logger(1)...
+  INFO root [0x000414c0] [2017-11-16 20:34:17,090] - Components::findComponents: found logger, addr:172.16.4.154:49435
+  INFO root [0x000414c0] [2017-11-16 20:34:17,091] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x000414c0] [2017-11-16 20:34:17,091] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000414c0] [2017-11-16 20:34:17,124] - Components::process(): Found all the components!
+  INFO root [0x000414c0] [2017-11-16 20:35:17,094] - ClientApp::onChannelTimeOut: Channel 172.16.4.154:49435/0/0/0 timed out.
+  INFO root [0x000414c0] [2017-11-16 20:40:25,987] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x000414c0] [2017-11-16 20:40:25,987] - ClientObjectBase::tickSend: serverCloased!
+  INFO root [0x000414c0] [2017-11-16 20:40:25,987] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x000414c0] [2017-11-16 20:40:25,987] - ClientObjectBase::tickSend: serverCloased!
+  WARN root [0x000414c0] [2017-11-16 20:40:26,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,590] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,591] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,592] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,593] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,594] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,594] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,594] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,594] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,594] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,595] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,595] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,595] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,595] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,595] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,596] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,596] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,596] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,596] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,596] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,597] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,598] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,599] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,599] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,599] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,599] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,599] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,600] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,601] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,601] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,601] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,601] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,601] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,602] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,603] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,604] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,605] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,606] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,606] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,606] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,606] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,606] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,607] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,608] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,609] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,610] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,611] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,612] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,613] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,614] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,615] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,616] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,617] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,618] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,618] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,618] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,618] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,618] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,619] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,619] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,619] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ DEBUG root [0x000414c0] [2017-11-16 20:40:26,619] - DdzAvatar::~DdzAvatar(): 11
+ DEBUG root [0x000414c0] [2017-11-16 20:40:26,619] - DdzAvatar::~DdzAvatar(): 10
+ DEBUG root [0x000414c0] [2017-11-16 20:40:26,954] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 04 A3 2D CF C9 9C 81 30 0F FD E1 0E F2 4B 8D 06
+ DEBUG root [0x000414c0] [2017-11-16 20:40:26,955] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 20 C9 3D B0 5D D5 6C 8C 01 C6 D4 1C 6A 13 27 8C
+  WARN root [0x000414c0] [2017-11-16 20:40:26,998] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:26,999] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,000] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,001] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,002] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,003] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,004] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,005] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,006] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,007] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,007] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,007] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,007] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,007] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,008] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,008] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,008] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,008] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,009] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,009] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,009] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,009] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,010] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,011] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,012] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,013] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,014] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,015] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,016] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,017] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,018] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x000414c0] [2017-11-16 20:40:27,019] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

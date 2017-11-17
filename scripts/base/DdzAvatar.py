@@ -24,9 +24,9 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
         INFO_MSG("DdzAvatar[%i]::onEntitiesEnabled:entities enable. mailbox:%s, clientType(%i), clientDatas=(%s)" % \
             (self.id, self.client, self.getClientType(), self.getClientDatas()))
 
-    def createCell(self, space, cid):
+    def createCell(self, space):
         """
-        defined method.
+        export method.
         """
         if not self.cell:
 
@@ -37,7 +37,7 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
             self.cellData["multiple"] = 1
             self.cellData["type"] = 0       # 0无身份 1地主 2农民
             self.cellData["tuoguan"] = 0    # 0正常 1托管
-            self.cellData["cid"] = cid
+            self.cellData["cid"] = 0
 
             self.createCellEntity(space)
 
@@ -53,7 +53,7 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
             self.reqEnterRoom()
 
         elif not self.client:
-            self.destroy()
+            self.ExitGame()
 
         else:
             self.reqLeaveRoom()
@@ -64,25 +64,22 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
             if self.cell:
                 self.destroyCellEntity()
             else:
-                self.destroy()
+                self.ExitGame()
 
     def onDestroy(self):
 
         DEBUG_MSG("%r[%r]::onDestroy() " %(self.className,self.id))
 
-        # 先退出大厅，退出大厅功能中应该能确保后续所有的事情
-        if self.state == 0:
-            self.ExitGame()
 
     def reqLeaveGame(self):
 
         super().reqLeaveGame()
 
-        if self.client and self.activeProxy:
-
+        if self.client:
             self.giveClientTo(self.activeProxy)
-            self.activeProxy.reqLeaveGame()
-            self.destroy()
+
+        self.activeProxy.reqLeaveGame()
+        self.destroy()
 
     def reqContinue(self):
         """

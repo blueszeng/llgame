@@ -29,9 +29,8 @@ class GameObject:
         self.reqLeaveRoom()
         self.reqLeaveHall()
         self.reqLeaveGame()
-        self.Games().reqLeave(self)
 
-        DEBUG_MSG("%r[%d]::ExitGame()" % (self.className,self.id))
+        DEBUG_MSG("%r[%d]::exitGame()" % (self.className,self.id))
 
     def reqEnterGame(self,cid):
 
