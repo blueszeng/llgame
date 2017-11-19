@@ -15,7 +15,7 @@ class RoomEntity(EntityCommon):
         """
         class method
         """
-        for pp in self.players:
+        for pp in self.players.values():
             if pp.client:
                 pp.client.onMessage(0,action,json)
 

@@ -105,18 +105,9 @@ def onLoseChargeCB(ordersID, dbid, success, datas):
 
 	_recv_data = datas.decode()
 
-	if _recv_data.find("IIII") != -1:
-
-		cutData = Helper.cutInHttp(_recv_data, 'IIII', 'IIII')
-		json_data = Helper.convertDict(cutData, ',', ':')
-		money = float(json_data["number"])
-		account = json_data["account"]
-
-	else:
-		cutData = Helper.cutInHttp(_recv_data, '?', '&')
-		orderDict = Helper.convertDict(cutData, '&', '=')
-		account = orderDict["qn"]
-		money = float(orderDict["money"])/100
+	json_data = json.loads(_recv_data)
+	account = json_data["account"]
+	money	= json_data["money"]
 
 	KBEngine.globalData["Games"].reqChargeToPlayer(account,money)
 

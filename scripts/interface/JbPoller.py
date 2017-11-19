@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import KBEngine
-import Functor
 import socket
 import json
 from datetime import datetime,time
@@ -52,7 +51,7 @@ class JbPoller:
 			sock, addr = self._socket.accept()
 			self._clients[sock.fileno()] = (sock, addr)
 			KBEngine.registerReadFileDescriptor(sock.fileno(), self.onRecv)
-			DEBUG_MSG("Poller::onRecv: new channel[%s/%i]" % (addr, sock.fileno()))
+			DEBUG_MSG("Poller::onRecv: new connect[%s/%i]" % (addr, sock.fileno()))
 		else:
 			sock, addr = self._clients.get(fileno, None)
 			if sock is None:
@@ -60,10 +59,11 @@ class JbPoller:
 			
 			data = sock.recv(2048)
 			KBEngine.deregisterReadFileDescriptor(sock.fileno())
-			sock.close()
 
 			DEBUG_MSG("Poller::onRecv: %s/%i get data, size=%i" % (addr, sock.fileno(), len(data)))
+
 			self.processData(sock, addr, data)
+			sock.close()
 
 			del self._clients[fileno]
 			
@@ -71,34 +71,46 @@ class JbPoller:
 		"""
 		处理接收数据
 		"""
-		DEBUG_MSG("====================processOrders start==========================")
 		_recv_data = datas.decode()
 
-		DEBUG_MSG("_recv_data = %r"% _recv_data)
+		DEBUG_MSG("_recvBuf = %r"% _recv_data)
 
+		order = {}
+		payid = ""
+		cutData = ""
 		if _recv_data.find("IIII") != -1:
 
 			cutData = Helper.cutInHttp(_recv_data, 'IIII', 'IIII')
-			json_data = Helper.convertDict(cutData)
+			json_data = Helper.convertDict(cutData, ',', ':')
 			payid = json_data["timestamp"]
+			order["money"] = float(json_data["number"])
+			order["account"] = json_data["account"]
 
-		else:
+		elif _recv_data.find("{") != -1:
 			cutData = Helper.cutHttp(_recv_data, '{', '}')
 			json_data = json.loads(cutData)
 			payid = json_data["payid"]
 
-		DEBUG_MSG("curData = %r" % (cutData))
+			payerName = json_data["payerName"]
+			index = payerName.find('|')
+			order["money"] = float(json_data["amount"])
+			order["account"] = payerName[index + 1:]
+
+		DEBUG_MSG("cutData = %r" % (cutData))
 
 		if not self.checkOrders(payid):
 			DEBUG_MSG("orders is no problem!!!")
-			KBEngine.chargeResponse(payid, datas, KBEngine.SERVER_SUCCESS)
+			orderStr = json.dumps(order)
+			KBEngine.chargeResponse(payid, orderStr.encode(), KBEngine.SERVER_SUCCESS)
+			self.send(sock,"success")
 
-		# self.request(sock,addr,"","success")
-		DEBUG_MSG("====================processOrders end==========================")
+		self.send(sock,"no this order")
 
 	def checkOrders(self,payid):
 		#检测是否重复订单
 		#同时清理存在超过30分钟的订单
+		if payid == "":
+			return True
 
 		for key in self._orders.keys():
 			if key == payid:
@@ -113,16 +125,23 @@ class JbPoller:
 			del self._orders[key]
 		return False
 
-	def request(self,sock,addr,_page, _param_data):
-		"""
-        @param _param_data: http请求参数
-        """
-		DEBUG_MSG("===================== request .start =======================")
+	# def send(self, sock):
+    #
+	# 	body = "success"
+	# 	get_str = "HTTP/1.1 200 OK\r\n" \
+	# 			  "Content-type: text/html;charset=UTF-8\r\n" \
+	# 			  "Content-length: %d\r\n" \
+	# 			  "\r\n" % (len(body))
+    #
+	# 	get_str += body
+	# 	sock.send(get_str.encode())
 
-		_rstr = """\
-		  HTTP/1.1 200 OK
+	def send(self, sock,body):
 
-		  success
-		  """
-		request_str = _rstr.encode()
-		sock.sendall(request_str)
+		get_str = "HTTP/1.1 200 OK\r\n" \
+				  "Content-type: text/html;charset=UTF-8\r\n" \
+				  "Content-length: %d\r\n" \
+				  "\r\n" % (len(body))
+
+		get_str += body
+		sock.send(get_str.encode('utf8'))
