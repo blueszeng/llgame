@@ -37,8 +37,7 @@ class Player(KBEngine.Proxy,GameObject):
 		该entity被正式激活为可使用， 此时entity已经建立了client对应实体， 可以在此创建它的
 		cell部分。
 		"""
-		INFO_MSG("Player[%i]::onEntitiesEnabled:entities enable. mailbox:%s, clientType(%i), clientDatas=(%s), accountName=%s" % \
-			(self.id, self.client, self.getClientType(), self.getClientDatas(), self.__ACCOUNT_NAME__))
+		INFO_MSG("%r[%i]::onEntitiesEnabled(), accountName=%s" % (self.className, self.id, self.__ACCOUNT_NAME__))
 
 		self.Games().reqEnter(self)
 

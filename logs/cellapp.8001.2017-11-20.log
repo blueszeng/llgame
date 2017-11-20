@@ -1,0 +1,251 @@
+  INFO root [0x00007b60] [2017-11-20 19:49:00,853] - 
+  INFO root [0x00007b60] [2017-11-20 19:49:00,871] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007b60] [2017-11-20 19:49:00,871] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [0x00007b60] [2017-11-20 19:49:00,871] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [0x00007b60] [2017-11-20 19:49:00,872] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [0x00007b60] [2017-11-20 19:49:00,919] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59302 )
+  INFO root [0x00007b60] [2017-11-20 19:49:00,919] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59302, SOMAXCONN=5.
+  INFO root [0x00007b60] [2017-11-20 19:49:00,919] - server-configs:
+  INFO root [0x00007b60] [2017-11-20 19:49:00,919] - 	gameUpdateHertz : 30
+  INFO root [0x00007b60] [2017-11-20 19:49:00,920] - 	defaultAoIRadius : 80
+  INFO root [0x00007b60] [2017-11-20 19:49:00,920] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00007b60] [2017-11-20 19:49:00,920] - 	entryScriptFile : kbemain
+  INFO root [0x00007b60] [2017-11-20 19:49:00,920] - 	internalAddr : 172.16.4.154:59302
+  INFO root [0x00007b60] [2017-11-20 19:49:00,920] - 	componentID : 8001
+  INFO root [0x00007b60] [2017-11-20 19:49:01,014] - Components::findLogger: found logger, addr:172.16.4.154:59295
+  INFO root [0x00007b60] [2017-11-20 19:49:01,014] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00007b60] [2017-11-20 19:49:01,014] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007b60] [2017-11-20 19:49:01,019] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: C77B6766B19115577F49043447D592A7. Config: Debug X86. Built: 16:14:48 Jul  7 2017. AppID: 8001. UID: 1001. PID: 30176 ----
+  INFO root [0x00007b60] [2017-11-20 19:49:01,019] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00007b60] [2017-11-20 19:49:01,020] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007b60] [2017-11-20 19:49:01,020] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,161] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,161] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,161] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,164] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,164] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,165] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,196] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00007b60] [2017-11-20 19:49:01,230] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:58) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00007b60] [2017-11-20 19:49:01,230] - Script::install(): KBExtra is successfully!
+SCRIPT root [0x00007b60] [2017-11-20 19:49:01,311] - 3
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,336] - loaded script:DdzAvatar(2).
+SCRIPT root [0x00007b60] [2017-11-20 19:49:01,384] - 1
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,385] - loaded script:DdzRoom(7).
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,402] - loaded script:ZjhRoom(9).
+  INFO root [0x00007b60] [2017-11-20 19:49:01,403] - TelnetServer server is running on port 50000
+  INFO root [0x00007b60] [2017-11-20 19:49:01,659] - ---- cellapp is running ----
+ DEBUG root [0x00007b60] [2017-11-20 19:49:01,659] - Components::process(): Request for the process of identity...
+  WARN root [0x00007b60] [2017-11-20 19:49:07,719] - Forwarding logs to logger[172.16.4.154:59295/0/0/0]...
+ ERROR root [0x00007b60] [2017-11-20 19:53:03,100] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00007b60] [2017-11-20 19:53:03,105] - The following logs sent to logger failed:
+  WARN root [0x00007b60] [2017-11-20 19:53:03,105] - ==> [2017-11-20 19:53:03 097] TCPPacketReceiver::processPendingEvents(172.16.4.154:59295): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007b60] [2017-11-20 19:53:03,105] - ==> [2017-11-20 19:53:03 100] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00007b60] [2017-11-20 19:53:03,310] - TCPPacketReceiver::processPendingEvents(172.16.4.154:59296): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00007b60] [2017-11-20 19:53:03,312] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00007b60] [2017-11-20 19:53:03,313] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00007b60] [2017-11-20 19:53:03,314] - Shutdowner::onShutdown: shutting down
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,315] - DdzRoom::~DdzRoom(): 12
+ S_DBG root [0x00007b60] [2017-11-20 19:53:03,315] - 'DdzAvatar'[14].Cell::onDestroy()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,316] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\DdzAvatar.py", line 23, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,317] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 23, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,318] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 17, in getCurrRoomBase
+    return KBEngine.globalData["Room_%i" % self.spaceID]
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,318] - KeyError: 'Room_1'
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,319] - DdzAvatar::~DdzAvatar(): 14
+ S_DBG root [0x00007b60] [2017-11-20 19:53:03,319] - 'DdzAvatar'[11].Cell::onDestroy()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,320] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\DdzAvatar.py", line 23, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,325] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 23, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,336] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 17, in getCurrRoomBase
+    return KBEngine.globalData["Room_%i" % self.spaceID]
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,342] - KeyError: 'Room_1'
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,348] - DdzAvatar::~DdzAvatar(): 11
+ S_DBG root [0x00007b60] [2017-11-20 19:53:03,348] - 'DdzAvatar'[10].Cell::onDestroy()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,349] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\DdzAvatar.py", line 23, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,350] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 23, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,351] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 17, in getCurrRoomBase
+    return KBEngine.globalData["Room_%i" % self.spaceID]
+ S_ERR root [0x00007b60] [2017-11-20 19:53:03,354] - KeyError: 'Room_1'
+  INFO root [0x00007b60] [2017-11-20 19:53:03,361] - Spaces::destroySpace: 1.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,362] - DdzAvatar::~DdzAvatar(): 10
+  INFO root [0x00007b60] [2017-11-20 19:53:03,362] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,362] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,363] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,372] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,372] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,372] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,373] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,373] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,373] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,373] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00007b60] [2017-11-20 19:53:03,383] - Script::uninstall(): is successfully!
+ DEBUG root [0x00007b60] [2017-11-20 19:53:03,383] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00007b60] [2017-11-20 19:53:03,685] - ThreadPool::destroy(): waiting for thread(2)[0x210b648,0x210b440,], try=1
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - TPThread::~TPThread(): 0x210b648
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - TPThread::~TPThread(): 0x210b440
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - Bundle::destroyObjPool(): size 8.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,087] - TCPPacket::destroyObjPool(): size 7.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,088] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,088] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,088] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,088] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00007b60] [2017-11-20 19:53:04,088] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00007b60] [2017-11-20 19:53:04,088] - cellapp(8001) has shut down.
+  INFO root [0x00008088] [2017-11-20 20:03:06,714] - 
+  INFO root [0x00008088] [2017-11-20 20:03:06,719] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00008088] [2017-11-20 20:03:06,719] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [0x00008088] [2017-11-20 20:03:06,720] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [0x00008088] [2017-11-20 20:03:06,720] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59401 )
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59401, SOMAXCONN=5.
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - server-configs:
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - 	gameUpdateHertz : 30
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - 	defaultAoIRadius : 80
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - 	entryScriptFile : kbemain
+  INFO root [0x00008088] [2017-11-20 20:03:06,734] - 	internalAddr : 172.16.4.154:59401
+  INFO root [0x00008088] [2017-11-20 20:03:06,735] - 	componentID : 8001
+  INFO root [0x00008088] [2017-11-20 20:03:08,243] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: C77B6766B19115577F49043447D592A7. Config: Debug X86. Built: 16:14:48 Jul  7 2017. AppID: 8001. UID: 1001. PID: 32900 ----
+  INFO root [0x00008088] [2017-11-20 20:03:08,244] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00008088] [2017-11-20 20:03:08,244] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00008088] [2017-11-20 20:03:08,244] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,373] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,373] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,373] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,375] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,375] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,376] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,409] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00008088] [2017-11-20 20:03:08,444] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:58) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00008088] [2017-11-20 20:03:08,444] - Script::install(): KBExtra is successfully!
+SCRIPT root [0x00008088] [2017-11-20 20:03:08,503] - 3
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,505] - loaded script:DdzAvatar(2).
+SCRIPT root [0x00008088] [2017-11-20 20:03:08,530] - 1
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,530] - loaded script:DdzRoom(7).
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,533] - loaded script:ZjhRoom(9).
+  INFO root [0x00008088] [2017-11-20 20:03:08,534] - TelnetServer server is running on port 50000
+  INFO root [0x00008088] [2017-11-20 20:03:08,793] - ---- cellapp is running ----
+ DEBUG root [0x00008088] [2017-11-20 20:03:08,793] - Components::process(): Request for the process of identity...
+  WARN root [0x00008088] [2017-11-20 20:03:14,872] - EntityApp::checkTickPeriod: tick took 18418% (18.42 seconds)!
+  INFO root [0x00008088] [2017-11-20 20:03:15,892] - Components::findComponents: find logger(1)...
+  INFO root [0x00008088] [2017-11-20 20:03:15,940] - Components::findComponents: found logger, addr:172.16.4.154:59395
+  INFO root [0x00008088] [2017-11-20 20:03:15,940] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00008088] [2017-11-20 20:03:15,941] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00008088] [2017-11-20 20:03:15,944] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00008088] [2017-11-20 20:03:16,050] - Components::findComponents: found dbmgr, addr:172.16.4.154:59396
+  INFO root [0x00008088] [2017-11-20 20:03:16,051] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00008088] [2017-11-20 20:03:16,051] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00008088] [2017-11-20 20:03:16,052] - Components::findComponents: found dbmgr, addr:172.16.4.154:59396
+  WARN root [0x00008088] [2017-11-20 20:03:17,052] - EntityApp::checkTickPeriod: tick took 3612% (3.61 seconds)!
+  WARN root [0x00008088] [2017-11-20 20:03:17,054] - Forwarding logs to logger[172.16.4.154:59395/0/0/0]...
+ ERROR root [0x00008088] [2017-11-20 20:04:04,718] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00008088] [2017-11-20 20:04:04,721] - The following logs sent to logger failed:
+  WARN root [0x00008088] [2017-11-20 20:04:04,721] - ==> [2017-11-20 20:04:04 715] TCPPacketReceiver::processPendingEvents(172.16.4.154:59395): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00008088] [2017-11-20 20:04:04,722] - ==> [2017-11-20 20:04:04 719] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00008088] [2017-11-20 20:04:04,989] - TCPPacketReceiver::processPendingEvents(172.16.4.154:59396): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00008088] [2017-11-20 20:04:04,991] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00008088] [2017-11-20 20:04:04,993] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00008088] [2017-11-20 20:04:04,993] - Shutdowner::onShutdown: shutting down
+ DEBUG root [0x00008088] [2017-11-20 20:04:04,994] - DdzRoom::~DdzRoom(): 10012
+ S_DBG root [0x00008088] [2017-11-20 20:04:04,994] - 'DdzAvatar'[10010].Cell::onDestroy()
+ S_ERR root [0x00008088] [2017-11-20 20:04:04,995] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\DdzAvatar.py", line 23, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00008088] [2017-11-20 20:04:04,996] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 23, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00008088] [2017-11-20 20:04:04,999] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 17, in getCurrRoomBase
+    return KBEngine.globalData["Room_%i" % self.spaceID]
+ S_ERR root [0x00008088] [2017-11-20 20:04:05,001] - KeyError: 'Room_1'
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,002] - DdzAvatar::~DdzAvatar(): 10010
+ S_DBG root [0x00008088] [2017-11-20 20:04:05,003] - 'DdzAvatar'[10011].Cell::onDestroy()
+ S_ERR root [0x00008088] [2017-11-20 20:04:05,004] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\DdzAvatar.py", line 23, in onDestroy
+    room = self.getCurrRoom()
+ S_ERR root [0x00008088] [2017-11-20 20:04:05,006] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 23, in getCurrRoom
+    roomBase = self.getCurrRoomBase()
+ S_ERR root [0x00008088] [2017-11-20 20:04:05,007] -   File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/cell\interfaces\EntityCommon.py", line 17, in getCurrRoomBase
+    return KBEngine.globalData["Room_%i" % self.spaceID]
+ S_ERR root [0x00008088] [2017-11-20 20:04:05,007] - KeyError: 'Room_1'
+  INFO root [0x00008088] [2017-11-20 20:04:05,013] - Spaces::destroySpace: 1.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,013] - DdzAvatar::~DdzAvatar(): 10011
+  INFO root [0x00008088] [2017-11-20 20:04:05,013] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,013] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,014] - Witness::destroyObjPool(): size 16.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,023] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,023] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,023] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,023] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,024] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,024] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,024] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00008088] [2017-11-20 20:04:05,034] - Script::uninstall(): is successfully!
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,034] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00008088] [2017-11-20 20:04:05,334] - ThreadPool::destroy(): waiting for thread(2)[0x4cb308,0x4cb648,], try=1
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - TPThread::~TPThread(): 0x4cb308
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - TPThread::~TPThread(): 0x4cb648
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - ThreadPool::destroy(): successfully!
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - Bundle::destroyObjPool(): size 14.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - Channel::destroyObjPool(): size 13.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - TCPPacket::destroyObjPool(): size 13.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,736] - UDPPacket::destroyObjPool(): size 13.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,737] - EndPoint::destroyObjPool(): size 13.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,737] - Address::destroyObjPool(): size 0.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,737] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [0x00008088] [2017-11-20 20:04:05,737] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [0x00008088] [2017-11-20 20:04:05,737] - cellapp(8001) has shut down.
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,509] - 
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,509] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,510] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,510] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,510] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59456 )
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59456, SOMAXCONN=5.
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - server-configs:
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - 	gameUpdateHertz : 30
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - 	defaultAoIRadius : 80
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - 	defaultAoIHysteresisArea : 5
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - 	entryScriptFile : kbemain
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,512] - 	internalAddr : 172.16.4.154:59456
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,513] - 	componentID : 8001
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,624] - Components::findLogger: found logger, addr:172.16.4.154:59450
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,624] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,624] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,629] - ---- cellapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: C77B6766B19115577F49043447D592A7. Config: Debug X86. Built: 16:14:48 Jul  7 2017. AppID: 8001. UID: 1001. PID: 33364 ----
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,629] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,629] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,629] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,760] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,760] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,760] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,762] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,762] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,763] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,794] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,824] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:58) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,824] - Script::install(): KBExtra is successfully!
+SCRIPT root [0x00006d8c] [2017-11-20 20:04:10,884] - 3
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,886] - loaded script:DdzAvatar(2).
+SCRIPT root [0x00006d8c] [2017-11-20 20:04:10,898] - 1
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,898] - loaded script:DdzRoom(7).
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:10,901] - loaded script:ZjhRoom(9).
+  INFO root [0x00006d8c] [2017-11-20 20:04:10,901] - TelnetServer server is running on port 50000
+  INFO root [0x00006d8c] [2017-11-20 20:04:11,265] - ---- cellapp is running ----
+ DEBUG root [0x00006d8c] [2017-11-20 20:04:11,265] - Components::process(): Request for the process of identity...
+  WARN root [0x00006d8c] [2017-11-20 20:04:17,340] - Forwarding logs to logger[172.16.4.154:59450/0/0/0]...

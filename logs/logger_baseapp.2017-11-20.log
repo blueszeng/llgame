@@ -1,0 +1,639 @@
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 637] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 638] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 638] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 638] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 640] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20015 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 641] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20015, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 641] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59300 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 642] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59300, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 642] - server-configs:
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 643] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 643] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 643] - 	internalAddr : 172.16.4.154:59300
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 643] - 	externalAddr : 172.16.4.154:20015
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:00 643] - 	componentID : 7001
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 015] - Components::findLogger: found logger, addr:172.16.4.154:59295
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 016] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 016] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 020] - ---- baseapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 3832E49F6CC47A66EFBA02ABD3118CFB. Config: Debug X86. Built: 16:14:02 Jul  7 2017. AppID: 7001. UID: 1001. PID: 28084 ----
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 021] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 021] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 021] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 163] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 163] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 164] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 165] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 165] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 166] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 197] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 230] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 230] - Script::install(): KBExtra is successfully!
+  S_NORM    baseapp-1 1001 7001  [2017-11-20 19:49:01 250] - 1
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 358] - loaded script:Player(1).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 364] - loaded script:DdzAvatar(2).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 379] - loaded script:Ranks(3).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 387] - loaded script:Games(4).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 392] - loaded script:DdzGame(5).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 399] - loaded script:DdzHall(6).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 405] - loaded script:DdzRoom(7).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 421] - loaded script:ZjhHall(8).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 428] - loaded script:ZjhRoom(9).
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 428] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 429] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:01 645] - ---- baseapp is running ----
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:01 645] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 1001 7001  [2017-11-20 19:49:07 706] - EntityApp::checkTickPeriod: tick took 18366% (18.37 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:08 745] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:08 761] - Components::findComponents: found dbmgr, addr:172.16.4.154:59296
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:08 761] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:08 761] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:08 762] - Components::findComponents: found dbmgr, addr:172.16.4.154:59296
+ WARNING    baseapp-1 1001 7001  [2017-11-20 19:49:09 763] - EntityApp::checkTickPeriod: tick took 3181% (3.18 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:10 779] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:10 794] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59297
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:10 795] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:10 796] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59297
+ WARNING    baseapp-1 1001 7001  [2017-11-20 19:49:11 797] - EntityApp::checkTickPeriod: tick took 3184% (3.18 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:12 812] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:12 853] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59298
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:12 853] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:12 853] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59298
+ WARNING    baseapp-1 1001 7001  [2017-11-20 19:49:13 853] - EntityApp::checkTickPeriod: tick took 3254% (3.25 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:14 911] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 19:49:14 911] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:14 938] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:14 944] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:14 978] - Components::process(): Found all the components!
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:15 045] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=6, grouporderID=1, intaddr:172.16.4.154, intport:59302, extaddr:nonsupport, extport:0,  from 172.16.4.154:59296/0/0/0.
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:15 046] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=6, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 19:49:18 045] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-10001), startGlobalOrder=5, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:18 045] - IDClient::onAddRange: number of ids increased from 1 to 10001.
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:18 388] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20414, errorno=10048
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:19 611] - onInit::isReload:0
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:19 611] - C:\Users\hyc\Desktop\kbengine\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 1.57 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:19 612] - baseapp.cpp:510: Profile gameTick took 1.57 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:19 612] - EntityApp::checkTickPeriod: tick took 4748% (4.75 seconds)!
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:20 540] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:20 546] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:20 547] - EntityApp::createEntity: new Games 1
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:20 548] - EntityApp::createEntity: new Ranks 2
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:20 578] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:21 545] - EntityApp::createEntity: new DdzGame 3
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:22 578] - EntityApp::createEntity: new DdzHall 4
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:22 578] - EntityApp::createEntity: new DdzHall 5
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:22 579] - EntityApp::createEntity: new DdzHall 6
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:22 579] - EntityApp::createEntity: new DdzHall 7
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:36 346] - PendingLoginMgr::add: bot_6490462529742503936_2, size=1.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:36 347] - PendingLoginMgr::add: bot_6490462529742503936_1, size=2.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 412] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=14 E2 DA ED DD 24 47 45 AF 74 EB 86 5C 2B 74 7E , addr:172.16.4.154:59346/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 413] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=D2 C7 1B C3 FB 1F 0F 54 05 FA B7 A1 9C 06 C0 E5 , addr:172.16.4.154:59347/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 445] - Baseapp::loginBaseapp: new user[bot_6490462529742503936_1], channel[172.16.4.154:59346/0/0/0].
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 446] - Baseapp::loginBaseapp: new user[bot_6490462529742503936_2], channel[172.16.4.154:59347/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:36 545] - PendingLoginMgr::remove: bot_6490462529742503936_2, size=1.
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:36 545] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 546] - EntityApp::createEntity: new Player 9
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 546] - Player[9]::onEntitiesEnabled:entities enable. mailbox:Client id:9, utype:1, component=client[0], addr: 172.16.4.154:59347., clientType(6), clientDatas=(b'bots'), accountName=bot_6490462529742503936_2
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 546] - Games[1]::reqEnter() entity[9]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 546] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490462529742503936_2, uuid=6490462562336309248, entityID=9, flags=0, deadline=0.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:49:36 578] - PendingLoginMgr::remove: bot_6490462529742503936_1, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:49:36 578] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 578] - EntityApp::createEntity: new Player 8
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 579] - Player[8]::onEntitiesEnabled:entities enable. mailbox:Client id:8, utype:1, component=client[0], addr: 172.16.4.154:59346., clientType(6), clientDatas=(b'bots'), accountName=bot_6490462529742503936_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 579] - Games[1]::reqEnter() entity[8]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 579] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490462529742503936_1, uuid=6490462562336309249, entityID=8, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 612] - EntityApp::createEntity: new DdzAvatar 10
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 613] - DdzAvatar[10]::onEntitiesEnabled:entities enable. mailbox:Client id:10, utype:2, component=client[0], addr: 172.16.4.154:59347., clientType(6), clientDatas=(b'bots')
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 613] - DdzGame[3]::reqEnter() entity[10]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 647] - EntityApp::createEntity: new DdzAvatar 11
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 647] - DdzAvatar[11]::onEntitiesEnabled:entities enable. mailbox:Client id:11, utype:2, component=client[0], addr: 172.16.4.154:59346., clientType(6), clientDatas=(b'bots')
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 647] - DdzGame[3]::reqEnter() entity[11]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 678] - DdzHall[4]::reqEnter() entity[10]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 712] - DdzHall[4]::reqEnter() entity[11]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:49:36 746] - EntityApp::createEntity: new DdzRoom 12
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 746] - {'players': [DdzAvatar object at 0x0495D4B8.], 'roomMailbox': None}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 811] - onGlobalData: Room_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 811] - 'DdzRoom'[12]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 811] - DdzRoom[12]::reqEnter() entity[10]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:49:36 811] - DdzRoom[12]::reqEnter() entity[11]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:08 011] - Baseapp::onBackupEntityCellData: DdzRoom(12), 47 bytes.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:51:12 510] - PendingLoginMgr::add: 1122334455662, size=1.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:12 644] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:172.16.4.228:54711/0/0/0
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:51:12 644] - Baseapp::onHello: client is not encrypted, addr=172.16.4.228:54711/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:12 744] - Baseapp::loginBaseapp: new user[1122334455662], channel[172.16.4.228:54711/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:51:12 843] - PendingLoginMgr::remove: 1122334455662, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:51:12 843] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:12 843] - EntityApp::createEntity: new Player 13
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:51:12 844] - Player[13]::onEntitiesEnabled:entities enable. mailbox:Client id:13, utype:1, component=client[0], addr: 172.16.4.228:54711., clientType(1), clientDatas=(b''), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:51:12 844] - Games[1]::reqEnter() entity[13]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:12 844] - Baseapp::onQueryAccountCBFromDbmgr: user=1122334455662, uuid=6490462974653169664, entityID=13, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:51:14 912] - EntityApp::createEntity: new DdzAvatar 14
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:51:14 912] - DdzAvatar[14]::onEntitiesEnabled:entities enable. mailbox:Client id:14, utype:2, component=client[0], addr: 172.16.4.228:54711., clientType(1), clientDatas=(b'')
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:51:14 912] - DdzGame[3]::reqEnter() entity[14]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:51:15 878] - DdzHall[4]::reqEnter() entity[14]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:51:16 010] - {'players': [DdzAvatar object at 0x0495D4B8., DdzAvatar object at 0x0495D5D8.], 'roomMailbox': DdzRoom object at 0x046DAB60.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:51:16 011] - DdzRoom[12]::reqEnter() entity[14]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:52:13 144] - Baseapp::onBackupEntityCellData: DdzAvatar(11), 161 bytes.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 643] - Games::addIncome income[0.06] add[0.06]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 644] - 'DdzAvatar'[10]::set_gold() gold[1001.14] settleGold[1.1399999856948853]
+ WARNING    baseapp01 1001 7001  [2017-11-20 19:52:32 644] - Games::writeToDB(): is archiveing! entityid=1, dbid=0.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 644] - Games::addIncome income[0.12] add[0.06]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 644] - 'DdzAvatar'[11]::set_gold() gold[1001.14] settleGold[1.1399999856948853]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 644] - 'DdzAvatar'[14]::set_gold() gold[1.9899998664855958] settleGold[-2.4000000953674316]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 676] - 'DdzAvatar'[11]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 677] - 'DdzRoom'[12]::reqContinue() Entity[11] EntityCount[3]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 677] - DdzRoom[12]::reqLeave() entity[11]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 677] - 'DdzAvatar'[10]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 677] - 'DdzRoom'[12]::reqContinue() Entity[10] EntityCount[2]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 678] - DdzRoom[12]::reqLeave() entity[10]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 709] - Baseapp::onBackupEntityCellData: DdzAvatar(11), 121 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 710] - 'DdzAvatar'[11]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 710] - {'players': [DdzAvatar object at 0x0495D4B8., DdzAvatar object at 0x0495D5D8.], 'roomMailbox': DdzRoom object at 0x046DAB60.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 710] - DdzRoom[12]::reqEnter() entity[11]
+    INFO    baseapp01 1001 7001  [2017-11-20 19:52:32 711] - Baseapp::onBackupEntityCellData: DdzAvatar(10), 133 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 711] - 'DdzAvatar'[10]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 711] - {'players': [DdzAvatar object at 0x0495D4B8., DdzAvatar object at 0x0495D5D8.], 'roomMailbox': DdzRoom object at 0x046DAB60.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 19:52:32 711] - DdzRoom[12]::reqEnter() entity[10]
+   DEBUG    baseapp01 1001 7001  [2017-11-20 19:52:42 837] - DdzAvatar::onClientDeath: 14.
+    INFO    baseapp01 1001 7001  [2017-11-20 19:52:56 011] - Baseapp::onBackupEntityCellData: DdzAvatar(10), 177 bytes.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 608] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 608] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 608] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 609] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 611] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20015 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 612] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20015, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 612] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59399 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 613] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59399, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 613] - server-configs:
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 613] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 614] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 614] - 	internalAddr : 172.16.4.154:59399
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 614] - 	externalAddr : 172.16.4.154:20015
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:06 614] - 	componentID : 7001
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 473] - ---- baseapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 3832E49F6CC47A66EFBA02ABD3118CFB. Config: Debug X86. Built: 16:14:02 Jul  7 2017. AppID: 7001. UID: 1001. PID: 32816 ----
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 473] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 474] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 474] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 602] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 602] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 602] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 604] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 604] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 605] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 636] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 667] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 668] - Script::install(): KBExtra is successfully!
+  S_NORM    baseapp-1 1001 7001  [2017-11-20 20:03:08 676] - 1
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 744] - loaded script:Player(1).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 750] - loaded script:DdzAvatar(2).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 756] - loaded script:Ranks(3).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 758] - loaded script:Games(4).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 760] - loaded script:DdzGame(5).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 762] - loaded script:DdzHall(6).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 767] - loaded script:DdzRoom(7).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 769] - loaded script:ZjhHall(8).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 771] - loaded script:ZjhRoom(9).
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 773] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 773] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:08 992] - ---- baseapp is running ----
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:08 992] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:03:15 058] - EntityApp::checkTickPeriod: tick took 18378% (18.38 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 093] - Components::findComponents: find logger(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 159] - Components::findComponents: found logger, addr:172.16.4.154:59395
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 159] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 159] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 161] - Components::findComponents: find dbmgr(2)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 262] - Components::findComponents: found dbmgr, addr:172.16.4.154:59396
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 262] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 263] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:16 263] - Components::findComponents: found dbmgr, addr:172.16.4.154:59396
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:03:17 263] - EntityApp::checkTickPeriod: tick took 3645% (3.64 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:18 292] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:18 318] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59397
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:18 318] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:18 319] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59397
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:03:19 320] - EntityApp::checkTickPeriod: tick took 3215% (3.21 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:20 326] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:20 351] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59398
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:20 351] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:20 351] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59398
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:03:21 351] - EntityApp::checkTickPeriod: tick took 3209% (3.21 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 409] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:03:22 410] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 425] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 427] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 428] - Components::process(): Found all the components!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 459] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:59401, extaddr:nonsupport, extport:0,  from 172.16.4.154:59435/0/0/0.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 459] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:22 459] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:59401, extaddr:nonsupport, extport:0,  from 172.16.4.154:59435/0/0/0.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:03:25 426] - EntityApp::onDbmgrInitCompleted: entityID alloc(10001-20001), startGlobalOrder=5, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:25 426] - IDClient::onAddRange: number of ids increased from 10001 to 20001.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:25 767] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20304, errorno=10048
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:26 119] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20477, errorno=10048
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:03:27 334] - onInit::isReload:0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:27 334] - C:\Users\hyc\Desktop\kbengine\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 1.91 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:27 334] - baseapp.cpp:510: Profile gameTick took 1.91 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:27 334] - EntityApp::checkTickPeriod: tick took 5781% (5.78 seconds)!
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:28 292] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:03:28 293] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:28 299] - EntityApp::createEntity: new Games 10001
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:28 304] - EntityApp::createEntity: new Ranks 10002
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:28 309] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:29 293] - EntityApp::createEntity: new DdzGame 10003
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:30 327] - EntityApp::createEntity: new DdzHall 10004
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:30 327] - EntityApp::createEntity: new DdzHall 10005
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:30 330] - EntityApp::createEntity: new DdzHall 10006
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:30 331] - EntityApp::createEntity: new DdzHall 10007
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:45 393] - PendingLoginMgr::add: bot_6490466175354208256_1, size=1.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:45 425] - PendingLoginMgr::add: bot_6490466175354208256_2, size=2.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 458] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=26 5F 64 00 26 3C C3 8C 04 70 43 A2 DA A7 64 37 , addr:172.16.4.154:59443/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 492] - Baseapp::loginBaseapp: new user[bot_6490466175354208256_2], channel[172.16.4.154:59443/0/0/0].
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 492] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=91 25 AA A6 47 4C DA BF DB A3 0E 93 5D 51 93 D6 , addr:172.16.4.154:59444/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 525] - Baseapp::loginBaseapp: new user[bot_6490466175354208256_1], channel[172.16.4.154:59444/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:45 559] - PendingLoginMgr::remove: bot_6490466175354208256_2, size=1.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:45 559] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 559] - EntityApp::createEntity: new Player 10008
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 559] - 'Player'[10008]::onEntitiesEnabled(), accountName=bot_6490466175354208256_2
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 560] - Games[10001]::reqEnter() entity[10008]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 560] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490466175354208256_2, uuid=6490466208763543552, entityID=10008, flags=0, deadline=0.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:03:45 592] - PendingLoginMgr::remove: bot_6490466175354208256_1, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:03:45 592] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 592] - EntityApp::createEntity: new Player 10009
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 592] - 'Player'[10009]::onEntitiesEnabled(), accountName=bot_6490466175354208256_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 592] - Games[10001]::reqEnter() entity[10009]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 593] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490466175354208256_1, uuid=6490466208763543553, entityID=10009, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 625] - EntityApp::createEntity: new DdzAvatar 10010
+   S_ERR    baseapp01 1001 7001  [2017-11-20 20:03:45 626] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/base\DdzAvatar.py", line 24, in onEntitiesEnabled
+    INFO_MSG("%r[%i]::onEntitiesEnabled(), accountName=%s" % (self.className,self.id, self.__ACCOUNT_NAME__))
+   S_ERR    baseapp01 1001 7001  [2017-11-20 20:03:45 626] - AttributeError: 'DdzAvatar' object has no attribute '__ACCOUNT_NAME__'
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 626] - DdzGame[10003]::reqEnter() entity[10010]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 658] - EntityApp::createEntity: new DdzAvatar 10011
+   S_ERR    baseapp01 1001 7001  [2017-11-20 20:03:45 659] - Traceback (most recent call last):
+  File "C:/Users/hyc/Desktop/kbengine/llgame/scripts/base\DdzAvatar.py", line 24, in onEntitiesEnabled
+    INFO_MSG("%r[%i]::onEntitiesEnabled(), accountName=%s" % (self.className,self.id, self.__ACCOUNT_NAME__))
+   S_ERR    baseapp01 1001 7001  [2017-11-20 20:03:45 659] - AttributeError: 'DdzAvatar' object has no attribute '__ACCOUNT_NAME__'
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 660] - DdzGame[10003]::reqEnter() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 692] - DdzHall[10004]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 726] - DdzHall[10004]::reqEnter() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:03:45 759] - EntityApp::createEntity: new DdzRoom 10012
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 760] - {'roomMailbox': None, 'players': [DdzAvatar object at 0x04A654B8.]}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 826] - onGlobalData: Room_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 826] - 'DdzRoom'[10012]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 826] - DdzRoom[10012]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:03:45 826] - DdzRoom[10012]::reqEnter() entity[10011]
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 393] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 394] - Resmgr::initialize: KBE_ROOT=C:/Users/hyc/Desktop/kbengine/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 394] - Resmgr::initialize: KBE_RES_PATH=C:/Users/hyc/Desktop/kbengine/kbe/res/;C:/Users/hyc/Desktop/kbengine/llgame/;C:/Users/hyc/Desktop/kbengine/llgame/scripts/;C:/Users/hyc/Desktop/kbengine/llgame/res/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 394] - Resmgr::initialize: KBE_BIN_PATH=C:/Users/hyc/Desktop/kbengine/kbe/bin/server/
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 396] - NetworkInterface::recreateListeningSocket(EXTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:20015 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 397] - NetworkInterface::recreateListeningSocket(EXTERNAL): address 172.16.4.154:20015, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 398] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59454 )
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59454, SOMAXCONN=128.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - server-configs:
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - 	gameUpdateHertz : 30
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - 	internalAddr : 172.16.4.154:59454
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - 	externalAddr : 172.16.4.154:20015
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 399] - 	componentID : 7001
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 841] - Components::findLogger: found logger, addr:172.16.4.154:59450
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 841] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 842] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 846] - ---- baseapp Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 3832E49F6CC47A66EFBA02ABD3118CFB. Config: Debug X86. Built: 16:14:02 Jul  7 2017. AppID: 7001. UID: 1001. PID: 33696 ----
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 846] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 846] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:10 846] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 974] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 975] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 975] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 978] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 978] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:10 978] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 077] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:11 120] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:11 120] - Script::install(): KBExtra is successfully!
+  S_NORM    baseapp-1 1001 7001  [2017-11-20 20:04:11 130] - 1
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 207] - loaded script:Player(1).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 216] - loaded script:DdzAvatar(2).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 222] - loaded script:Ranks(3).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 224] - loaded script:Games(4).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 226] - loaded script:DdzGame(5).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 228] - loaded script:DdzHall(6).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 243] - loaded script:DdzRoom(7).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 244] - loaded script:ZjhHall(8).
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 246] - loaded script:ZjhRoom(9).
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:11 246] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:11 248] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:11 509] - ---- baseapp is running ----
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:11 509] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:04:17 602] - EntityApp::checkTickPeriod: tick took 18463% (18.46 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:18 643] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:18 676] - Components::findComponents: found dbmgr, addr:172.16.4.154:59452
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:18 676] - Components::addComponent: reset orderLog, uid=1001!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:18 676] - Components::addComponent[dbmgr], uid=1001, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:18 676] - Components::findComponents: found dbmgr, addr:172.16.4.154:59452
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:04:19 677] - EntityApp::checkTickPeriod: tick took 3233% (3.23 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:20 695] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:20 846] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59451
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:20 846] - Components::addComponent[baseappmgr], uid=1001, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:20 847] - Components::findComponents: found baseappmgr, addr:172.16.4.154:59451
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:04:21 848] - EntityApp::checkTickPeriod: tick took 3551% (3.55 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:22 876] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:22 983] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59453
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:22 983] - Components::addComponent[cellappmgr], uid=1001, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:22 984] - Components::findComponents: found cellappmgr, addr:172.16.4.154:59453
+ WARNING    baseapp-1 1001 7001  [2017-11-20 20:04:23 985] - EntityApp::checkTickPeriod: tick took 3457% (3.46 seconds)!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:24 995] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 1001 7001  [2017-11-20 20:04:24 997] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 010] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 035] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 037] - Components::process(): Found all the components!
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 043] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:59456, extaddr:nonsupport, extport:0,  from 172.16.4.154:59489/0/0/0.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 043] - Components::addComponent[cellapp], uid=1001, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:25 044] - ServerApp::onRegisterNewApp: uid:1001, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:172.16.4.154, intport:59456, extaddr:nonsupport, extport:0,  from 172.16.4.154:59489/0/0/0.
+    INFO    baseapp-1 1001 7001  [2017-11-20 20:04:28 043] - EntityApp::onDbmgrInitCompleted: entityID alloc(10001-20001), startGlobalOrder=5, startGroupOrder=1, digest=9477EF45894C4D1ED11B6FA6B1C16406.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:28 044] - IDClient::onAddRange: number of ids increased from 10001 to 20001.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:29 254] - onInit::isReload:0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:04:29 254] - C:\Users\hyc\Desktop\kbengine\kbe\src\lib\server/entity_app.h:758: Profile processRecvMessages took 1.21 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:04:29 255] - baseapp.cpp:510: Profile gameTick took 1.21 seconds
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:04:29 255] - EntityApp::checkTickPeriod: tick took 3675% (3.67 seconds)!
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:30 195] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:30 211] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=5
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:30 213] - EntityApp::createEntity: new Games 10001
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:30 214] - EntityApp::createEntity: new Ranks 10002
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:30 243] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:31 211] - EntityApp::createEntity: new DdzGame 10003
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:32 243] - EntityApp::createEntity: new DdzHall 10004
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:32 243] - EntityApp::createEntity: new DdzHall 10005
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:32 244] - EntityApp::createEntity: new DdzHall 10006
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:32 244] - EntityApp::createEntity: new DdzHall 10007
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:43 010] - PendingLoginMgr::add: bot_6490466423916593152_2, size=1.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:43 043] - PendingLoginMgr::add: bot_6490466423916593152_1, size=2.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 043] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=BD 2B AA B3 53 F1 3C 1A 0F 6A 09 AA F5 9B 88 1E , addr:172.16.4.154:59494/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 076] - Baseapp::loginBaseapp: new user[bot_6490466423916593152_2], channel[172.16.4.154:59494/0/0/0].
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 076] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=32 6E 1F 23 6D D7 D8 49 8B BB 5B DC 47 0E CD C1 , addr:172.16.4.154:59495/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 110] - Baseapp::loginBaseapp: new user[bot_6490466423916593152_1], channel[172.16.4.154:59495/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:43 176] - PendingLoginMgr::remove: bot_6490466423916593152_2, size=1.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:04:43 176] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 176] - EntityApp::createEntity: new Player 10008
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 177] - 'Player'[10008]::onEntitiesEnabled(), accountName=bot_6490466423916593152_2
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 177] - Games[10001]::reqEnter() entity[10008]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 177] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490466423916593152_2, uuid=6490466457871646720, entityID=10008, flags=0, deadline=0.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:04:43 209] - PendingLoginMgr::remove: bot_6490466423916593152_1, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:04:43 210] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 210] - EntityApp::createEntity: new Player 10009
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 210] - 'Player'[10009]::onEntitiesEnabled(), accountName=bot_6490466423916593152_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 210] - Games[10001]::reqEnter() entity[10009]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 210] - Baseapp::onQueryAccountCBFromDbmgr: user=bot_6490466423916593152_1, uuid=6490466457871646721, entityID=10009, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 243] - EntityApp::createEntity: new DdzAvatar 10010
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 244] - 'DdzAvatar'[10010]::onEntitiesEnabled()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 244] - DdzGame[10003]::reqEnter() entity[10010]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 276] - EntityApp::createEntity: new DdzAvatar 10011
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 276] - 'DdzAvatar'[10011]::onEntitiesEnabled()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 276] - DdzGame[10003]::reqEnter() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 309] - DdzHall[10004]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 344] - DdzHall[10004]::reqEnter() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:04:43 376] - EntityApp::createEntity: new DdzRoom 10012
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 377] - {'players': [DdzAvatar object at 0x045514B8.], 'roomMailbox': None}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 409] - 'DdzRoom'[10012]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 409] - DdzRoom[10012]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 409] - DdzRoom[10012]::reqEnter() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:04:43 443] - onGlobalData: Room_1
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:05:07 076] - Baseapp::lookApp: 172.16.4.154:59499/0/0/0
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:05:09 610] - PendingLoginMgr::add: 1122334455662, size=1.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:09 776] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:172.16.4.228:54853/0/0/0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:05:09 776] - Baseapp::onHello: client is not encrypted, addr=172.16.4.228:54853/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:09 876] - Baseapp::loginBaseapp: new user[1122334455662], channel[172.16.4.228:54853/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - PendingLoginMgr::remove: 1122334455662, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - EntityApp::createEntity: new Player 10013
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - 'Player'[10013]::onEntitiesEnabled(), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - Games[10001]::reqEnter() entity[10013]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:09 976] - Baseapp::onQueryAccountCBFromDbmgr: user=1122334455662, uuid=6490466569540796416, entityID=10013, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:11 409] - EntityApp::createEntity: new DdzAvatar 10014
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:05:11 410] - 'DdzAvatar'[10014]::onEntitiesEnabled()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:05:11 410] - DdzGame[10003]::reqEnter() entity[10014]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:05:12 310] - DdzHall[10004]::reqEnter() entity[10014]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:05:12 443] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:05:12 443] - DdzRoom[10012]::reqEnter() entity[10014]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:05:45 609] - Baseapp::onBackupEntityCellData: DdzAvatar(10014), 193 bytes.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:06:46 977] - Games::addIncome income[0.01] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:46 978] - 'DdzAvatar'[10010]::set_gold() gold[1000.09] settleGold[0.09000000357627869]
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:06:46 978] - Games::writeToDB(): is archiveing! entityid=10001, dbid=0.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:06:46 979] - Games::addIncome income[0.02] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:46 979] - 'DdzAvatar'[10011]::set_gold() gold[1000.09] settleGold[0.09000000357627869]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 012] - 'DdzAvatar'[10014]::set_gold() gold[4.1899998664855955] settleGold[-0.20000000298023224]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:06:47 043] - 'DdzAvatar'[10010]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 043] - 'DdzRoom'[10012]::reqContinue() Entity[10010] EntityCount[3]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 043] - DdzRoom[10012]::reqLeave() entity[10010]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:06:47 045] - 'DdzAvatar'[10011]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 045] - 'DdzRoom'[10012]::reqContinue() Entity[10011] EntityCount[2]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 046] - DdzRoom[10012]::reqLeave() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:47 075] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 133 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 075] - 'DdzAvatar'[10010]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 075] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:47 076] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 117 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 076] - 'DdzAvatar'[10011]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 076] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 076] - {'players': [DdzAvatar object at 0x045514B8.], 'roomMailbox': None}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:47 110] - EntityApp::createEntity: new DdzRoom 10015
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 142] - 'DdzRoom'[10015]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 142] - DdzRoom[10015]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 142] - DdzRoom[10015]::reqEnter() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:47 175] - onGlobalData: Room_2
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:49 709] - Baseapp::onBackupEntityCellData: DdzRoom(10012), 47 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 275] - DdzRoom[10012]::reqLeave() entity[10014]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:52 308] - Baseapp::onBackupEntityCellData: DdzRoom(10012), 47 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 308] - 'DdzRoom'[1]::onLoseCell()
+    INFO    baseapp01 1001 7001  [2017-11-20 20:06:52 308] - Baseapp::onBackupEntityCellData: DdzAvatar(10014), 145 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 308] - 'DdzAvatar'[10014]::onLoseCell()
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:06:52 344] - DdzRoom::~DdzRoom(): 10012
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 345] - onDelGlobalData: Room_1
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 375] - DdzHall[10004]::reqLeave() entity[10014]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:52 508] - DdzGame[10003]::reqEnter() entity[10014]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:53 976] - DdzGame[10003]::reqLeave() entity[10014]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:06:53 976] - 'Player'[10013]::onEntitiesEnabled(), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:53 977] - Games[10001]::reqEnter() entity[10013]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:53 977] - 'DdzAvatar'[10014]::onDestroy() 
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:06:53 977] - DdzAvatar::~DdzAvatar(): 10014
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:06:56 297] - Player::onClientDeath: 10013.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:56 297] - Games[10001]::reqLeave() entity[10013]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:06:56 297] - 'Player'[10013]::onDestroy() 
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:06:56 298] - Player::~Player(): 10013
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:07:00 942] - Baseapp::lookApp: 172.16.4.154:59585/0/0/0
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:07:08 275] - Baseapp::lookApp: 172.16.4.154:59596/0/0/0
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:07:36 408] - Baseapp::lookApp: 172.16.4.154:59627/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:09:43 574] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 113 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:10:08 573] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 113 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:10:58 572] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 1 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:13:03 571] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 1 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:15:33 569] - Baseapp::onBackupEntityCellData: DdzRoom(10015), 47 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:16:48 568] - Baseapp::onBackupEntityCellData: DdzRoom(10015), 1 bytes.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:17:50 336] - PendingLoginMgr::add: 1122334455662, size=1.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:17:50 534] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:172.16.4.228:54985/0/0/0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:17:50 534] - Baseapp::onHello: client is not encrypted, addr=172.16.4.228:54985/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:17:50 634] - Baseapp::loginBaseapp: new user[1122334455662], channel[172.16.4.228:54985/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:17:50 734] - PendingLoginMgr::remove: 1122334455662, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:17:50 734] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:17:50 735] - EntityApp::createEntity: new Player 10016
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:17:50 736] - 'Player'[10016]::onEntitiesEnabled(), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:17:50 736] - Games[10001]::reqEnter() entity[10016]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:17:50 736] - Baseapp::onQueryAccountCBFromDbmgr: user=1122334455662, uuid=6490469838010908672, entityID=10016, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:17:52 003] - EntityApp::createEntity: new DdzAvatar 10017
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:17:52 003] - 'DdzAvatar'[10017]::onEntitiesEnabled()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:17:52 004] - DdzGame[10003]::reqEnter() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:17:52 801] - DdzHall[10004]::reqEnter() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:17:52 901] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8CB0.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:17:52 901] - DdzRoom[10015]::reqEnter() entity[10017]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:18:01 834] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 1 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:18:23 268] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 1 bytes.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 434] - Games::addIncome income[0.03] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 435] - 'DdzAvatar'[10010]::set_gold() gold[1000.1800000000001] settleGold[0.09000000357627869]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 436] - Games::addIncome income[0.04] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 436] - 'DdzAvatar'[10011]::set_gold() gold[1000.1800000000001] settleGold[0.09000000357627869]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 437] - 'DdzAvatar'[10017]::set_gold() gold[3.990000057220459] settleGold[-0.20000000298023224]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 466] - 'DdzAvatar'[10010]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 467] - 'DdzRoom'[10015]::reqContinue() Entity[10010] EntityCount[3]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 467] - DdzRoom[10015]::reqLeave() entity[10010]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 468] - 'DdzAvatar'[10011]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 468] - 'DdzRoom'[10015]::reqContinue() Entity[10011] EntityCount[2]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 468] - DdzRoom[10015]::reqLeave() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 501] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 121 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 502] - 'DdzAvatar'[10010]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 502] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8CB0.}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 503] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 129 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 503] - 'DdzAvatar'[10011]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 503] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8CB0.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 503] - {'players': [DdzAvatar object at 0x045514B8.], 'roomMailbox': None}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:19:26 534] - EntityApp::createEntity: new DdzRoom 10018
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 566] - onGlobalData: Room_3
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 566] - 'DdzRoom'[10018]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 566] - DdzRoom[10018]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:26 567] - DdzRoom[10018]::reqEnter() entity[10011]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:19:31 500] - 'DdzAvatar'[10017]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 500] - 'DdzRoom'[10015]::reqContinue() Entity[10017] EntityCount[1]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 500] - DdzRoom[10015]::reqLeave() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - onDelGlobalData: Room_2
+    INFO    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - Baseapp::onBackupEntityCellData: DdzRoom(10015), 47 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - 'DdzRoom'[2]::onLoseCell()
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - DdzRoom::~DdzRoom(): 10015
+    INFO    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - Baseapp::onBackupEntityCellData: DdzAvatar(10017), 141 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - 'DdzAvatar'[10017]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:19:31 533] - DdzRoom[10018]::reqEnter() entity[10017]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:20:31 467] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 161 bytes.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 001] - Games::addIncome income[0.07] add[0.03]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 001] - 'DdzAvatar'[10010]::set_gold() gold[1000.7500000000001] settleGold[0.5699999928474426]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 002] - Games::addIncome income[0.1] add[0.03]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 003] - 'DdzAvatar'[10011]::set_gold() gold[1000.7500000000001] settleGold[0.5699999928474426]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 004] - 'DdzAvatar'[10017]::set_gold() gold[2.7900000572204586] settleGold[-1.2000000476837158]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 032] - 'DdzAvatar'[10010]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 033] - 'DdzRoom'[10018]::reqContinue() Entity[10010] EntityCount[3]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 033] - DdzRoom[10018]::reqLeave() entity[10010]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 034] - 'DdzAvatar'[10011]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 035] - 'DdzRoom'[10018]::reqContinue() Entity[10011] EntityCount[2]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 035] - DdzRoom[10018]::reqLeave() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 065] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 137 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 066] - 'DdzAvatar'[10010]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 066] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 066] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 121 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 067] - 'DdzAvatar'[10011]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 067] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8C08.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 067] - {'players': [DdzAvatar object at 0x045514B8.], 'roomMailbox': None}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:20:56 105] - EntityApp::createEntity: new DdzRoom 10019
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 165] - onGlobalData: Room_4
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 165] - 'DdzRoom'[10019]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 165] - DdzRoom[10019]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:20:56 166] - DdzRoom[10019]::reqEnter() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 032] - DdzRoom[10018]::reqLeave() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - onDelGlobalData: Room_3
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - Baseapp::onBackupEntityCellData: DdzRoom(10018), 47 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - 'DdzRoom'[3]::onLoseCell()
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - DdzRoom::~DdzRoom(): 10018
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - Baseapp::onBackupEntityCellData: DdzAvatar(10017), 141 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 065] - 'DdzAvatar'[10017]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 198] - DdzHall[10004]::reqLeave() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:00 299] - DdzGame[10003]::reqEnter() entity[10017]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:01 700] - DdzGame[10003]::reqLeave() entity[10017]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:21:01 701] - 'Player'[10016]::onEntitiesEnabled(), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:01 701] - Games[10001]::reqEnter() entity[10016]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:01 701] - 'DdzAvatar'[10017]::onDestroy() 
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:01 701] - DdzAvatar::~DdzAvatar(): 10017
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:07 161] - Player::onClientDeath: 10016.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:07 162] - Games[10001]::reqLeave() entity[10016]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:07 162] - 'Player'[10016]::onDestroy() 
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:07 163] - Player::~Player(): 10016
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:12 299] - Baseapp::lookApp: 172.16.4.154:59779/0/0/0
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:19 899] - PendingLoginMgr::add: 1122334455662, size=1.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:20 066] - ServerApp::onHello: verInfo=0.9.12, scriptVerInfo=0.1.0, encryptedKey=None, addr:172.16.4.228:55022/0/0/0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:21:20 066] - Baseapp::onHello: client is not encrypted, addr=172.16.4.228:55022/0/0/0
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:20 165] - Baseapp::loginBaseapp: new user[1122334455662], channel[172.16.4.228:55022/0/0/0].
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:20 232] - PendingLoginMgr::remove: 1122334455662, size=0.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:21:20 232] - Player::createCellData: do not create cellData, cannot find the cellapp script(Player)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:20 232] - EntityApp::createEntity: new Player 10020
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:21:20 232] - 'Player'[10020]::onEntitiesEnabled(), accountName=1122334455662
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:20 232] - Games[10001]::reqEnter() entity[10020]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:20 233] - Baseapp::onQueryAccountCBFromDbmgr: user=1122334455662, uuid=6490470739954040832, entityID=10020, flags=0, deadline=0.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:21:21 398] - EntityApp::createEntity: new DdzAvatar 10021
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:21:21 398] - 'DdzAvatar'[10021]::onEntitiesEnabled()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:21 398] - DdzGame[10003]::reqEnter() entity[10021]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:22 166] - DdzHall[10004]::reqEnter() entity[10021]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:22 298] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8CB0.}
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:21:22 299] - DdzRoom[10019]::reqEnter() entity[10021]
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:24 630] - DdzAvatar::onClientDeath: 10021.
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:21:27 832] - Baseapp::lookApp: 172.16.4.154:59790/0/0/0
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:22:10 332] - Baseapp::onEntityMail: not found clientMailbox! mailboxType=6, entityID=10021.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:22:15 333] - Baseapp::onEntityMail: not found clientMailbox! mailboxType=6, entityID=10021.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:22:42 097] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 173 bytes.
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 832] - Games::addIncome income[0.11] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 833] - 'DdzAvatar'[10010]::set_gold() gold[1000.8400000000001] settleGold[0.09000000357627869]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 834] - Games::addIncome income[0.12] add[0.01]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 835] - 'DdzAvatar'[10021]::set_gold() gold[2.879999961853027] settleGold[0.09000000357627869]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 835] - 'DdzAvatar'[10011]::set_gold() gold[1000.5500000000001] settleGold[-0.20000000298023224]
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:23:04 837] - Baseapp::onEntityMail: not found clientMailbox! mailboxType=6, entityID=10021.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 864] - Baseapp::onBackupEntityCellData: DdzAvatar(10021), 161 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 864] - 'DdzAvatar'[10021]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 865] - DdzRoom[10019]::reqLeave() entity[10021]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 865] - DdzHall[10004]::reqLeave() entity[10021]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 865] - DdzGame[10003]::reqLeave() entity[10021]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 865] - Games[10001]::reqLeave() entity[10020]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 865] - 'Player'[10020]::onDestroy() 
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:23:04 866] - Player::~Player(): 10020
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 866] - 'DdzAvatar'[10021]::onDestroy() 
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 866] - 'DdzAvatar'[10021]::exitGame()
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:23:04 866] - DdzAvatar::~DdzAvatar(): 10021
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 867] - 'DdzAvatar'[10010]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 867] - 'DdzRoom'[10019]::reqContinue() Entity[10010] EntityCount[2]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 867] - DdzRoom[10019]::reqLeave() entity[10010]
+  S_INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 867] - 'DdzAvatar'[10011]::reqContinue()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 868] - 'DdzRoom'[10019]::reqContinue() Entity[10011] EntityCount[1]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 868] - DdzRoom[10019]::reqLeave() entity[10011]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 900] - onDelGlobalData: Room_4
+    INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 900] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 121 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 901] - 'DdzAvatar'[10010]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 901] - {'players': [DdzAvatar object at 0x045514B8., DdzAvatar object at 0x045515D8.], 'roomMailbox': DdzRoom object at 0x042E8CB0.}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - Baseapp::onBackupEntityCellData: DdzRoom(10019), 47 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - 'DdzRoom'[4]::onLoseCell()
+   DEBUG    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - DdzRoom::~DdzRoom(): 10019
+    INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 133 bytes.
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - 'DdzAvatar'[10011]::onLoseCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 902] - {'players': [DdzAvatar object at 0x045514B8.], 'roomMailbox': None}
+    INFO    baseapp01 1001 7001  [2017-11-20 20:23:04 932] - EntityApp::createEntity: new DdzRoom 10022
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 964] - onGlobalData: Room_5
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 964] - 'DdzRoom'[10022]::onGetCell()
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 964] - DdzRoom[10022]::reqEnter() entity[10010]
+   S_DBG    baseapp01 1001 7001  [2017-11-20 20:23:04 965] - DdzRoom[10022]::reqEnter() entity[10011]
+    INFO    baseapp01 1001 7001  [2017-11-20 20:27:13 295] - Baseapp::onBackupEntityCellData: DdzRoom(10022), 47 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:27:38 295] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 113 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:29:18 294] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 113 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:30:08 293] - Baseapp::onBackupEntityCellData: DdzAvatar(10011), 1 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:31:48 291] - Baseapp::onBackupEntityCellData: DdzAvatar(10010), 1 bytes.
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:33:02 297] - EntityApp::checkTickPeriod: tick took 221% (0.22 seconds)!
+ WARNING    baseapp01 1001 7001  [2017-11-20 20:34:08 972] - EntityApp::checkTickPeriod: tick took 245% (0.25 seconds)!
+    INFO    baseapp01 1001 7001  [2017-11-20 20:34:18 290] - Baseapp::onBackupEntityCellData: DdzRoom(10022), 1 bytes.
+    INFO    baseapp01 1001 7001  [2017-11-20 20:37:13 288] - Baseapp::onBackupEntityCellData: DdzRoom(10022), 1 bytes.

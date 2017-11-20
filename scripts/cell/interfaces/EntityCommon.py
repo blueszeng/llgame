@@ -39,7 +39,7 @@ class EntityCommon:
 	def delTimerMgr(self, userArg):
 
 		if userArg == 0:
-			DEBUG_MSG("%r Clean up Timers" % (self.className))
+			DEBUG_MSG("%r clean all timers" % (self.className))
 
 			for tt in self.timerMgr.values():
 				self.delTimer(tt)

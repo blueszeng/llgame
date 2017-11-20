@@ -1,0 +1,715 @@
+  INFO root [0x00008074] [2017-11-20 20:04:35,666] - 
+  INFO root [0x00008074] [2017-11-20 20:04:35,666] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00008074] [2017-11-20 20:04:35,668] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59491 )
+  INFO root [0x00008074] [2017-11-20 20:04:35,668] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59491, SOMAXCONN=5.
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,696] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,696] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,697] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,698] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,699] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,699] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,730] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00008074] [2017-11-20 20:04:35,760] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00008074] [2017-11-20 20:04:35,760] - Script::install(): KBExtra is successfully!
+  INFO root [0x00008074] [2017-11-20 20:04:35,764] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 124556E6025E0209A64D4D365F48CE09. Config: Debug. Built: 16:13:57 Jul  7 2017. AppID: 6490466423916593152. UID: 1001. PID: 32468 ----
+  INFO root [0x00008074] [2017-11-20 20:04:35,765] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00008074] [2017-11-20 20:04:35,765] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00008074] [2017-11-20 20:04:35,765] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+SCRIPT root [0x00008074] [2017-11-20 20:04:35,935] - 3
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,941] - loaded script:Player(1).
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,942] - loaded script:DdzAvatar(2).
+  INFO root [0x00008074] [2017-11-20 20:04:35,948] - TelnetServer server is running on port 51000
+ S_DBG root [0x00008074] [2017-11-20 20:04:35,948] - onInit::isReload:0
+  INFO root [0x00008074] [2017-11-20 20:04:35,948] - ---- bots is running ----
+ DEBUG root [0x00008074] [2017-11-20 20:04:35,948] - Components::process(): Request for the process of identity...
+ DEBUG root [0x00008074] [2017-11-20 20:04:42,664] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 72 9A 58 E8 D8 AA 32 1C B5 99 A1 23 60 19 36 92
+ DEBUG root [0x00008074] [2017-11-20 20:04:42,665] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: D1 7B 14 D7 2B 3C 35 9B 8A 1F DB D7 DD 69 ED A9
+  WARN root [0x00008074] [2017-11-20 20:04:42,666] - bots.cpp:284: Profile updateBots took 0.64 seconds
+  INFO root [0x00008074] [2017-11-20 20:04:42,700] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00008074] [2017-11-20 20:04:42,700] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00008074] [2017-11-20 20:04:42,866] - ClientObject::onCreateAccountResult: bot_6490466423916593152_2 create is successfully!
+  INFO root [0x00008074] [2017-11-20 20:04:42,900] - ClientObject::onCreateAccountResult: bot_6490466423916593152_1 create is successfully!
+  INFO root [0x00008074] [2017-11-20 20:04:43,033] - ClientObject::onLoginSuccessfully: bot_6490466423916593152_2 addr=172.16.4.154:20015!
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,033] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: BD 2B AA B3 53 F1 3C 1A 0F 6A 09 AA F5 9B 88 1E
+  INFO root [0x00008074] [2017-11-20 20:04:43,066] - ClientObject::onLoginSuccessfully: bot_6490466423916593152_1 addr=172.16.4.154:20015!
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,066] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 32 6E 1F 23 6D D7 D8 49 8B BB 5B DC 47 0E CD C1
+  INFO root [0x00008074] [2017-11-20 20:04:43,067] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00008074] [2017-11-20 20:04:43,100] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00008074] [2017-11-20 20:04:43,233] - ClientObject::onCreatedProxies(bot_6490466423916593152_2): rndUUID=6490466457871646720 eid=10008 entityType=Player!
+  INFO root [0x00008074] [2017-11-20 20:04:43,233] - ClientObjectBase::createEntity: new Player (10008)
+  INFO root [0x00008074] [2017-11-20 20:04:43,266] - ClientObject::onCreatedProxies(bot_6490466423916593152_1): rndUUID=6490466457871646721 eid=10009 entityType=Player!
+  INFO root [0x00008074] [2017-11-20 20:04:43,266] - ClientObjectBase::createEntity: new Player (10009)
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,299] - ClientObjectBase::onEntityDestroyed: Player(10008).
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,299] - Player::~Player(): 10008
+  INFO root [0x00008074] [2017-11-20 20:04:43,299] - ClientObject::onCreatedProxies(bot_6490466423916593152_2): rndUUID=6490466457871646722 eid=10010 entityType=DdzAvatar!
+  INFO root [0x00008074] [2017-11-20 20:04:43,299] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,300] - Bots::DdzAvatar __init__
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,300] - DdzAvatar::onEnterGame: 10010
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,333] - ClientObjectBase::onEntityDestroyed: Player(10009).
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,333] - Player::~Player(): 10009
+  INFO root [0x00008074] [2017-11-20 20:04:43,333] - ClientObject::onCreatedProxies(bot_6490466423916593152_1): rndUUID=6490466457871646723 eid=10011 entityType=DdzAvatar!
+  INFO root [0x00008074] [2017-11-20 20:04:43,333] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,334] - Bots::DdzAvatar __init__
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,334] - DdzAvatar::onEnterGame: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,334] - DdzAvatar::onEnterHall: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,367] - DdzAvatar::onEnterHall: 10011
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,466] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10011), isOnGround(0), appID(2).
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,466] - PlayerDdzAvatar::onBecomePlayer: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,466] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,466] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,466] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,466] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,467] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,467] - ClientObjectBase::initSpaceData: spaceID(1), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,467] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10011).
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,467] - PlayerDdzAvatar::onEnterSpace: 10011
+  INFO root [0x00008074] [2017-11-20 20:04:43,467] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,467] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,467] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10010), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10010), isOnGround(0), appID(3).
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,468] - PlayerDdzAvatar::onBecomePlayer: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,468] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,468] - ClientObjectBase::initSpaceData: spaceID(1), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,469] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10010).
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,469] - PlayerDdzAvatar::onEnterSpace: 10010
+  INFO root [0x00008074] [2017-11-20 20:04:43,470] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:04:43,470] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:04:43,470] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10011), isOnGround(0), appID(3).
+  INFO root [0x00008074] [2017-11-20 20:04:43,700] - Components::findComponents: find logger(1)...
+  INFO root [0x00008074] [2017-11-20 20:04:43,801] - Components::findComponents: found logger, addr:172.16.4.154:59450
+  INFO root [0x00008074] [2017-11-20 20:04:43,801] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00008074] [2017-11-20 20:04:43,801] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00008074] [2017-11-20 20:04:43,833] - Components::process(): Found all the components!
+ DEBUG root [0x00008074] [2017-11-20 20:05:08,833] - Bots::lookApp: 172.16.4.154:59507/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:05:12,499] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:05:12,499] - ClientObjectBase::createEntity: new DdzAvatar (10014)
+ S_DBG root [0x00008074] [2017-11-20 20:05:12,500] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:05:12,500] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10014), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:05:12,500] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:05:12,500] - ClientObjectBase::createEntity: new DdzAvatar (10014)
+ S_DBG root [0x00008074] [2017-11-20 20:05:12,500] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:05:12,501] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10014), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:05:14,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:14,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:15,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:15,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:30,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:30,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+  INFO root [0x00008074] [2017-11-20 20:05:43,803] - ClientApp::onChannelTimeOut: Channel 172.16.4.154:59450/0/0/0 timed out.
+ DEBUG root [0x00008074] [2017-11-20 20:05:47,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:47,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:48,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:48,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:49,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:49,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:52,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:52,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:53,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:53,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:54,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:54,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:55,532] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 46, 39].
+ DEBUG root [0x00008074] [2017-11-20 20:05:55,533] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:55,534] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 46, 39].
+ DEBUG root [0x00008074] [2017-11-20 20:05:55,534] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:56,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:56,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:57,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:57,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:58,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [4, 3], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:58,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [4, 3], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:59,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [6, 5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:05:59,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [6, 5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:00,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [23, 21], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:00,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [23, 21], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:01,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [40, 39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:01,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [40, 39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:02,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [43, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:02,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [43, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:03,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48, 45], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:03,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48, 45], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:04,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:04,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:05,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:05,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:06,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:06,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [52, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:07,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [8], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:07,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [8], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:08,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [20], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:08,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [20], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:09,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [27], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:09,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [27], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:10,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [29], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:10,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [29], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:11,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [37], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:11,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [37], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:12,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:12,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:13,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:13,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:14,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:14,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:15,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [7], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:15,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [7], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:16,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [14], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:16,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [14], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:17,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:17,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:18,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:18,501] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:19,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:19,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:20,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:20,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:21,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:21,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [46], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:22,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [10, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:22,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [10, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:23,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [15, 13], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:23,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [15, 13], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:24,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:24,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:25,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:25,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:26,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:26,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31, 30], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:27,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:27,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:28,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:28,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:29,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:29,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:30,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:30,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:31,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [19, 17], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:31,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [19, 17], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:32,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [19, 17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:32,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [19, 17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:33,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:33,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:34,512] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:34,512] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:35,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:35,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:36,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [18], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:36,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [18], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:37,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [18], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:37,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [18], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:38,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:38,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:39,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:39,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:40,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:40,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [47], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:41,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [2, 1], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:41,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [2, 1], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:42,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:42,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:43,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:43,498] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:44,499] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:44,500] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [51, 50], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,032] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,035] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10011), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - DdzAvatar::~DdzAvatar(): 10010
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - DdzAvatar::~DdzAvatar(): 10014
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10010), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - DdzAvatar::~DdzAvatar(): 10011
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,099] - DdzAvatar::~DdzAvatar(): 10014
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,199] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10011), isOnGround(0), appID(2).
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,199] - PlayerDdzAvatar::onBecomePlayer: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,199] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,199] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,199] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,200] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,200] - ClientObjectBase::setSpaceData: spaceID(2), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,200] - ClientObjectBase::initSpaceData: spaceID(2), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,200] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10011).
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,200] - PlayerDdzAvatar::onEnterSpace: 10011
+  INFO root [0x00008074] [2017-11-20 20:06:47,200] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,200] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,201] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10010), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,201] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10010), isOnGround(0), appID(3).
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,201] - PlayerDdzAvatar::onBecomePlayer: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,201] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,201] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,201] - ClientObjectBase::setSpaceData: spaceID(2), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,202] - ClientObjectBase::setSpaceData: spaceID(2), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,202] - ClientObjectBase::setSpaceData: spaceID(2), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,202] - ClientObjectBase::initSpaceData: spaceID(2), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,202] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10010).
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,202] - PlayerDdzAvatar::onEnterSpace: 10010
+  INFO root [0x00008074] [2017-11-20 20:06:47,202] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:06:47,202] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:06:47,203] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10011), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:07:00,965] - Bots::lookApp: 172.16.4.154:59586/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:07:08,265] - Bots::lookApp: 172.16.4.154:59595/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:07:35,397] - Bots::lookApp: 172.16.4.154:59624/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:17:52,958] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:17:52,958] - ClientObjectBase::createEntity: new DdzAvatar (10017)
+ S_DBG root [0x00008074] [2017-11-20 20:17:52,959] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:17:52,959] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10017), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:17:52,959] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:17:52,959] - ClientObjectBase::createEntity: new DdzAvatar (10017)
+ S_DBG root [0x00008074] [2017-11-20 20:17:52,959] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:17:52,959] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10017), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:17:54,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:17:54,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:17:55,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:17:55,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:10,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:10,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:27,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:27,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:28,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:28,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:29,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:29,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:32,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:32,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:33,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:33,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:34,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:34,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:35,958] - ClientObjectBase::setSpaceData: spaceID(2), key=threeCards, value=[47, 18, 5].
+ DEBUG root [0x00008074] [2017-11-20 20:18:35,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:35,960] - ClientObjectBase::setSpaceData: spaceID(2), key=threeCards, value=[47, 18, 5].
+ DEBUG root [0x00008074] [2017-11-20 20:18:35,961] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:36,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:36,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:37,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:37,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:38,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [1], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:38,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [1], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:39,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [12], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:39,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [12], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:40,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [14], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:40,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [14], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:41,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [28], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:41,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [28], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:42,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [40], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:42,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [40], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:43,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [43], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:43,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [43], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:44,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:44,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:45,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:45,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:46,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:46,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:47,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:47,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:48,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [3, 2], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:48,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [3, 2], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:49,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [3, 2], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:49,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [3, 2], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:50,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [10, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:50,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [10, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:51,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26, 25], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:51,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26, 25], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:52,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26, 25], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:52,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26, 25], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:53,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:53,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:54,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:54,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:55,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:55,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:56,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:56,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:57,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [16], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:57,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [16], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:58,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [24], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:58,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [24], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:59,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [31], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:18:59,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [31], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:00,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:00,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:01,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:01,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:02,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:02,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [46], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:03,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:03,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:04,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [27], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:04,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [27], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:05,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [33], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:05,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [33], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:06,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [33], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:06,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [33], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:07,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:07,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:08,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:08,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:09,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:09,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [48], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:10,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [4], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:10,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [4], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:11,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [5], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:11,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [5], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:12,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:12,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:13,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:13,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:14,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:14,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:15,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:15,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [11], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:16,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [8, 7, 6], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:16,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [8, 7, 6], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:17,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [20, 19, 18], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:17,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [20, 19, 18], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:18,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [23, 22, 21], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:18,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [23, 22, 21], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:19,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36, 35, 34], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:19,959] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36, 35, 34], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:20,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:20,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:21,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:21,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:22,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:22,957] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [44, 42, 41], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:23,956] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [15, 13], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:23,958] - ClientObjectBase::setSpaceData: spaceID(2), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [15, 13], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,456] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,458] - ClientObjectBase::setSpaceData: spaceID(2), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,523] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10011), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,523] - DdzAvatar::~DdzAvatar(): 10010
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,524] - DdzAvatar::~DdzAvatar(): 10017
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,524] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10010), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,525] - DdzAvatar::~DdzAvatar(): 10011
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,525] - DdzAvatar::~DdzAvatar(): 10017
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,623] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10011), isOnGround(0), appID(2).
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,623] - PlayerDdzAvatar::onBecomePlayer: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,623] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,623] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::setSpaceData: spaceID(3), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::initSpaceData: spaceID(3), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10011).
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,624] - PlayerDdzAvatar::onEnterSpace: 10011
+  INFO root [0x00008074] [2017-11-20 20:19:26,624] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,625] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,625] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10010), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,625] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10010), isOnGround(0), appID(3).
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,625] - PlayerDdzAvatar::onBecomePlayer: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,625] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,625] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,625] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::setSpaceData: spaceID(3), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::initSpaceData: spaceID(3), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10010).
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,626] - PlayerDdzAvatar::onEnterSpace: 10010
+  INFO root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:19:26,626] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:26,626] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10011), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:19:31,590] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:19:31,591] - ClientObjectBase::createEntity: new DdzAvatar (10017)
+ S_DBG root [0x00008074] [2017-11-20 20:19:31,591] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:31,591] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10017), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:19:31,591] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:19:31,591] - ClientObjectBase::createEntity: new DdzAvatar (10017)
+ S_DBG root [0x00008074] [2017-11-20 20:19:31,592] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:19:31,592] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10017), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:19:33,590] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:33,591] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:48,589] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:48,589] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,523] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.30.
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,523] - ClientObjectBase::setSpaceData: spaceID(3), key=threeCards, value=[46, 30, 16].
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,525] - ClientObjectBase::setSpaceData: spaceID(3), key=curfen, value=0.30.
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,526] - ClientObjectBase::setSpaceData: spaceID(3), key=threeCards, value=[46, 30, 16].
+ DEBUG root [0x00008074] [2017-11-20 20:19:50,526] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:05,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:05,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 3, "curCid": 2, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:06,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:06,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:10,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [4, 3, 2], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:10,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [4, 3, 2], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:11,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [19, 18, 17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:11,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [19, 18, 17], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:12,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [28, 27, 25], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:12,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [28, 27, 25], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:13,523] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:20:13,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:13,525] - ClientObjectBase::setSpaceData: spaceID(3), key=multiple, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:20:13,526] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:14,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:14,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:15,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:15,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [48, 47, 46, 45], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:16,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [7], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:16,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [7], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:17,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [10], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:17,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [10], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:18,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [13], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:18,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [13], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:19,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [20], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:19,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [20], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:20,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:20,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [26], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:21,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [40], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:21,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [40], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:22,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:22,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:23,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:23,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:24,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:24,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:25,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:25,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:26,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:26,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:27,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [8], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:27,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [8], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:28,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [35], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:28,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [35], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:29,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [35], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:29,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [35], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:30,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:30,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:31,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:31,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:32,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:32,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [52], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:33,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 11, 9], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:33,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 11, 9], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:34,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 11, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:34,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 11, 9], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:35,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:35,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:36,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:36,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:37,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:37,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [51, 50, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:38,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [1], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:38,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [1], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:39,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [1], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:39,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [1], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:40,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:40,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:41,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:41,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:42,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:42,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [39], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:43,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [16, 15], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:43,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [16, 15], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:44,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [38, 37], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:44,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [38, 37], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:45,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:45,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:46,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:46,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:47,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:47,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [44, 42], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:48,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [32, 31], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:48,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [32, 31], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:49,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:49,525] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:50,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:50,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:51,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:51,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [43, 41], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:52,523] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [23, 21], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:52,524] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [23, 21], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:53,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [23, 21], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:53,522] - ClientObjectBase::setSpaceData: spaceID(3), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [23, 21], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,023] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,025] - ClientObjectBase::setSpaceData: spaceID(3), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,089] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10011), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,090] - DdzAvatar::~DdzAvatar(): 10010
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,091] - DdzAvatar::~DdzAvatar(): 10017
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,092] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10010), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,092] - DdzAvatar::~DdzAvatar(): 10011
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,093] - DdzAvatar::~DdzAvatar(): 10017
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,222] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10011), isOnGround(0), appID(2).
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,222] - PlayerDdzAvatar::onBecomePlayer: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,222] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::setSpaceData: spaceID(4), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::setSpaceData: spaceID(4), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::setSpaceData: spaceID(4), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::initSpaceData: spaceID(4), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,223] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10011).
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,223] - PlayerDdzAvatar::onEnterSpace: 10011
+  INFO root [0x00008074] [2017-11-20 20:20:56,224] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,224] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,224] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10010), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,225] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10010), isOnGround(0), appID(3).
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,225] - PlayerDdzAvatar::onBecomePlayer: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,225] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,225] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,225] - ClientObjectBase::setSpaceData: spaceID(4), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,225] - ClientObjectBase::setSpaceData: spaceID(4), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,226] - ClientObjectBase::setSpaceData: spaceID(4), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,226] - ClientObjectBase::initSpaceData: spaceID(4), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,226] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10010).
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,226] - PlayerDdzAvatar::onEnterSpace: 10010
+  INFO root [0x00008074] [2017-11-20 20:20:56,226] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:20:56,227] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:20:56,227] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10011), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:21:11,889] - Bots::lookApp: 172.16.4.154:59778/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:21:22,355] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:21:22,357] - ClientObjectBase::createEntity: new DdzAvatar (10021)
+ S_DBG root [0x00008074] [2017-11-20 20:21:22,358] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:21:22,359] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10021), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:21:22,359] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=1.
+  INFO root [0x00008074] [2017-11-20 20:21:22,361] - ClientObjectBase::createEntity: new DdzAvatar (10021)
+ S_DBG root [0x00008074] [2017-11-20 20:21:22,362] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:21:22,362] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10021), isOnGround(0), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:21:24,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:21:24,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:21:29,256] - Bots::lookApp: 172.16.4.154:59794/0/0/0
+ DEBUG root [0x00008074] [2017-11-20 20:21:39,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:21:39,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:21:54,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:21:54,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:11,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:11,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:12,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:12,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:13,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:13,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:16,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:16,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 2, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:17,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:17,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:18,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:18,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 0}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:19,354] - ClientObjectBase::setSpaceData: spaceID(4), key=threeCards, value=[54, 19, 14].
+ DEBUG root [0x00008074] [2017-11-20 20:22:19,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:19,355] - ClientObjectBase::setSpaceData: spaceID(4), key=threeCards, value=[54, 19, 14].
+ DEBUG root [0x00008074] [2017-11-20 20:22:19,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 3, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:20,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:20,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curScore": 0, "curCid": 1, "type": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:21,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:21,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:22,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [1], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:22,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [1], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:23,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [15], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:23,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [15], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:24,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [18], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:24,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [18], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:25,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [22], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:25,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [22], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:26,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [34], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:26,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [34], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:27,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [48], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:27,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [48], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:28,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:28,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:29,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:29,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:30,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:30,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [54], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:31,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [7], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:31,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [7], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:32,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [17], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:32,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [17], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:33,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [23], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:33,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [23], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:34,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:34,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [31], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:35,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [38], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:35,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [38], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:36,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:36,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:37,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:37,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:38,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:38,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [53], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:39,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [8, 6, 5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:39,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [8, 6, 5], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:40,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16, 14, 13], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:40,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16, 14, 13], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:41,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16, 14, 13], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:41,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [16, 14, 13], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:42,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:42,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:43,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:43,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:44,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:44,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [32, 30, 29], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:45,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [28, 25], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:45,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [28, 25], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:46,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36, 33], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:46,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [36, 33], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:47,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [42, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:47,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [42, 41], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:48,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:48,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:49,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:49,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:50,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:50,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [52, 51], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:51,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [35], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:51,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 1, "powerCards": [35], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:52,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:52,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:53,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:53,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:54,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:54,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [39], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:55,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 9], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:55,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [12, 9], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:56,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:56,357] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:57,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:57,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [47, 45], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:58,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:58,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:59,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:22:59,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:00,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:00,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [50, 49], "curCid": 2}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:01,355] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [20, 19], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:01,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 2, "powerCards": [20, 19], "curCid": 3}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:02,354] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [24, 21], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:02,356] - ClientObjectBase::setSpaceData: spaceID(4), key=ACTION_ROOM_NEXT, value={"powerCid": 3, "powerCards": [24, 21], "curCid": 1}.
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,854] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,855] - ClientObjectBase::setSpaceData: spaceID(4), key=state, value=2.
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,887] - ClientObjectBase::onEntityLeaveWorld: DdzAvatar(10021), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,887] - DdzAvatar::~DdzAvatar(): 10021
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,888] - ClientObjectBase::onEntityLeaveWorld: DdzAvatar(10021), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,888] - DdzAvatar::~DdzAvatar(): 10021
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,921] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10011), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,921] - DdzAvatar::~DdzAvatar(): 10010
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,922] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10010), appID(3).
+ DEBUG root [0x00008074] [2017-11-20 20:23:04,922] - DdzAvatar::~DdzAvatar(): 10011
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,020] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10011), isOnGround(0), appID(2).
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,020] - PlayerDdzAvatar::onBecomePlayer: 10011
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,020] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,020] - ClientObjectBase::setSpaceData: spaceID(5), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,021] - ClientObjectBase::setSpaceData: spaceID(5), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,021] - ClientObjectBase::setSpaceData: spaceID(5), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,021] - ClientObjectBase::setSpaceData: spaceID(5), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,021] - ClientObjectBase::initSpaceData: spaceID(5), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,021] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10011).
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,021] - PlayerDdzAvatar::onEnterSpace: 10011
+  INFO root [0x00008074] [2017-11-20 20:23:05,022] - ClientObjectBase::createEntity: new DdzAvatar (10010)
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,022] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,022] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10010), isOnGround(0), appID(2).
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,022] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10010), isOnGround(0), appID(3).
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,022] - PlayerDdzAvatar::onBecomePlayer: 10010
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,022] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,022] - ClientObjectBase::setSpaceData: spaceID(5), key=state, value=0.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,022] - ClientObjectBase::setSpaceData: spaceID(5), key=curfen, value=0.10.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,023] - ClientObjectBase::setSpaceData: spaceID(5), key=multiple, value=1.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,023] - ClientObjectBase::setSpaceData: spaceID(5), key=roomtime, value=15.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,023] - ClientObjectBase::initSpaceData: spaceID(5), datasize=4.
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,023] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10010).
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,023] - PlayerDdzAvatar::onEnterSpace: 10010
+  INFO root [0x00008074] [2017-11-20 20:23:05,023] - ClientObjectBase::createEntity: new DdzAvatar (10011)
+ S_DBG root [0x00008074] [2017-11-20 20:23:05,023] - Bots::DdzAvatar __init__
+ DEBUG root [0x00008074] [2017-11-20 20:23:05,024] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10011), isOnGround(0), appID(3).

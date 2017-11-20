@@ -444,7 +444,7 @@ class DdzRoom(KBEngine.Entity,RoomEntity):
             dzPlayer.set_gold(-realLoseGold)
 
         # 退出游戏状态
-        self.set_state(ROOM_STATE_READY)
+        self.set_state(ROOM_STATE_FINISH)
 
         data_json   = json.dumps(datas)
         self.sendAllClients(ACTION_ROOM_COMPUTE,data_json)

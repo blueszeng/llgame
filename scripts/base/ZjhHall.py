@@ -27,8 +27,6 @@ class ZjhHall(KBEngine.Base):
 
 		self.lastNewRoomID = 0
 
-		INFO_MSG("ZjhHall[%i] __init__" % (self.hallID))
-
 	def reqEnterHall(self, player):
 		"""
 		defined.

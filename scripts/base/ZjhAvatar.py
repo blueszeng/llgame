@@ -5,15 +5,13 @@ from interfaces.GameObject import *
 from KBEDebug import *
 import Helper
 
-class DdzAvatar(KBEngine.Proxy,GameObject):
+class ZjhAvatar(KBEngine.Proxy,GameObject):
     """
     斗地主游戏实体
     """
     def __init__(self):
         KBEngine.Proxy.__init__(self)
         GameObject.__init__(self)
-
-        self.bContinue = False
 
     def onEntitiesEnabled(self):
         """
@@ -40,18 +38,13 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
 
             self.createCellEntity(space)
 
-            self.bContinue = False
-
     def onLoseCell(self):
         """
         KBEngine method.
         """
         DEBUG_MSG("%r[%r]::onLoseCell()" % (self.className, self.id))
 
-        if self.bContinue:
-            self.reqEnterRoom()
-
-        elif not self.client:
+        if not self.client:
             self.ExitGame()
 
         else:
@@ -79,15 +72,6 @@ class DdzAvatar(KBEngine.Proxy,GameObject):
 
         self.activeProxy.reqLeaveGame()
         self.destroy()
-
-    def reqContinue(self):
-        """
-        继续游戏
-        """
-        INFO_MSG("%r[%r]::reqContinue()" % (self.className,self.id))
-
-        if self.hall:
-            self.hall.reqContinue(self)
 
     def set_gold(self, settleGold):
 

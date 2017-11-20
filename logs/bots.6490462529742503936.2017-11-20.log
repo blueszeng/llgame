@@ -1,0 +1,517 @@
+  INFO root [0x00007640] [2017-11-20 19:49:28,919] - 
+  INFO root [0x00007640] [2017-11-20 19:49:28,920] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00007640] [2017-11-20 19:49:28,922] - NetworkInterface::recreateListeningSocket(INTERNAL): bound to all interfaces with default route interface on 172.16.4.154 ( 172.16.4.154:59339 )
+  INFO root [0x00007640] [2017-11-20 19:49:28,922] - NetworkInterface::recreateListeningSocket(INTERNAL): address 172.16.4.154:59339, SOMAXCONN=5.
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,953] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,953] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,954] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,956] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,956] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,956] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00007640] [2017-11-20 19:49:28,987] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00007640] [2017-11-20 19:49:29,018] - Script::install(): is successfully, Python=(3.4.2 (default, Jul  7 2017, 16:13:50) [MSC v.1800 32 bit (Intel)])!
+  INFO root [0x00007640] [2017-11-20 19:49:29,018] - Script::install(): KBExtra is successfully!
+  INFO root [0x00007640] [2017-11-20 19:49:29,022] - ---- bots Version: 0.9.12. ScriptVersion: 0.1.0. Protocol: 124556E6025E0209A64D4D365F48CE09. Config: Debug. Built: 16:13:57 Jul  7 2017. AppID: 6490462529742503936. UID: 1001. PID: 29496 ----
+  INFO root [0x00007640] [2017-11-20 19:49:29,022] - Server : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with 4194303kB RAM
+  INFO root [0x00007640] [2017-11-20 19:49:29,022] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00007640] [2017-11-20 19:49:29,023] - ThreadPool::createThreadPool: successfully(1), newThreadCount=1, normalMaxThreadCount=1, maxThreadCount=4
+SCRIPT root [0x00007640] [2017-11-20 19:49:29,219] - 3
+ DEBUG root [0x00007640] [2017-11-20 19:49:29,225] - loaded script:Player(1).
+ DEBUG root [0x00007640] [2017-11-20 19:49:29,230] - loaded script:DdzAvatar(2).
+  INFO root [0x00007640] [2017-11-20 19:49:29,236] - TelnetServer server is running on port 51000
+ S_DBG root [0x00007640] [2017-11-20 19:49:29,236] - onInit::isReload:0
+  INFO root [0x00007640] [2017-11-20 19:49:29,236] - ---- bots is running ----
+ DEBUG root [0x00007640] [2017-11-20 19:49:29,236] - Components::process(): Request for the process of identity...
+ DEBUG root [0x00007640] [2017-11-20 19:49:35,989] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 31 9A 36 8B 94 C0 F2 58 08 57 A9 84 01 F7 91 05
+ DEBUG root [0x00007640] [2017-11-20 19:49:35,991] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 9C 65 FC 56 11 11 0F 70 8E B8 44 D6 94 97 80 BB
+  WARN root [0x00007640] [2017-11-20 19:49:35,991] - bots.cpp:284: Profile updateBots took 0.68 seconds
+  INFO root [0x00007640] [2017-11-20 19:49:36,025] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00007640] [2017-11-20 19:49:36,025] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=75C8DA776708D1E89693088467E5A4FB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:127.0.0.1:20013/0/0/0
+  INFO root [0x00007640] [2017-11-20 19:49:36,192] - ClientObject::onCreateAccountResult: bot_6490462529742503936_1 create is successfully!
+  INFO root [0x00007640] [2017-11-20 19:49:36,192] - ClientObject::onCreateAccountResult: bot_6490462529742503936_2 create is successfully!
+  INFO root [0x00007640] [2017-11-20 19:49:36,392] - ClientObject::onLoginSuccessfully: bot_6490462529742503936_1 addr=172.16.4.154:20015!
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,394] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 14 E2 DA ED DD 24 47 45 AF 74 EB 86 5C 2B 74 7E
+  INFO root [0x00007640] [2017-11-20 19:49:36,395] - ClientObject::onLoginSuccessfully: bot_6490462529742503936_2 addr=172.16.4.154:20015!
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,397] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: D2 C7 1B C3 FB 1F 0F 54 05 FA B7 A1 9C 06 C0 E5
+  INFO root [0x00007640] [2017-11-20 19:49:36,425] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00007640] [2017-11-20 19:49:36,426] - ClientObjectBase::onHelloCB: verInfo=0.9.12, scriptVerInfo=0.1.0, protocolMD5=3832E49F6CC47A66EFBA02ABD3118CFB, entityDefMD5=9477EF45894C4D1ED11B6FA6B1C16406, addr:172.16.4.154:20015/0/0/0
+  INFO root [0x00007640] [2017-11-20 19:49:36,592] - ClientObject::onCreatedProxies(bot_6490462529742503936_2): rndUUID=6490462562336309248 eid=9 entityType=Player!
+  INFO root [0x00007640] [2017-11-20 19:49:36,592] - ClientObjectBase::createEntity: new Player (9)
+  INFO root [0x00007640] [2017-11-20 19:49:36,625] - ClientObject::onCreatedProxies(bot_6490462529742503936_1): rndUUID=6490462562336309249 eid=8 entityType=Player!
+  INFO root [0x00007640] [2017-11-20 19:49:36,625] - ClientObjectBase::createEntity: new Player (8)
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,658] - ClientObjectBase::onEntityDestroyed: Player(9).
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,658] - Player::~Player(): 9
+  INFO root [0x00007640] [2017-11-20 19:49:36,658] - ClientObject::onCreatedProxies(bot_6490462529742503936_2): rndUUID=6490462562336309250 eid=10 entityType=DdzAvatar!
+  INFO root [0x00007640] [2017-11-20 19:49:36,658] - ClientObjectBase::createEntity: new DdzAvatar (10)
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,659] - Bots::DdzAvatar __init__
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,659] - DdzAvatar::onEnterGame: 10
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,691] - ClientObjectBase::onEntityDestroyed: Player(8).
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,691] - Player::~Player(): 8
+  INFO root [0x00007640] [2017-11-20 19:49:36,691] - ClientObject::onCreatedProxies(bot_6490462529742503936_1): rndUUID=6490462562336309251 eid=11 entityType=DdzAvatar!
+  INFO root [0x00007640] [2017-11-20 19:49:36,692] - ClientObjectBase::createEntity: new DdzAvatar (11)
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,692] - Bots::DdzAvatar __init__
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,692] - DdzAvatar::onEnterGame: 11
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,693] - DdzAvatar::onEnterHall: 10
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,726] - DdzAvatar::onEnterHall: 11
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,858] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(11), isOnGround(0), appID(2).
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,858] - PlayerDdzAvatar::onBecomePlayer: 11
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,858] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,858] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,858] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.10.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,858] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=1.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,859] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,859] - ClientObjectBase::initSpaceData: spaceID(1), datasize=4.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,859] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(11).
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,859] - PlayerDdzAvatar::onEnterSpace: 11
+  INFO root [0x00007640] [2017-11-20 19:49:36,859] - ClientObjectBase::createEntity: new DdzAvatar (10)
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,859] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10), isOnGround(0), appID(2).
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10), isOnGround(0), appID(3).
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,860] - PlayerDdzAvatar::onBecomePlayer: 10
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,860] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.10.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=1.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,860] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,861] - ClientObjectBase::initSpaceData: spaceID(1), datasize=4.
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,861] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10).
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,861] - PlayerDdzAvatar::onEnterSpace: 10
+  INFO root [0x00007640] [2017-11-20 19:49:36,862] - ClientObjectBase::createEntity: new DdzAvatar (11)
+ S_DBG root [0x00007640] [2017-11-20 19:49:36,862] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:49:36,862] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(11), isOnGround(0), appID(3).
+  INFO root [0x00007640] [2017-11-20 19:49:37,021] - Components::findComponents: find logger(1)...
+  INFO root [0x00007640] [2017-11-20 19:49:37,082] - Components::findComponents: found logger, addr:172.16.4.154:59295
+  INFO root [0x00007640] [2017-11-20 19:49:37,082] - Components::addComponent: reset orderLog, uid=1001!
+  INFO root [0x00007640] [2017-11-20 19:49:37,083] - Components::addComponent[logger], uid=1001, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00007640] [2017-11-20 19:49:37,121] - Components::process(): Found all the components!
+  INFO root [0x00007640] [2017-11-20 19:50:37,084] - ClientApp::onChannelTimeOut: Channel 172.16.4.154:59295/0/0/0 timed out.
+ DEBUG root [0x00007640] [2017-11-20 19:51:16,057] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+  INFO root [0x00007640] [2017-11-20 19:51:16,059] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_DBG root [0x00007640] [2017-11-20 19:51:16,060] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:51:16,060] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(2).
+ DEBUG root [0x00007640] [2017-11-20 19:51:16,061] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+  INFO root [0x00007640] [2017-11-20 19:51:16,062] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_DBG root [0x00007640] [2017-11-20 19:51:16,062] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:51:16,062] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(3).
+ DEBUG root [0x00007640] [2017-11-20 19:51:18,057] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 0, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:18,057] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 0, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:33,056] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 3, "curScore": 0, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:33,058] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 3, "curScore": 0, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,156] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.30.
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,156] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 42, 24].
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 1, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,156] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.30.
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,156] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 42, 24].
+ DEBUG root [0x00007640] [2017-11-20 19:51:35,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 1, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:50,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:50,160] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:51,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:51,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:53,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [4], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:53,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [4], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:54,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [18], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:54,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [18], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:55,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [22], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:55,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [22], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:56,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [27], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:56,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [27], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:57,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [30], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:57,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [30], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:58,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [41], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:58,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [41], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:59,156] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=2.
+ DEBUG root [0x00007640] [2017-11-20 19:51:59,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:51:59,156] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=2.
+ DEBUG root [0x00007640] [2017-11-20 19:51:59,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:00,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:00,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:01,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:01,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [54, 53], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:02,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [11, 9], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:02,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [11, 9], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:03,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [16, 13], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:03,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [16, 13], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:04,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [31, 29], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:04,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [31, 29], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:05,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:05,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:06,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:06,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:07,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:07,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [44, 42], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:08,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [19, 17], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:08,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [19, 17], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:09,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:09,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:10,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:10,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:11,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:11,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [23, 21], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:12,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [2], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:12,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [2], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:13,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [20], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:13,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [20], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:14,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [24], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:14,159] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [24], "powerCid": 3}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:15,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [43], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:15,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [43], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:16,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [47], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:16,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [47], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:17,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [47], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:17,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [47], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:18,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:18,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:19,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:19,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:20,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:20,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [50], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:21,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [12, 10], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:21,160] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [12, 10], "powerCid": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:22,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:22,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:23,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:23,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:24,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:24,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [15, 14], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:25,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:25,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:26,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:26,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:27,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:27,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [3, 1], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:28,157] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=4.
+ DEBUG root [0x00007640] [2017-11-20 19:52:28,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:28,159] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=4.
+ DEBUG root [0x00007640] [2017-11-20 19:52:28,160] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 3, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:29,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:29,158] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 1, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:30,156] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:30,157] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,657] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,658] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,723] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(11), appID(2).
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,723] - DdzAvatar::~DdzAvatar(): 10
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,724] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,724] - ClientObjectBase::onEntityLeaveWorld: PlayerDdzAvatar(10), appID(3).
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,724] - DdzAvatar::~DdzAvatar(): 11
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,725] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,756] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(11), isOnGround(0), appID(2).
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,757] - PlayerDdzAvatar::onBecomePlayer: 11
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,757] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,757] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=0.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,758] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.30.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,758] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=4.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,758] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,758] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,759] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 42, 24].
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,759] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,759] - ClientObjectBase::initSpaceData: spaceID(1), datasize=7.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,759] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(11).
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,760] - PlayerDdzAvatar::onEnterSpace: 11
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,760] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+  INFO root [0x00007640] [2017-11-20 19:52:32,761] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,762] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,762] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(2).
+  INFO root [0x00007640] [2017-11-20 19:52:32,763] - ClientObjectBase::createEntity: new DdzAvatar (10)
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,763] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,764] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(10), isOnGround(0), appID(2).
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,765] - ClientObjectBase::onPlayerEnterWorld: DdzAvatar(10), isOnGround(0), appID(3).
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,765] - PlayerDdzAvatar::onBecomePlayer: 10
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,765] - Bots::PlayerDdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,766] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,766] - ClientObjectBase::setSpaceData: spaceID(1), key=state, value=1.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,766] - ClientObjectBase::setSpaceData: spaceID(1), key=curfen, value=0.30.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,766] - ClientObjectBase::setSpaceData: spaceID(1), key=multiple, value=4.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,767] - ClientObjectBase::setSpaceData: spaceID(1), key=roomtime, value=15.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,767] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,767] - ClientObjectBase::setSpaceData: spaceID(1), key=threeCards, value=[52, 42, 24].
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,768] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_NEXT, value={"curCid": 2, "powerCards": [8, 7, 6, 5], "powerCid": 2}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,768] - ClientObjectBase::initSpaceData: spaceID(1), datasize=7.
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,768] - ClientObjectBase::onEntityEnterSpace: PlayerDdzAvatar(10).
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,768] - PlayerDdzAvatar::onEnterSpace: 10
+  INFO root [0x00007640] [2017-11-20 19:52:32,769] - ClientObjectBase::createEntity: new DdzAvatar (11)
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,770] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,770] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(11), isOnGround(0), appID(3).
+  INFO root [0x00007640] [2017-11-20 19:52:32,771] - ClientObjectBase::createEntity: new DdzAvatar (14)
+ S_DBG root [0x00007640] [2017-11-20 19:52:32,771] - Bots::DdzAvatar __init__
+ DEBUG root [0x00007640] [2017-11-20 19:52:32,771] - ClientObjectBase::onEntityEnterWorld: DdzAvatar(14), isOnGround(0), appID(3).
+ DEBUG root [0x00007640] [2017-11-20 19:52:34,756] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 3, "curScore": 3, "type": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:34,757] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 3, "curScore": 3, "type": 1}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:35,756] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 1, "curScore": 3, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:35,757] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 1, "curScore": 3, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:50,756] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 0}.
+ DEBUG root [0x00007640] [2017-11-20 19:52:50,756] - ClientObjectBase::setSpaceData: spaceID(1), key=ACTION_ROOM_JIAOPAI_NEXT, value={"curCid": 2, "curScore": 3, "type": 0}.
+  INFO root [0x00007640] [2017-11-20 19:53:03,355] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x00007640] [2017-11-20 19:53:03,355] - ClientObjectBase::tickSend: serverCloased!
+  INFO root [0x00007640] [2017-11-20 19:53:03,356] - ClientObjectBase::onKicked: code=11
+ DEBUG root [0x00007640] [2017-11-20 19:53:03,356] - ClientObjectBase::tickSend: serverCloased!
+  WARN root [0x00007640] [2017-11-20 19:53:04,031] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,033] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,033] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,033] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,033] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,034] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,035] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,036] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,037] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,038] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,038] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,038] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,038] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,038] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,039] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,040] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,040] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,040] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,040] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,040] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,041] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,041] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,041] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,041] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,041] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,042] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,043] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,043] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,043] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,043] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,043] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,044] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,045] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,046] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,047] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,048] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,049] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,050] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,051] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,052] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,053] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,054] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,055] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,055] - TCPPacketReceiver::processPendingEvents(172.16.4.154:20015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,055] - PlayerDdzAvatar::~PlayerDdzAvatar(): 11
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,055] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,055] - DdzAvatar::~DdzAvatar(): 10
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,055] - PlayerDdzAvatar::~PlayerDdzAvatar(): 10
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,056] - DdzAvatar::~DdzAvatar(): 11
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,056] - DdzAvatar::~DdzAvatar(): 14
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,257] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 1E 6E 71 75 BA FF 46 DA 4D 60 93 46 C2 27 87 19
+ DEBUG root [0x00007640] [2017-11-20 19:53:04,258] - KBEBlowfish::KBEBlowfish(): Using Blowfish key: 23 4D 75 2D 0F B1 A2 73 25 86 05 F0 A1 1C B2 57
+  WARN root [0x00007640] [2017-11-20 19:53:04,332] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,334] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,335] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,336] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,336] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,336] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,336] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,336] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,337] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,338] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,338] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,338] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,338] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,338] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,339] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,340] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,341] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,341] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,341] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,341] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,342] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,343] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,344] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,345] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,345] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,345] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,345] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,345] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,346] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,346] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,346] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,346] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,347] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,347] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,347] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,347] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,347] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,348] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,349] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,350] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,351] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,352] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,353] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,354] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+  WARN root [0x00007640] [2017-11-20 19:53:04,355] - TCPPacketReceiver::processPendingEvents(127.0.0.1:20013): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
