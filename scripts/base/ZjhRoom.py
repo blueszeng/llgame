@@ -24,21 +24,27 @@ class ZjhRoom(KBEngine.Base):
 
         pass
 
-    def onLoseCell(self):
-        """
-        KBEngine method.
-        entity的cell部分实体丢失
-        """
-        self.destroy()
 
     def onGetCell(self):
         """
         KBEngine method.
         entity的cell部分实体被创建成功
         """
-        DEBUG_MSG("ZjhRoom::onGetCell: %r" % self.roomID)
 
-        self.parent.onRoomGetCell(self,self.roomID)
+        DEBUG_MSG("%r[%r]::onGetCell()" % (self.className, self.id))
+
+        self.parent.onRoomGetCell(self, self.cid)
+
+    def onLoseCell(self):
+        """
+        KBEngine method.
+        entity的cell部分实体丢失
+        """
+        DEBUG_MSG("%r[%r]::onLoseCell()" % (self.className, self.id))
+
+        self.parent.onRoomLoseCell(self, self.cid)
+
+        self.destroy()
 
     def onEnterRoom(self, player):
 
@@ -93,14 +99,3 @@ class ZjhRoom(KBEngine.Base):
                 player.client.onLeaveRoom(self.state, player.cid)
 
             player.roomID = 0
-
-    def reqPlayerCount(self):
-
-        return len(self.players)
-
-    def hasNull(self):
-
-        if len(self.players) < 5:
-            return True
-
-        return False

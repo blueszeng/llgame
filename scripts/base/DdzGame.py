@@ -21,7 +21,7 @@ class DdzGame(KBEngine.Base,BaseObject):
         """
         for i in range(d_games.datas[self.className]["hallCount"]):
             cid = i + 1
-            KBEngine.createBaseAnywhere("DdzHall", {"cid": cid}, Functor(self.onCreateBaseCallback, cid))
+            KBEngine.createBaseAnywhere("DdzHall", {'parent':self,"cid": cid}, Functor(self.onCreateBaseCallback, cid))
 
     def onCreateBaseCallback(self, id, mailbox):
 

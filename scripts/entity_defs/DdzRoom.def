@@ -1,20 +1,9 @@
 <root>
 	<Implements>
+	    <Interface>	BaseObject	</Interface>
 	</Implements>
 
 	<Properties>
-	    <parent>
-			<Type>			MAILBOX				</Type>
-			<Flags>			BASE		    </Flags>
-			<Default>						</Default>
-		</parent>
-
-		<roomID>
-			<Type>			INT64				</Type>
-			<Flags>			BASE		</Flags>
-			<Default>		0				</Default>
-		</roomID>
-
 		<difen>
 			<Type>			FLOAT			</Type>
 			<Flags>			BASE		</Flags>

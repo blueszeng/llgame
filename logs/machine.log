@@ -781,3 +781,27 @@
   INFO root [2017-11-20 20:22:28,507] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:53878/0/0/0 timed out.
   INFO root [2017-11-20 20:22:28,810] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:53881/0/0/0 timed out.
   INFO root [2017-11-20 20:22:29,212] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:53884/0/0/0 timed out.
+  INFO root [2017-11-22 09:02:16,683] - Machine::onFindInterfaceAddr[172.16.4.154:63027/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:logger, finderaddr:172.16.4.154, finderRecvPort:20892.
+  INFO root [2017-11-22 09:02:16,707] - Machine::onFindInterfaceAddr[172.16.4.154:63027/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:logger, finderaddr:172.16.4.154, finderRecvPort:20892.
+  INFO root [2017-11-22 09:02:17,111] - Machine::onFindInterfaceAddr[172.16.4.154:63030/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20065.
+  INFO root [2017-11-22 09:02:17,115] - Machine::onFindInterfaceAddr[172.16.4.154:63030/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:baseapp, finderaddr:172.16.4.154, finderRecvPort:20065.
+  INFO root [2017-11-22 09:02:17,419] - Machine::onFindInterfaceAddr[172.16.4.154:63033/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20188.
+  INFO root [2017-11-22 09:02:17,424] - Machine::onFindInterfaceAddr[172.16.4.154:63033/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:baseappmgr, finderaddr:172.16.4.154, finderRecvPort:20188.
+  INFO root [2017-11-22 09:02:17,828] - Machine::onFindInterfaceAddr[172.16.4.154:63036/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20360.
+  INFO root [2017-11-22 09:02:17,832] - Machine::onFindInterfaceAddr[172.16.4.154:63036/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:loginapp, finderaddr:172.16.4.154, finderRecvPort:20360.
+  INFO root [2017-11-22 09:02:18,135] - Machine::onFindInterfaceAddr[172.16.4.154:63039/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20536.
+  INFO root [2017-11-22 09:02:18,147] - Machine::onFindInterfaceAddr[172.16.4.154:63039/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:cellapp, finderaddr:172.16.4.154, finderRecvPort:20536.
+  INFO root [2017-11-22 09:02:18,450] - Machine::onFindInterfaceAddr[172.16.4.154:63042/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20659.
+  INFO root [2017-11-22 09:02:18,458] - Machine::onFindInterfaceAddr[172.16.4.154:63042/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:dbmgr, finderaddr:172.16.4.154, finderRecvPort:20659.
+  INFO root [2017-11-22 09:02:18,458] - Machine::onFindInterfaceAddr[172.16.4.154:63043/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20708.
+  INFO root [2017-11-22 09:02:18,466] - Machine::onFindInterfaceAddr[172.16.4.154:63043/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:cellappmgr, finderaddr:172.16.4.154, finderRecvPort:20708.
+  INFO root [2017-11-22 09:02:18,872] - Machine::onFindInterfaceAddr[172.16.4.154:63048/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:bots, finderaddr:172.16.4.154, finderRecvPort:20832.
+  INFO root [2017-11-22 09:02:18,883] - Machine::onFindInterfaceAddr[172.16.4.154:63048/0/0/0]: uid:12511, username:, componentType:console, componentID:6490462455060168704, find:bots, finderaddr:172.16.4.154, finderRecvPort:20832.
+  INFO root [2017-11-22 09:03:16,735] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63027/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:17,141] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63030/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:17,444] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63033/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:17,848] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63036/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:18,151] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63039/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:18,455] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63042/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:18,456] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63043/0/0/0 timed out.
+  INFO root [2017-11-22 09:03:18,961] - ServerApp::onChannelTimeOut: Channel 172.16.4.154:63048/0/0/0 timed out.

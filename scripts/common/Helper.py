@@ -40,16 +40,11 @@ def convertDict(httpStr,str1,str2):
     return result
 
 
+test = [1,2,3,4,5]
 
-class Test():
-    def __init__(self):
-        self.game = None
-        setattr(self, "game", self.__class__.__name__)
-
-str = " Game"
-
-
-print(str.find("Game"))
+index = test.index(5)
+test.insert(index+1,9)
+print(test)
 
 
 

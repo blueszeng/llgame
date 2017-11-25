@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import KBEngine
-import d_games
 import d_config
 import Helper
 import json
 from Functor import *
+from d_games import *
 from interfaces.BaseObject import *
 
 
@@ -34,11 +34,11 @@ class Games(KBEngine.Base,BaseObject):
 		@param userArg	: addTimer 最后一个参数所给入的数据
 		"""
 
-		for data in d_games.datas.values():
+		for key,value in d_games.items():
 
-			params = {'cid': data["id"],'open': data["open"]}
+			params = {'parent':self,'cid': value["id"],'open': value["open"]}
 
-			KBEngine.createBaseAnywhere("DdzGame",params,Functor(self.onCreateBaseCallback,data["id"]))
+			KBEngine.createBaseAnywhere(key,params,Functor(self.onCreateBaseCallback,value["id"]))
 
 	def onCreateBaseCallback(self,id,game):
 		self.childs[id] = game
@@ -62,8 +62,7 @@ class Games(KBEngine.Base,BaseObject):
 		"""
 		获取游戏配置
 		"""
-		string_json = json.dumps(d_config.d_users)
-		player.client.onGamesConfig(string_json)
+		player.client.onGamesConfig(json.dumps(d_config.d_users))
 
 	def reqGameInfo(self,player):
 		"""

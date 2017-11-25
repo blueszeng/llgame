@@ -4,7 +4,6 @@ from interfaces.BaseObject import *
 
 class ZjhGame(KBEngine.Base,BaseObject):
 
-    """斗地主"""
     def __init__(self):
         KBEngine.Base.__init__(self)
         BaseObject.__init__(self)
@@ -21,7 +20,7 @@ class ZjhGame(KBEngine.Base,BaseObject):
         """
         for i in range(d_games.datas[self.className]["hallCount"]):
             cid = i + 1
-            KBEngine.createBaseAnywhere("ZjhHall", {"cid": cid}, Functor(self.onCreateBaseCallback, cid))
+            KBEngine.createBaseAnywhere("ZjhHall", {'parent':self,"cid": cid}, Functor(self.onCreateBaseCallback, cid))
 
     def onCreateBaseCallback(self, id, mailbox):
 

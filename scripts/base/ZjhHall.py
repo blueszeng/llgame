@@ -1,171 +1,135 @@
 # -*- coding: utf-8 -*-
 import KBEngine
-import time
-from GlobalConst import *
 from KBEDebug import *
 from d_config import *
+from interfaces.BaseObject import *
 
-class ZjhHall(KBEngine.Base):
+class ZjhHall(KBEngine.Base,BaseObject):
 	"""
 	大厅实体
-	该实体管理该大厅中所有的房间/桌
 	"""
 	def __init__(self):
 		KBEngine.Base.__init__(self)
+		BaseObject.__init__(self)
 
-		#空房队列
-		self.roomsList = []
+		self.lastNewRoomKey = 0
 
-		# 管理所有房间实体
-		self.rooms = {}
+		#未满人房间
+		self.notFullRooms = []
 
-		# 进入该大厅的所有玩家mailbox
-		self.players = {}
+	def reqEnter(self,player):
 
-		#管理所有房间缓冲请求
-		self.roomReqs = {}
+		if player.gold < d_DDZ[self.cid]["limit"]:
 
-		self.lastNewRoomID = 0
-
-	def reqEnterHall(self, player):
-		"""
-		defined.
-		客户端调用该接口请求进入大厅
-		onEnterHall 返回-1 为金钱不足，0为已经开始一局游戏
-		"""
-		if player.gold < d_ZJH[self.hallID]["limit"]:
-			player.client.onEnterHall(-1)
-
-			INFO_MSG("ZjhHall::reqEnterHall Player[%r] gold < limit" % (player.id))
+			DEBUG_MSG("%r::reqEnter() Entity[%r] Gold < Limit" % (self.className, player.id))
+			if player.client:
+				player.client.onEnterHall(-1)
 			return
 
-		INFO_MSG("ZjhHall::reqEnterHall Player[%r]" % (player.id))
+		super().reqEnter(player)
+		if player.client:
+			player.client.onEnterHall(0)
 
-		self.players[player.id] = player
-
-		player.hallID = self.hallID
+	def reqLeave(self,player):
+		super().reqLeave(player)
 
 		if player.client:
-			player.client.onEnterHall(self.hallID)
+			player.client.onLeaveHall(0)
 
-	def reqLeaveHall(self, player):
+	def onRoomGetCell(self, roomMailbox, roomKey):
 		"""
-		defined.
-		客户端调用该接口请求离开大厅
-		"""
-		if player.id in self.players:
-
-			del self.players[player.id]
-
-			if player.client:
-				player.client.onLeaveHall(player.hallID)
-
-			player.hallID = 0
-		
-	def createRooms(self, player):
-		"""
-		根据玩家人数，动态创建房间
-		"""
-
-		roomData = self.roomReqs.get(self.lastNewRoomID)
-
-		if roomData is None or len(roomData["Reqs"]) >= 5:
-			self.lastNewRoomID = len(self.rooms) + 1
-			KBEngine.createBaseAnywhere("ZjhRoom", {"parent": self,
-													"roomID": self.lastNewRoomID,
-													"state": 0,
-													"dizhu": d_ZJH[self.hallID]["base"],
-													"limit": d_ZJH[self.hallID]["limit"],
-													"jzList":json.dumps(d_ZJH[self.hallID]["jzList"]),
-													"taxRate": d_ZJH["taxRate"]}, None)
-
-			self.roomReqs[self.lastNewRoomID] = {"Reqs":[player.id]}
-
-		else:
-			if player.id not in roomData["Reqs"]:
-				roomData["Reqs"].append(player)
-
-
-	def onRoomGetCell(self, roomMailbox, roomID):
-		"""
-        defined method.
         Room的cell创建好了
         """
-		self.rooms[roomID] = roomMailbox
-		self.roomsList.append(roomID)
+		#todo 未添加到def
+		self.childs[roomKey]["roomMailbox"] = roomMailbox
 
 		# space已经创建好了， 现在可以将之前请求进入的玩家全部丢到cell地图中
-		for pid in self.roomReqs[roomID]["Reqs"]:
+		for player in self.childs[roomKey]["players"]:
 
-			roomMailbox.onEnterRoom(self.players[pid])
+			if player.client:
+				roomMailbox.reqEnter(player)
+			else:
+				del self.childs[roomKey]["players"][player]
 
-			if not roomMailbox.hasNull():
-				self.roomsList.remove(roomID)
+				#如果player已丢失client，则需要销毁该引用
+				if player:
+					player.destroy()
 
-		del self.roomReqs[roomID]
+	def onRoomLoseCell(self,roomMailbox,roomKey):
+		"""
+		Room 销毁时，回调
+		"""
+		# todo 未添加到def
+		if roomKey in self.childs:
+			self.sortNotFullRooms(self.childs[roomKey])
+			del self.childs[roomKey]
 
 	def reqEnterRoom(self, player):
 		"""
-		defined.
-		客户端调用该接口请求进入房间/桌子
-		遍历房间，为玩家匹配空房间
+		先查找空房间，如果没空房，则将玩家排队，再创建新房间
 		"""
-		INFO_MSG("ZjhHall::reqEnterRoom Hall[%r] Player[%r]" % (self.hallID,player.id))
 
-		#to do gold < limit
-		if len(self.roomsList) > 0:
-			for value in self.roomsList:
-				self.rooms[value].onEnterRoom(player)
-				if not self.rooms[value].hasNull():
-					self.roomsList.remove(value)
-				break
+		roomData = self.findNotFullRooms()
+
+		if roomData:
+
+			roomData['players'].append(player)
+			self.sortNotFullRooms(roomData)
+
+			if not roomData['roomMailbox']:
+				roomData['roomMailbox'].reqEnter(player)
+
 		else:
-			self.createRooms(player)
+
+			self.lastNewRoomKey = self.lastNewRoomKey + 1
+			params = {'parent': self,
+					  'cid': self.lastNewRoomKey,
+					  'state': 0,
+					  'difen': d_ZJH[self.cid]['base'],
+					  'jzList':d_ZJH[self.cid]['jzList'],
+					  'taxRate': d_ZJH['taxRate']}
+
+			KBEngine.createBaseAnywhere("ZjhRoom", params, None)
+
+			roomDatas = {"roomMailbox": None,
+						 "players": [player]}
+
+			self.childs[self.lastNewRoomKey] = roomDatas
+			self.sortNotFullRooms(roomDatas)
 
 
-	def reqLeaveRoom(self, player, roomID):
+	def onRoomLosePlayer(self,roomkey,player):
+		#玩家房间
+
+		if roomkey in self.childs and player in self.childs[roomkey]['players']:
+			del self.childs[roomkey]['players'][player]
+			self.sortNotFullRooms(self.childs[roomkey])
+
+
+	def findNotFullRooms(self):
 		"""
-		defined.
-		先检测满人房间，如果有人离开，则重新归类
+		查找人数最多的有位置房间
 		"""
-		INFO_MSG("ZjhHall::reqLeaveRoom Hall[%r] Room[%r] Player[%r]" % (self.hallID,roomID,player.id))
+		if len(self.notFullRooms) <= 0:
+			return None
 
-		if roomID in self.rooms.keys():
+		else:
+			return self.notFullRooms[0]
 
-			self.rooms[roomID].onLeaveRoom(player)
-
-			if self.rooms[roomID].hasNull():
-
-				self._sorted(self.rooms[roomID])
-
-	def _sorted(self,room):
-		#将金花人数最多的房间推到顶部
-
-		success = False
-
-		for rid in self.roomsList:
-
-			if self.rooms[rid].reqPlayerCount() <= room.reqPlayerCount():
-				success = True
-
-				self.roomsList.insert(self.roomsList.index(rid), room.roomID)
-
-				DEBUG_MSG("_sorted index = %r roomslist = %r" % (self.roomsList.index(rid), self.roomsList))
-				break
-
-		if not success:
-			self.roomsList.append(room.roomID)
-
-
-	def reqPlayerCount(self):
+	def sortNotFullRooms(self,roomData):
 		"""
-        获取玩家数量
-        """
-		return len(self.players.values())
+		重新排列房间顺序，优先把人数最多的房间置顶
+		"""
 
-	def reqMessage(self, player, action, string):
+		#如果房间满人或者没人，则从队列中清理掉
+		if (len(roomData['players']) == 0 or len(roomData['players']) == 5) and roomData in self.notFullRooms:
+			del self.notFullRooms[roomData]
+			return
 
-		INFO_MSG("ZjhHall::reqMessage Hall[%r] Player[%r]" % (self.hallID, player.id))
+		#如果房间还有空位，则排队
+		for notFullRoom in self.notFullRooms:
+			if len(roomData['players']) < len(notFullRoom['players']):
+				index = self.notFullRooms.index(notFullRoom)
+				self.notFullRooms.insert(index+1,roomData)
 
-		if player.roomID in self.rooms.keys():
-			self.rooms[player.roomID].reqMessage(player, action, string)
+

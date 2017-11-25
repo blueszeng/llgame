@@ -7,12 +7,14 @@
 	
 	<Player hasClient="true"></Player>		<!--玩家账号实体-->
 	<DdzAvatar hasClient="true"></DdzAvatar>
+	<ZjhAvatar hasClient="true"></ZjhAvatar>
 	<Ranks/>								<!--排行榜管理-->
-	<Games/>      							<!-- 游戏管理-->
+	<Games/>      							<!--游戏管理-->
 	<DdzGame/>
-	<DdzHall/>       						<!-- dou地主大厅 -->
+	<DdzHall/>       						<!--斗地主大厅 -->
 	<DdzRoom/>								<!--斗地主房间-->
-	<ZjhHall/>       						<!-- 炸金花大厅 -->
+	<ZjhGame/>
+	<ZjhHall/>       						<!--炸金花大厅 -->
 	<ZjhRoom/>								<!--诈金花房间-->
 
 </root>

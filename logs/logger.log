@@ -199,3 +199,6 @@ S_INFO [0x000082a8] [2017-11-20 20:04:10,361] - onLoggerAppReady: bootstrapGroup
  DEBUG [0x000082a8] [2017-11-20 20:21:26,753] - ServerApp::lookApp: 172.16.4.154:59786/0/0/0, componentID=2000
  DEBUG [0x000082a8] [2017-11-20 20:21:26,754] - ServerApp::lookApp: response! componentID=2000
   INFO [0x000082a8] [2017-11-20 20:21:27,333] - Logger::registerLogWatcher: addr=172.16.4.154:59788 is successfully!
+ DEBUG [0x000082a8] [2017-11-22 09:02:16,725] - ServerApp::lookApp: 172.16.4.154:54478/0/0/0, componentID=2000
+ DEBUG [0x000082a8] [2017-11-22 09:02:16,725] - ServerApp::lookApp: response! componentID=2000
+  INFO [0x000082a8] [2017-11-22 09:02:17,746] - Logger::registerLogWatcher: addr=172.16.4.154:54481 is successfully!

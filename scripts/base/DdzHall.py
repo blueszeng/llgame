@@ -66,24 +66,21 @@ class DdzHall(KBEngine.Base,BaseObject):
 		"""
 		for roomData in self.childs.values():
 
-			DEBUG_MSG(roomData)
-			if len(roomData['players']) < 3 and roomData["roomMailbox"] is None:
-
+			if len(roomData['players']) < 3:
 				roomData['players'].append(player)
-				return
 
-			elif len(roomData["players"]) < 3 and roomData["roomMailbox"].state == ROOM_STATE_READY:
+				if not roomData['roomMailbox']:
+					roomData['roomMailbox'].reqEnter(player)
 
-				roomData["roomMailbox"].reqEnter(player)
 				return
 
 		self.lastNewRoomKey = self.lastNewRoomKey + 1
 
-		params = {"cid": self.lastNewRoomKey,
-				  "parent": self,
-				  "state": 0,
-				  "difen": d_DDZ[self.cid]["base"],
-				  "taxRate": d_DDZ["taxRate"]}
+		params = {'parent':self,
+				  'cid': self.lastNewRoomKey,
+				  'state': 0,
+				  'difen': d_DDZ[self.cid]['base'],
+				  'taxRate': d_DDZ['taxRate']}
 
 		KBEngine.createBaseAnywhere("DdzRoom", params, None)
 

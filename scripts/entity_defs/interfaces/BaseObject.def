@@ -1,5 +1,11 @@
 <root>
 	<Properties>
+
+	    <parent>
+			<Type>			MAILBOX				</Type>
+			<Flags>			BASE			    </Flags>
+		</parent>
+
 	</Properties>
 
 	<BaseMethods>

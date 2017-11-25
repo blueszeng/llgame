@@ -1,28 +1,14 @@
 <root>
 	<Implements>
+	    <Interface>	BaseObject	</Interface>
 	</Implements>
 
 	<Properties>
-
-		<roomID>
-			<Type>			INT32				</Type>
-			<Flags>			BASE				</Flags>
-		</roomID>
-
-		<parent>
-			<Type>			MAILBOX				</Type>
-			<Flags>			BASE				</Flags>
-		</parent>
 
 		<state>
 			<Type>			INT32				</Type>
 			<Flags>			BASE				</Flags>
 		</state>
-
-		<dizhu>
-			<Type>			FLOAT				</Type>
-			<Flags>			BASE				</Flags>
-		</dizhu>
 
 		<limit>
 			<Type>			FLOAT				</Type>
@@ -85,6 +71,7 @@
 	</BaseMethods>
 
 	<CellMethods>
+
 	    <onEnter>
 			<Arg>		MAILBOX		</Arg>
 		</onEnter>
