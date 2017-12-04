@@ -1,4 +1,5 @@
 from d_config import  *
+from d_game import *
 from Functor import *
 from interfaces.BaseObject import *
 
@@ -18,14 +19,14 @@ class ZjhGame(KBEngine.Base,BaseObject):
         @param id		: addTimer 的返回值ID
         @param userArg	: addTimer 最后一个参数所给入的数据
         """
-        for i in range(d_games.datas[self.className]["hallCount"]):
+        for i in range(d_games[self.cid]["hallCount"]):
             cid = i + 1
-            KBEngine.createBaseAnywhere("ZjhHall", {'parent':self,"cid": cid}, Functor(self.onCreateBaseCallback, cid))
+            KBEngine.createBaseAnywhere(d_games[self.cid]['sign'] + "Hall", {'parent': self, "cid": cid},
+                                        Functor(self.onCreateBaseCallback, cid))
 
     def onCreateBaseCallback(self, id, mailbox):
 
         self.childs[id] = mailbox
-
 
     def reqEnter(self,player):
         super().reqEnter(player)

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import KBEngine
 from datetime import datetime,time
+from d_game import *
 from d_config import *
 from interfaces.GameObject import *
 
@@ -12,24 +13,6 @@ class Player(KBEngine.Proxy,GameObject):
 	def __init__(self):
 		KBEngine.Proxy.__init__(self)
 		GameObject.__init__(self)
-
-	def createCell(self, space,cid):
-		"""
-        defined method.
-        """
-
-		if self.cell:
-			pass
-		else:
-			#zjh
-			self.cellData["cost"]		= 0.0
-			self.cellData["chip"] 		= 0.0
-			self.cellData["lookcard"] 	= 0
-			self.cellData["stateC"]		= 0
-			self.cellData["first"]		= 0
-
-
-			self.createCellEntity(space)
 
 	def onEntitiesEnabled(self):
 		"""
@@ -153,25 +136,28 @@ class Player(KBEngine.Proxy,GameObject):
 
 	def reqEnterGame(self,gameID):
 
-		if gameID == 1:
-			if self.activeProxy == None:
+		DEBUG_MSG(d_games[1]['sign'])
 
-				avatar = KBEngine.createBaseLocally("DdzAvatar", {"gold":self.gold})
-				if avatar:
-					avatar.cellData["nameC"] = self.name
-					avatar.cellData["goldC"] = self.gold
-					avatar.cellData["sexC"]  = self.sex
-					avatar.cellData["headC"] = self.head
-					avatar.cellData["addrC"] = self.addr
+		if self.activeProxy == None and gameID in d_games:
+			entity = d_games[gameID]['sign']+"Avatar"
 
-					self.activeProxy = avatar
+			avatar = KBEngine.createBaseLocally(entity, {"gold": self.gold})
+			if avatar:
+				avatar.cellData["nameC"] = self.name
+				avatar.cellData["goldC"] = self.gold
+				avatar.cellData["sexC"] = self.sex
+				avatar.cellData["headC"] = self.head
+				avatar.cellData["addrC"] = self.addr
 
-					self.giveClientTo(avatar)
+				self.activeProxy = avatar
 
-					avatar.reqEnterGame(gameID)
-					avatar.activeProxy = self
-			else:
-				self.client.onEnterGame(-1,"")
+				self.giveClientTo(avatar)
+
+				avatar.reqEnterGame(gameID)
+				avatar.activeProxy = self
+		else:
+			self.client.onEnterGame(-1, "")
+
 
 	def reqLeaveGame(self):
 

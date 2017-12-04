@@ -1,3 +1,0 @@
-   DEBUG    cellapp01 1001 8001  [2017-11-22 09:02:18 201] - Cellapp::lookApp: 172.16.4.154:54483/0/0/0
- WARNING    cellapp01 1001 8001  [2017-11-22 19:54:26 236] - EntityApp::checkTickPeriod: tick took 218% (0.22 seconds)!
- WARNING    cellapp01 1001 8001  [2017-11-22 20:23:33 895] - EntityApp::checkTickPeriod: tick took 203% (0.20 seconds)!

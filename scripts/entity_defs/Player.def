@@ -54,140 +54,10 @@
 			<Persistent>	true				</Persistent>
 	</addr>
 
-    <!-- 0在线，1游戏中 -->
-	<state>
-	        <Type>			INT32					</Type>
-			<Flags>			BASE_AND_CLIENT	 		</Flags>
-			<Default>		0						</Default>
-	</state>
-
-
-
-	<!-- Cell 属性 -->
-    <dbid>
-			<Type>		DBID				</Type>
-			<Flags>		CELL_PUBLIC			</Flags>
-			<Default>		0				</Default>
-	</dbid>
-
-	<cid>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</cid>
-
-    <cards>
-			<Type>	ARRAY <of> INT32 </of>    </Type>
-			<Flags>		OWN_CLIENT			</Flags>
-			<Default>		0				</Default>
-	</cards>
-
-    <showCards>
-			<Type>	ARRAY <of> INT32 </of>    </Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</showCards>
-
-	<cardCount>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</cardCount>
-
-    <!-- 0为无，1为地主，2为农民 -->
-	<type>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</type>
-
-	<curScore>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</curScore>
-
-	<tuoguan>
-			<Type>		UINT8				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</tuoguan>
-
-	<multiple>
-			<Type>		INT32				</Type>
-			<Flags>		ALL_CLIENTS			</Flags>
-			<Default>		0				</Default>
-	</multiple>
-
-	<nameC>
-			<Type>			UNICODE					</Type>
-			<Flags>			ALL_CLIENTS	      	</Flags>
-			<Default>								</Default>
-	</nameC>
-
-	<goldC>
-			<Type>			FLOAT					</Type>
-			<Flags>			ALL_CLIENTS	 		</Flags>
-			<Default>								</Default>
-	</goldC>
-
-	<sexC>
-	        <Type>			INT32					</Type>
-			<Flags>			ALL_CLIENTS	 		</Flags>
-			<Default>								</Default>
-	</sexC>
-
-	<headC>
-	        <Type>			INT32					</Type>
-			<Flags>			ALL_CLIENTS	 		</Flags>
-			<Default>								</Default>
-	</headC>
-
-    <addrC>
-	        <Type>			UNICODE					</Type>
-			<Flags>			ALL_CLIENTS	 		   </Flags>
-			<Default>								</Default>
-	</addrC>
-
-    <!-- zjh -->
-	<cost>
-	        <Type>			FLOAT					</Type>
-			<Flags>			ALL_CLIENTS	 		   </Flags>
-			<Default>			0					</Default>
-	</cost>
-
-	<chip>
-	        <Type>			FLOAT					</Type>
-			<Flags>			ALL_CLIENTS	 		   </Flags>
-			<Default>			0					</Default>
-	</chip>
-
-	<lookcard>
-	        <Type>			UINT8					</Type>
-			<Flags>			ALL_CLIENTS	 		    </Flags>
-			<Default>			0					</Default>
-	</lookcard>
-
-	<first>
-	        <Type>			UINT8					</Type>
-			<Flags>			ALL_CLIENTS	 		</Flags>
-			<Default>		0						</Default>
-	</first>
-
-	<stateC>
-	        <Type>			INT32					</Type>
-			<Flags>			ALL_CLIENTS	 		   </Flags>
-			<Default>		0						</Default>
-	</stateC>
-
 	</Properties>
 
 	<ClientMethods>
-	    <onRoomState>
-		    <Arg> UNICODE </Arg>
-		</onRoomState>
 
-        <!-- 返回游戏信息 -->
 		<onGameInfo>
 		    <Arg>	UNICODE	</Arg>
 		</onGameInfo>
@@ -250,10 +120,6 @@
 	</ClientMethods>
 
 	<BaseMethods>
-	    <createCell>
-			<Arg>		MAILBOX					</Arg>
-		</createCell>
-
         <reqRefresh>
 			<Exposed/>
 			<Utype> 9999 </Utype>

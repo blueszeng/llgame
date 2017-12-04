@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import KBEngine
 from interfaces.GameObject import *
 from KBEDebug import *
 import Helper
 
 class ZjhAvatar(KBEngine.Proxy,GameObject):
-    """
-    斗地主游戏实体
-    """
+
     def __init__(self):
         KBEngine.Proxy.__init__(self)
         GameObject.__init__(self)
@@ -27,14 +24,16 @@ class ZjhAvatar(KBEngine.Proxy,GameObject):
         """
         if not self.cell:
 
+            self.cellData["cid"] = 0
             self.cellData["cards"] = []
             self.cellData["cardCount"] = 0
-            self.cellData["curScore"]  = -1
             self.cellData["showCards"] = []
-            self.cellData["multiple"] = 1
-            self.cellData["type"] = 0       # 0无身份 1地主 2农民
-            self.cellData["tuoguan"] = 0    # 0正常 1托管
-            self.cellData["cid"] = 0
+
+            self.cellData["cost"] = 0.0
+            self.cellData["chip"] = 0.0
+            self.cellData["lookcard"] = 0
+            self.cellData["stateC"] = 0
+            self.cellData["first"] = 0
 
             self.createCellEntity(space)
 
@@ -61,7 +60,6 @@ class ZjhAvatar(KBEngine.Proxy,GameObject):
     def onDestroy(self):
 
         DEBUG_MSG("%r[%r]::onDestroy() " %(self.className,self.id))
-
 
     def reqLeaveGame(self):
 

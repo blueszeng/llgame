@@ -40,11 +40,6 @@ def convertDict(httpStr,str1,str2):
     return result
 
 
-test = [1,2,3,4,5]
-
-index = test.index(5)
-test.insert(index+1,9)
-print(test)
 
 
 

@@ -4,7 +4,7 @@ import d_config
 import Helper
 import json
 from Functor import *
-from d_games import *
+from d_game import *
 from interfaces.BaseObject import *
 
 
@@ -35,10 +35,8 @@ class Games(KBEngine.Base,BaseObject):
 		"""
 
 		for key,value in d_games.items():
-
-			params = {'parent':self,'cid': value["id"],'open': value["open"]}
-
-			KBEngine.createBaseAnywhere(key,params,Functor(self.onCreateBaseCallback,value["id"]))
+			params = {'parent':self,'cid': key,'open': value["open"]}
+			KBEngine.createBaseAnywhere(value['sign']+"Game",params,Functor(self.onCreateBaseCallback,key))
 
 	def onCreateBaseCallback(self,id,game):
 		self.childs[id] = game

@@ -2,10 +2,11 @@ import KBEngine
 import json
 from KBEDebug import *
 from Rules_ZJH import *
+from interfaces.RoomEntity import *
 import Helper
 
 
-class ZjhRoom(KBEngine.Entity):
+class ZjhRoom(KBEngine.Entity,RoomEntity):
 
     def __init__(self):
         KBEngine.Entity.__init__(self)
@@ -75,7 +76,7 @@ class ZjhRoom(KBEngine.Entity):
             player.stateC = PLAYER_STATE_READY
 
         if self.stateC != ROOM_STATE_INGAME and len(self.players) >= 2:
-            self._addUserArgTimer(1,0,ACTION_ROOM_TIME)
+            self.addTimerMgr(1,0,ACTION_ROOM_TIME)
 
     def onLeave(self, player):
 
@@ -83,28 +84,6 @@ class ZjhRoom(KBEngine.Entity):
 
         if player.cid in self.players:
             del self.players[player.cid]
-
-    def _addUserArgTimer(self,initialOffset,repeatOffset,userArg):
-            tid = self.addTimer(initialOffset,repeatOffset,userArg)
-            bMgr = False
-            if userArg in self.timerMgr:
-                self._removeUserArgTimer(userArg)
-            if repeatOffset > 0:
-                self.timerMgr[userArg] = tid
-                bMgr = True
-
-    def _removeUserArgTimer(self,userArg):
-        if userArg == 0:
-
-            INFO_MSG("DdzRoom::_removeUserArgTimer(0)")
-
-            for tt in self.timerMgr.values():
-                self.delTimer(tt)
-            self.timerMgr.clear()
-
-        elif userArg in self.timerMgr:
-            tid = self.timerMgr.pop(userArg)
-            self.delTimer(tid)
 
     def onDispatchCards(self):
         """
@@ -150,8 +129,8 @@ class ZjhRoom(KBEngine.Entity):
 
         # 重置房间时间
         self.curRoomtime = self.roomtime
-        self._removeUserArgTimer(0)
-        self._addUserArgTimer(1, 1, ACTION_ROOM_NEXT)
+        self.delTimerMgr(0)
+        self.addTimerMgr(1, 1, ACTION_ROOM_NEXT)
 
         data = {}
         data["curCid"] = self.curCid
@@ -169,7 +148,7 @@ class ZjhRoom(KBEngine.Entity):
                   % (DEBUG_ACTION_STRING.get(action), self.spaceID, player.cid, buf))
 
         if action == ACTION_ROOM_GENZHU:
-            self._removeUserArgTimer(0)
+            self.delTimerMgr(0)
             self.onGenzhu(player,action,buf)
 
         elif action == ACTION_ROOM_KANPAI:
@@ -180,7 +159,7 @@ class ZjhRoom(KBEngine.Entity):
         elif action == ACTION_ROOM_BIPAI_START:
             pass
         elif action == ACTION_ROOM_QIPAI:
-            self._removeUserArgTimer(0)
+            self.delTimerMgr(0)
             self.onQipai(player,action,buf)
 
 
@@ -235,8 +214,6 @@ class ZjhRoom(KBEngine.Entity):
         self.chairPlayers[self.victoryID].gold += self.totalzhu
         self.chairPlayers[self.victoryID].chip  = -self.totalzhu
 
-        
-
     def onTimer(self, id, userArg):
         """
         KBEngine method.
@@ -250,14 +227,14 @@ class ZjhRoom(KBEngine.Entity):
             self.curRoomtime = self.roomtime
             self.set_state(ROOM_STATE_READY)
 
-            self._addUserArgTimer(1,1,ACTION_ROOM_READY)
+            self.addTimerMgr(1,1,ACTION_ROOM_READY)
             KBEngine.setSpaceData(self.spaceID, "ACTION_ROOM_READY",str(self.curRoomtime))
 
         elif userArg == ACTION_ROOM_READY:
             self.curRoomtime -= 1
 
             if self.curRoomtime <= 0:
-                self._removeUserArgTimer(0)
+                self.delTimerMgr(0)
 
                 self.set_state(ROOM_STATE_INGAME)
 

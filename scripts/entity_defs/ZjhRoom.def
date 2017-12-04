@@ -50,24 +50,11 @@
 	</Properties>
 
 	<BaseMethods>
-		<onEnterRoom>
-			<Arg>	MAILBOX	</Arg>
-		</onEnterRoom>
-
-		<onLeaveRoom>
-			<!-- 玩家的mailbox -->
-			<Arg>	MAILBOX	</Arg>
-		</onLeaveRoom>
 
 		<set_state>
 		    <Arg>	INT32	</Arg>
 		</set_state>
 
-		<hasNull>
-		</hasNull>
-
-		<reqPlayerCount>
-		</reqPlayerCount>
 	</BaseMethods>
 
 	<CellMethods>

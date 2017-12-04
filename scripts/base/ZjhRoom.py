@@ -2,14 +2,16 @@
 import KBEngine
 from KBEDebug import *
 from Rules_ZJH import *
+from interfaces.BaseObject import *
 
-class ZjhRoom(KBEngine.Base):
+class ZjhRoom(KBEngine.Base,BaseObject):
     """
 	这是一个游戏房间
 	该房间中记录了房间里所有玩家的mailbox，通过mailbox我们可以将信息推送到他们的客户端。
 	"""
     def __init__(self):
         KBEngine.Base.__init__(self)
+        BaseObject.__init__(self)
 
         self.players = {}
 
@@ -46,7 +48,7 @@ class ZjhRoom(KBEngine.Base):
 
         self.destroy()
 
-    def onEnterRoom(self, player):
+    def reqEnter(self, player):
 
         #去重
         if player.id in self.players:
@@ -76,7 +78,7 @@ class ZjhRoom(KBEngine.Base):
             self.players[player.id] = player
 
 
-    def onLeaveRoom(self, player):
+    def reqLeave(self, player):
         # 防止多次离开
 
         DEBUG_MSG("ZjhRoom::onLeaveRoom Player[%r] PlayerCount[%r]" % (player.id,len(self.players)))

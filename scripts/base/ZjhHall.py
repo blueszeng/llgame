@@ -97,14 +97,12 @@ class ZjhHall(KBEngine.Base,BaseObject):
 			self.childs[self.lastNewRoomKey] = roomDatas
 			self.sortNotFullRooms(roomDatas)
 
-
 	def onRoomLosePlayer(self,roomkey,player):
 		#玩家房间
 
 		if roomkey in self.childs and player in self.childs[roomkey]['players']:
 			del self.childs[roomkey]['players'][player]
 			self.sortNotFullRooms(self.childs[roomkey])
-
 
 	def findNotFullRooms(self):
 		"""
